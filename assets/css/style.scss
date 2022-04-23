@@ -1,0 +1,19 @@
+---
+---
+
+@import 'jekyll-theme-cayman';
+
+.page-header{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: black;
+}
+.project-name{
+	img {
+		width: 480px;
+		max-width: 100%;
+		object-fit: contain;
+	}
+}

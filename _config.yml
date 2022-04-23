@@ -1,0 +1,5 @@
+theme: jekyll-theme-cayman
+layout: default
+title: "Delendum Ventures"
+description: "Advanced infrastructure for building secure, frictionless, programmable crypto wallets"
+contact: "hello@delendum.xyz"
