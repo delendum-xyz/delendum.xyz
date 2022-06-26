@@ -17,7 +17,7 @@
     <div class="header-menu">
         <a href="https://medium.com/@delendum" target="_blank">Research</a>
         <div class="menu-divider">|</div>
-        <a href="/team" target="_blank">Team</a>
+        <a href="/team">Team</a>
     </div>
 
     <header class="page-header" role="banner">
@@ -25,6 +25,10 @@
       <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
       <h2 class="project-tagline">{{ site.contact }}</h2>
     </header>
+    <div class="footer-menu">
+        <a href="https://twitter.com/DelendumV" target="_blank"><img alt="youtube" src="{{ '/assets/twitter.png'}}"></a>
+        <a href="https://www.youtube.com/channel/UCM7Dc3y3BVTTpprDidVV7iw" target="_blank"><img alt="youtube" src="{{ '/assets/youtube.png'}}"></a>
+    </div>
 
     <main id="content" class="main-content" role="main">
       {{ content }}
