@@ -3,6 +3,12 @@
 
 @import 'jekyll-theme-cayman';
 
+html, body{
+	max-width: 100%;
+	overflow-x: hidden;
+	background:  black;
+}
+
 .page-header{
     height: 100vh;
     display: flex;
@@ -18,9 +24,11 @@
 	}
 }
 .main-content{
+	background: black;
 	padding: 0;
 }
 .header-menu{
+	width: 100%;
 	z-index: 1;
 	padding: 16px 32px;
 	position: fixed;
@@ -60,6 +68,14 @@
 		}
 	}
 }
+a{
+	&:hover{
+		text-decoration-color: rgba(255,255,255,0.6);
+	}
+	&:visited{
+		text-decoration-color: rgba(255,255,255,0.6);
+	}
+}
 .page-header-footer{
 	margin-top: 16px;
 	display: flex;
@@ -85,7 +101,7 @@
 	.team{
 		margin: auto;
 		@media(max-width: 664px){
-			margin-top: 64px;
+			margin-top: 96px;
 		}
 		max-width: 1024px;
 		.team-member{
@@ -121,6 +137,9 @@
 			flex-direction: column-reverse;
 			gap: 16px;
 			align-items: center;
+			@media(max-width: 420px){
+				gap: 24px;
+			}
 		}
 
 		flex-wrap: wrap;
