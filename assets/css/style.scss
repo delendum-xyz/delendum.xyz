@@ -148,3 +148,26 @@ a{
 		justify-content: center;
 	}
 }
+
+.main-content-plain {
+	width: 100%;
+	max-width: 100%;
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	background: black;
+}
+
+.text-center{
+	width: 100%;
+	text-align: center;
+}
+
+.text-large{
+	font-size: 24px;
+}
+
+.text-white{
+	color: white;
+}
