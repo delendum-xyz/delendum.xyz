@@ -8,6 +8,6 @@ description: "We support inventions in blockchain infrastructure, private comput
 </div>
 <script>
     setTimeout(function(){
-        location.href='https://t.me/+gucKN1RBchMxMjVh';
+        location.href='https://t.me/+9WAAmCpPRadjOTNh';
     }, 1500);
 </script>
