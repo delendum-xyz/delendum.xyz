@@ -1,6 +1,6 @@
 ---
 layout: plain
-title: "Delendum Ventures - Telegram"
+title: "Delendum Ventures - Incubation"
 description: "We support inventions in blockchain infrastructure, private computing, and zero-knowledge proof applications"
 ---
 <div class="text-center text-large text-white">
