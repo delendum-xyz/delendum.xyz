@@ -1,3 +1,3 @@
-Delendum Ventures
+Delendum
 
-ventali@delendum.xyz
+hello@delendum.xyz
