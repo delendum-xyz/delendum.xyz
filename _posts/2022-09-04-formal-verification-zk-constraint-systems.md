@@ -109,7 +109,7 @@ Operational semantics is particularly useful for proving things about programs. 
     9. Zero knowledge means that having a proof that X is solvable does not reduce the computational difficulty of finding a solution to X
     10. To see this example worked out more formally, see [the OSL whitepaper](https://eprint.iacr.org/2022/1003)
 
-![alt text](https://github.com/iyusufali/delendum.xyz/blob/main/_posts/figure1.png)
+![alt text](https://github.com/iyusufali/delendum.xyz/blob/main/assets/posts/2022-09-04-formal-verification-zk-constraint-systems/figure1.png)
 _Figure 1: denotational design_
 
 *A formal version of this diagram is in Sigma^1_1 arithmetization [paper](https://eprint.iacr.org/2022/777.pdf) ((288) on page 47). This is a commutative diagram. Soundness and completeness of a circuit compiler are both expressed by the statement that this diagram commutes, meaning that all paths through it between the same objects are equal, or in other words, the denotation of the compiled circuit is always equal to the denotation of the spec.
