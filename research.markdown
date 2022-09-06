@@ -11,8 +11,11 @@ description: "We support inventions in blockchain infrastructure, private comput
     <ul class="no-list-style">
     {% for post in site.posts %}
         <li class="no-list-style post-container">
-            <div class="text-white text-large"><a class="text-white" href="{{ post.url }}">{
-                { post.title }}</a></div>
+            <div class="text-white text-large">
+                <a class="text-white" href="{{ post.url }}">
+                    {{ post.title }}
+                </a>
+            </div>
             <div class="text-white">
                 {{post.author}} 
             </div> 

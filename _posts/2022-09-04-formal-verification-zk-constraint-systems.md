@@ -2,6 +2,7 @@
 layout: post
 author: Morgan Thomas and Ventali Tan
 title: Formal Verification of ZK Constraint Systems
+excerpt: "How do we formally verify that an arithmetic circuit, as used by a zero knowledge proof system, has the desired characteristics, such as soundness, completeness and zero knowledge? Soundness of a proving system means that it does not prove statements that are false. Similarly, soundness of the circuit used by a proof system means that the circuits are unsatisfiable when applied to a statement that is not true."
 ---
 
 
