@@ -63,7 +63,7 @@ Bridges and cross-chain applications between L1 and L2 can involve different ari
 
 
 <!-- Footnotes themselves at the bottom. -->
-## Notes
+**Footnotes**
 
 [^1]:
      Generic-purpose elliptic curves refer to any curves that are secure with respect to the Discrete Logarithm Problem (DLP), with no known weaknesses.

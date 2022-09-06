@@ -110,7 +110,7 @@ Operational semantics is particularly useful for proving things about programs. 
     9. Zero knowledge means that having a proof that X is solvable does not reduce the computational difficulty of finding a solution to X
     10. To see this example worked out more formally, see [the OSL whitepaper](https://eprint.iacr.org/2022/1003)
 
-<img src="https://raw.githubusercontent.com/iyusufali/delendum.xyz/main/assets/posts/2022-09-04-formal-verification-zk-constraint-systems/figure1.png" width="500" style="display: block;margin-left: auto;margin-right: auto;">
+<img src="https://github.com/iyusufali/delendum-xyz-posts-assets/blob/main/2022-09-04-formal-verification-zk-constraint-systems/figure1.png?raw=true" width="500" style="display: block;margin-left: auto;margin-right: auto;">
 <p style="text-align:center; font-style: italic;"> Figure 1: denotational design</p>
 
 

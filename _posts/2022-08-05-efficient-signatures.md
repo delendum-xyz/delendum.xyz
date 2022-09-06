@@ -7,7 +7,7 @@ title: Efficient Signatures for ZKPs
 Verifying digital signatures is a problem that arises in a variety of ZK related projects, from Zcash to zkEVMs. Here we will discuss some different options for signature schemes, and strategies for efficient implementations.
 
 
-<img src="https://raw.githubusercontent.com/iyusufali/delendum.xyz/main/assets/posts/2022-08-05-efficient-signatures/figure1.jpeg" width="500" style="display: block;margin-left: auto;margin-right: auto;">
+<img src="https://github.com/iyusufali/delendum-xyz-posts-assets/blob/main/2022-08-05-efficient-signatures/figure1.jpeg?raw=true" width="500" style="display: block;margin-left: auto;margin-right: auto;">
 <p style="text-align:center; font-style: italic;"> Figure 1: denotational design</p>
 
 
@@ -36,14 +36,14 @@ Let F_p be our native field, and suppose we need to do arithmetic mod m. To comp
 
 If we wish to ensure that z is in canonical form, we must also check that z &lt; m. However, we can always allow non-canonical encodings when doing intermediate calculations, and canonicalize as a final step.
 
-Now, since our constraints are over F_p, we cannot directly check a constraint like x * y - z - k * m = 0 over the integers; we can only check that it holds mod p. However, by range checking z and k, we can come up with bounds on the constraint. If we can show that a constraint c is bounded such that |c| &lt; p, then wrap-around is impossible, so checking that it holds over F_p is equivalent to checking that it holds over the integers.
+Now, since our constraints are over F_p, we cannot directly check a constraint like x * y - z - k * m = 0 over the integers; we can only check that it holds mod p. However, by range checking z and k, we can come up with bounds on the constraint. If we can show that a constraint c is bounded such that abs(c) &lt; p, then wrap-around is impossible, so checking that it holds over F_p is equivalent to checking that it holds over the integers.
 
-For example, suppose m = 2^16. Suppose we check that z &lt; 2^16 and m &lt; 2^16, and suppose x and y are previous outputs, so we already know that they are in this range. Then one can easily show |x * y - z - k * m| &lt; 2^32. If p is at least 32 bits, then our constraint cannot wrap around, so it suffices to check the constraint over F_p.
+For example, suppose m = 2^16. Suppose we check that z &lt; 2^16 and m &lt; 2^16, and suppose x and y are previous outputs, so we already know that they are in this range. Then one can easily show abs(x * y - z - k * m) &lt; 2^32. If p is at least 32 bits, then our constraint cannot wrap around, so it suffices to check the constraint over F_p.
 
 
 ## Bignum techniques
 
-In practice, m is often around the same size as p, if not larger. Thus we cannot check x * y - z - k * m = 0 directly, as this constraint would fail the |c| &lt; p property. To maintain small bounds on our constraints, we must turn to bignum techniques. In particular, we encode x as (x_1, …, x_n) and y as (y_1, …, y_n), where each x_i and y_i has a small size, say 16 bits.
+In practice, m is often around the same size as p, if not larger. Thus we cannot check x * y - z - k * m = 0 directly, as this constraint would fail the abs(c) &lt; p property. To maintain small bounds on our constraints, we must turn to bignum techniques. In particular, we encode x as (x_1, …, x_n) and y as (y_1, …, y_n), where each x_i and y_i has a small size, say 16 bits.
 
 If we were to multiply x * y using grade school multiplication, we would compute each intermediate product x_i * y_j, then split each product into two digits. We would then organize these intermediate product halves by their weight, and add them up in a column-wise manner, splitting off carry digits as we go so they can be propagated to the next column.
 
@@ -61,7 +61,7 @@ While having weights congruent to zero is ideal, having weights congruent to sma
 
 **CRT inspired methods**
 
-Instead of verifying x * y = z mod m, we can verify x * y = z mod m_i for each m_i in some moduli set M. If the identity holds mod each m_i, then it holds mod lcm(M). And if |x * y - z| &lt; lcm(M), then wrap-around is impossible, so the identity holds as a constraint over the integers.
+Instead of verifying x * y = z mod m, we can verify x * y = z mod m_i for each m_i in some moduli set M. If the identity holds mod each m_i, then it holds mod lcm(M). And if abs(x * y - z) &lt; lcm(M), then wrap-around is impossible, so the identity holds as a constraint over the integers.
 
 We typically include p in M, since verifying an identity mod p is “native” and thus almost free. We can also include other special moduli, such as our base, or a power thereof (see “Ignoring high limbs” above). Using several small moduli can also be convenient, since they allow us to shrink the weights in our bignum calculation.
 

@@ -9,7 +9,7 @@ _Many thanks to Yupeng Zhang, Daniel Lubarov, Carol Xie, Gautam Botrel, Ventali 
 
 In the blockchain world, identity could manifest in multiple ways. A real-world identity like a person or an organization can take different forms on one or more blockchains, and an identity on the blockchain can represent several real-world entities. Such identities could be established through the possession of private keys, ownership of special types of NFTs, participation of a certain type in DeFi, etc., or even a combination of these.
 
-<img src="https://raw.githubusercontent.com/iyusufali/delendum.xyz/main/assets/posts/2022-07-26-zk-identity-systems/figure1.png" width="500" style="display: block;margin-left: auto;margin-right: auto;">
+<img src="https://github.com/iyusufali/delendum-xyz-posts-assets/blob/main/2022-07-26-zk-identity-systems/figure1.png?raw=true" width="500" style="display: block;margin-left: auto;margin-right: auto;">
 <p style="text-align:center; font-style: italic;"> Figure 1: Demonstration of digital identity</p>
 
 Such a versatile and flexible notion of identity can enable use-cases and experiences like never before — but we need to be mindful of privacy too! Someone's identity could be multiple things interconnected in a specific way, but only a certain part of it may be important in a setting. For instance, the organizers of a concert that only allows BAYC NFT holders to attend don't really care which of the 10,000 NFTs you own as long as you own at least one of them. Participation in a DeFi conference may require that you have lent out 50k tokens on a certain DeFi exchange last year but not exactly how much you lent out, how long you participated, etc.
@@ -57,111 +57,15 @@ We are merely scratching the surface of a broad array of identity assertions tha
 
 We need not worry too much though. The beauty of ZKPs is that virtually any statement that you can think of can be proved in zero-knowledge (to be precise, any relation that can be verified in polynomial time can[ also be proved](https://people.csail.mit.edu/silvio/Selected) in zero-knowledge; stronger results are also known). While the non-interactive version of ZKPs are most suited to address confidentiality, privacy, state-growth, integrity, etc. issues on L1s, interactive proofs may make a lot of sense for many applications where blockchain-based identity assertions are needed. 
 
-<img src="https://raw.githubusercontent.com/iyusufali/delendum.xyz/main/assets/posts/2022-07-26-zk-identity-systems/figure2.png" width="500" style="display: block;margin-left: auto;margin-right: auto;">
+<img src="https://github.com/iyusufali/delendum-xyz-posts-assets/blob/main/2022-07-26-zk-identity-systems/figure2.png?raw=true" width="500" style="display: block;margin-left: auto;margin-right: auto;">
 <p style="text-align:center; font-style: italic;"> Figure 2: Example of interactive version of ZKP</p>
 
 The concert admission example above can be used to illustrate the point. There would just be one well-identified verifier for the ZK membership proof of NFT ownership (organizers of the concert who could very well choose to verify off-chain), as opposed to the hundreds or thousands of unidentified verifiers in a typical L1 setting. A prover can actively engage with the verifier and exchange several messages over the course of a session, breaking free of the inherent complexity trade-offs of non-interactive ZK proofs. Indeed, proofs don’t have to be short or the verifier complexity low, so the spectrum of ZK proofs beyond ZK-SNARKs (most popular kind of non-interactive proof system, which also has succinct proofs) can be fully explored. We would be able to make use of proof systems with much better prover complexity, underlying security assumptions, etc.  
 
 Please see the table below for a high-level comparison of different proof systems. As we go down the table, prover complexity and security assumptions get better while the proof size gets worse. While MPC-based ZK proof systems offer the best prover complexity and don’t need a trusted set-up, proofs are interactive and work for a specific verifier only (the one a prover interacts with), which may not be a problem when identity assertions have to be made to a specific party off-chain. (Several other characteristics of ZK proof systems like post-quantum security are not captured in the table.)
 
-
-<table>
-  <tr>
-   <td>Type
-   </td>
-   <td>Examples
-   </td>
-   <td>Trusted setup?
-   </td>
-   <td>Interactive?
-   </td>
-   <td>Publicly verifiable?
-   </td>
-   <td>Prover cost
-   </td>
-   <td>Proof size
-   </td>
-   <td>Verifier cost
-   </td>
-  </tr>
-  <tr>
-   <td>Pairing based 
-   </td>
-   <td><a href="https://eprint.iacr.org/2016/260">Groth16</a>, <a href="https://eprint.iacr.org/2019/099">Sonic</a>*, <a href="https://eprint.iacr.org/2019/953">PLONK</a>*, <a href="https://eprint.iacr.org/2019/1047">Marlin</a>*
-   </td>
-   <td>Yes
-<p>
-*Universal
-   </td>
-   <td>No
-   </td>
-   <td>Yes
-   </td>
-   <td>High
-   </td>
-   <td>Constant
-   </td>
-   <td>Lowest
-   </td>
-  </tr>
-  <tr>
-   <td>Discrete-log based
-   </td>
-   <td><a href="https://eprint.iacr.org/2017/1066">Bulletproof</a>, <a href="https://eprint.iacr.org/2019/1021">Halo</a>
-   </td>
-   <td>No
-   </td>
-   <td>No
-   </td>
-   <td>Yes
-   </td>
-   <td>High
-   </td>
-   <td>Logarithmic
-   </td>
-   <td>High
-   </td>
-  </tr>
-  <tr>
-   <td><a href="https://eccc.weizmann.ac.il/report/2017/134/">FRI</a> based
-   </td>
-   <td><a href="https://eprint.iacr.org/2018/046">STARK</a>, <a href="https://eprint.iacr.org/2018/828">Aurora</a>, <a href="https://eprint.iacr.org/2019/1076">Fractal</a>, <a href="https://eprint.iacr.org/2019/1482">Virgo</a>,
-   </td>
-   <td>No
-   </td>
-   <td>No
-   </td>
-   <td>Yes
-   </td>
-   <td>Lower
-   </td>
-   <td>Poly-logarithmic
-   </td>
-   <td>Low
-   </td>
-  </tr>
-  <tr>
-   <td>MPC based
-   </td>
-   <td><a href="https://eprint.iacr.org/2020/1410.pdf">Mac’n’Cheese</a>, <a href="https://eprint.iacr.org/2021/076.pdf">QuickSilver</a>
-   </td>
-   <td>No
-   </td>
-   <td>Yes
-   </td>
-   <td>No
-   </td>
-   <td>Lowest
-   </td>
-   <td>Linear
-   </td>
-   <td>Highest
-   </td>
-  </tr>
-</table>
-
-
-_Table 1: High-level comparison of different proof systems_
+<img src="https://github.com/iyusufali/delendum-xyz-posts-assets/blob/main/2022-07-26-zk-identity-systems/figure3.png?raw=true" width="500" style="display: block;margin-left: auto;margin-right: auto;">
+<p style="text-align:center; font-style: italic;">Table 1: High-level comparison of different proof systems</p>
 
 *The table should only be used for some basic guidance and not to make any serious product/business decisions. Within a category itself, ZK systems could have different characteristics and can vary in performance quite a bit. The table is also NOT meant to capture all ZK systems but just some subset of them for illustrative purposes. We apologize for any glaring omissions.
 
@@ -171,7 +75,7 @@ _If you are a zero-knowledge proof or cryptography expert interested in further 
 
 
 <!-- Footnotes themselves at the bottom. -->
-## Notes
+**Footnotes**
 
 [^1]:
 
