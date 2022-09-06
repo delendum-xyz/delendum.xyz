@@ -110,7 +110,7 @@ Operational semantics is particularly useful for proving things about programs. 
     9. Zero knowledge means that having a proof that X is solvable does not reduce the computational difficulty of finding a solution to X
     10. To see this example worked out more formally, see [the OSL whitepaper](https://eprint.iacr.org/2022/1003)
 
-<img src="https://github.com/iyusufali/delendum-xyz-posts-assets/blob/main/2022-09-04-formal-verification-zk-constraint-systems/figure1.png?raw=true" width="500" style="display: block;margin-left: auto;margin-right: auto;">
+<img src="https://github.com/iyusufali/delendum-xyz-posts-assets/blob/main/2022-09-04-formal-verification-zk-constraint-systems/figure1.png?raw=true" style="display: block;margin-left: auto;margin-right: auto;width:60%">
 <p style="text-align:center; font-style: italic;"> Figure 1: denotational design</p>
 
 
@@ -253,7 +253,7 @@ _If you’re interested in further discussions on this topic or working together
 
 
 1. Originally, we put “due to Gödel's incompleteness theorem”. Alessandro suggested we change to “the undecidability of first-order logic”, because the non-existence of such a proof search algorithm is due to "less than" Gödel's incompleteness theorem: it is due to the undecidability of first-order logic (which is complete according to Gödel's [completeness theorem](https://en.wikipedia.org/wiki/G%C3%B6del%27s_completeness_theorem)). Then second-order and higher-order logic is incomplete, in addition to being undecidable. 
-2. Morgan: \
+2. Morgan: 
 
 
     The undecidability of first order logic does not imply that there cannot be a proof search algorithm which proves any given true statement of first order arithmetic. First order logic is computably enumerable, so there can exist a proof search algorithm which would find a proof of any given provable statement. It's due to the incompleteness of any computably enumerable set of axioms for first order arithmetic that there cannot exist a complete proof search algorithm.
@@ -264,7 +264,7 @@ _If you’re interested in further discussions on this topic or working together
 
     The fact that first order logic is undecidable is the fact that the logical consequence relation of first order logic is undecidable; there is no algorithm that decides if a given set of axioms entails a given theorem or not. That's not the relevant point, though. If first order arithmetic was complete, then its logical consequence relation would be decidable.
 
-3. Alessandro: \
+3. Alessandro: 
 
 
     Yes, technically first-order logic is [semidecidable](https://en.wikipedia.org/wiki/Decidability_(logic)#Semidecidability), meaning that there can be an enumeration procedure that will eventually find if a formula is a theorem (as Morgan says), but if it is not, it will run forever (so it's undecidable). I agree that Morgan's statement is technically correct, but normally in theorem proving we think of undecidability being the main obstacle, rather than incompleteness. (Well, in fact also decidable theories like propositional logic may take impractically long times.) In practical terms, proving things in first-order logic vs. higher-order logic is equally hard, due to undecidability, regardless of first-order being complete and higher-order being incomplete. I think it's fine if you change back the text to mention Gödel's incompleteness, but I think it might be slightly better to change the whole sentence to say something like "Also, provability is undecidable in first-order and higher-order logic." Then it gets at the heart of the problem in theorem proving, which is not only for incomplete logics, but also for complete ones. But I think that either way is fine. \
