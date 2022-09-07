@@ -230,8 +230,9 @@ Based on the observations and arguments presented in this blog post, we think th
     * Generalizable proof techniques for proving the desired properties formally
     * Reusable verified abstractions for proof systems, e.g., a polynomial commitment scheme library
 * Improve specification languages and verified translators between specification languages
-* Understand how to create formally verified programs to run on vectorized hardware, e.g., FPGAs, GPUs, and/or ASICs.
-* Can we formally verify systems that are designed to automatically make ZK circuits more efficient? For example: systems that choose a different circuit so that the setup MPC is more parallelizable or that allow a prover who learns part of the witness in advance to partially evaluate a circuit and use this information to compute proofs faster. 
+* Understand how to create formally verified programs to run on vectorized hardware, e.g., FPGAs, GPUs, and/or ASICs
+* Can we formally verify systems that are designed to automatically make ZK circuits more efficient? 
+    * For example: systems that choose a different circuit so that the setup MPC is more parallelizable or that allow a prover who learns part of the witness in advance to partially evaluate a circuit and use this information to compute proofs faster
 * Use K to prove statements about ZK constraint system
     * Define the semantics of circom/cairo in K
     * Use Rust semantics defined in K to prove properties of arkworks-rs programs 
