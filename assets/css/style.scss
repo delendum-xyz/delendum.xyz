@@ -17,6 +17,7 @@ body {
   justify-content: center;
   background: black;
 }
+
 .project-name {
   img {
     width: 480px;
@@ -24,10 +25,12 @@ body {
     object-fit: contain;
   }
 }
+
 .main-content {
   background: black;
   padding: 0;
 }
+
 .header-menu {
   width: 100%;
   z-index: 1;
@@ -38,21 +41,25 @@ body {
   display: flex;
   gap: 16px;
   align-items: center;
+
   .menu-divider,
   a {
     font-size: 21px;
     color: #fff;
     opacity: 0.8;
   }
+
   a {
     display: flex;
     align-items: center;
+
     img {
       width: 80px;
       object-fit: contain;
     }
   }
 }
+
 .footer-menu {
   position: fixed;
   width: 100%;
@@ -63,6 +70,7 @@ body {
   gap: 32px;
   align-items: center;
   justify-content: center;
+
   a {
     img {
       width: 24px;
@@ -70,20 +78,24 @@ body {
     }
   }
 }
+
 a {
   &:hover {
     text-decoration-color: rgba(255, 255, 255, 0.6);
   }
+
   &:visited {
     text-decoration-color: rgba(255, 255, 255, 0.6);
   }
 }
+
 .page-header-footer {
   margin-top: 16px;
   display: flex;
   gap: 32px;
   align-items: center;
   justify-content: center;
+
   a {
     img {
       width: 24px;
@@ -100,12 +112,14 @@ a {
   justify-content: center;
   flex-direction: column;
   background: black;
+
   .team {
     margin: auto;
     @media (max-width: 664px) {
       margin-top: 96px;
     }
     max-width: 1024px;
+
     .team-member {
       flex-basis: 30%;
       margin-top: 32px;
@@ -113,6 +127,7 @@ a {
       @media (max-width: 664px) {
         flex-basis: 100%;
       }
+
       img {
         width: 160px;
         height: 160px;
@@ -128,6 +143,7 @@ a {
         border-radius: 50%;
         filter: grayscale(100%);
       }
+
       .member-name {
         width: 100%;
         font-size: 21px;
@@ -135,6 +151,7 @@ a {
         color: #fff;
         opacity: 0.8;
       }
+
       display: flex;
       flex-direction: column-reverse;
       gap: 16px;
@@ -184,28 +201,36 @@ a {
 }
 
 .main-content-research {
-  max-width: 100%;
+  width: 100%;
+  max-width: 1024px;
+  padding: 32px;
   min-height: 100vh;
   display: flex;
-  padding-top: 72px;
   flex-direction: column;
   background: black;
-  width: 50%;
   margin: 0 auto;
+  margin-top: 64px;
+  @media (max-width: 664px) {
+    margin-top: 16px;
+  }
+  img {
+    max-width: 100%;
+    object-fit: contain;
+  }
+
 }
 
 .text-research-para {
   font-size: 16px;
-  padding-top: 32px;
-  padding-bottom: 24px;
+  margin-bottom: 24px;
 }
 
 .post-author {
-  padding-top: 10px;
+  margin-top: 8px;
   font-weight: bold;
 }
 
 .post-body {
-  padding-top: 10px;
+  margin-top: 8px;
 }
 
