@@ -8,7 +8,7 @@ excerpt: "How do we formally verify that an arithmetic circuit, as used by a zer
 
 *Thanks to Eric McCarthy from Kestrel Institute for helping with some sections of this document, and to Grigore Rosu (UIUC), Shashank Agrawal (Delendum), Daniel Lubarov (Delendum), Tim Carstens (Risc Zero), Bolton Bailey (UIUC) and Alessandro Coglio (Kestrel) for many helpful suggestions.*
 
-### **Leading Problem**
+## **Leading Problem**
 
 
 How do we **_formally verify_** that an arithmetic circuit, as used by a **_zero knowledge proof system,_** has the desired characteristics, such as soundness, completeness and zero knowledge[^1]?
@@ -28,7 +28,7 @@ Our main focus here is on the second subproblem, that of verifying the circuits 
 Zero knowledge proof systems often use a mathematical constraint system such as R1CS or AIR to encode a computation. The zero knowledge proof is a probabilistic cryptographic proof that the computation was done correctly.  Formal verification of a circuit used in a zero knowledge proof requires (1) a formal specification of the relation the circuit is intended to encode, (2) a formal model of the semantics of the circuit, (3) the circuit itself, (4) the theorem prover, and (5) the mechanized proof of a theorem relating (1), (2) and (3). 
 
 
-### **Techniques**
+## **Techniques**
 
 
 
@@ -40,7 +40,7 @@ Zero knowledge proof systems often use a mathematical constraint system such as 
     * Examples: [Coq](https://coq.inria.fr/), [Agda](https://agda.readthedocs.io/en/v2.6.0.1/getting-started/what-is-agda.html), [Isabelle](https://isabelle.in.tum.de/), [ACL2](https://www.cs.utexas.edu/users/moore/acl2/manuals/latest/?topic=ACL2____TOP), [PVS](https://pvs.csl.sri.com/), [Imandra](https://docs.imandra.ai/imandra-docs/), and [Lean](https://leanprover.github.io/)
 
 
-#### **Using a proof assistant**
+### **Using a proof assistant**
 
 
 
@@ -52,7 +52,7 @@ Zero knowledge proof systems often use a mathematical constraint system such as 
 * Of these approaches, (1) seems preferable for the greater confidence provided by the proof being about exactly the (source) program being executed, as opposed to output of a transpiler which is assumed to have the same meaning as the source program.
 * What motivates approach (2) is when (for whatever reason) the proof assistant language is not suitable as a language for developing the application in[^4].
 
-#### **Without using a proof assistant**
+### **Without using a proof assistant**
 
 
 
@@ -69,7 +69,7 @@ Zero knowledge proof systems often use a mathematical constraint system such as 
     * A static analyzer is generally not capable of reasoning about the meaning of a program to see if it’s correct; it is only able to recognize patterns which always or often indicate some kind of issue.
 
 
-### **Formal Verification for ZK Circuits**
+## **Formal Verification for ZK Circuits**
 
 
 
@@ -85,7 +85,7 @@ Note: There are different ways to axiomatize a problem to prove it. Some categor
 Operational semantics is particularly useful for proving things about programs. For example, in the ACL2 theorem prover, a common approach to formalizing programming language semantics is an _interpretive operational semantics_, i.e. a high-level interpreter, written in the logic of the theorem prover, that formalizes the possible forms of the states of computation and describes how the execution of the constructs of the programming language (e.g. expressions and statements) manipulate the computation states.
 
 
-#### **Denotational design**
+### **Denotational design**
 
 
 
@@ -125,7 +125,7 @@ Operational semantics is particularly useful for proving things about programs. 
 * Then one can generate formally verified application-specific probabilistic proving systems without any additional proof writing for an additional application. This seems like a promising way forward towards a sustainable and cost effective approach to formal verification for ZK circuits.
 
 
-### **Synthesizing formally verified programs**
+## **Synthesizing formally verified programs**
 
 It is often a challenge to bridge the gap between the theorem we can prove and the code we can execute. For example, we may be able to prove a theorem about a spec, and code that spec, but then not able to prove that the code implements the spec. Or, we may be able to prove a theorem about some code but not able to compile that code to efficient machine code. Or, we may be able to do that, but unable to prove that the machine code has the semantics as the source code.
 
@@ -142,7 +142,7 @@ Here is a summary of some of the ways in which the ecosystem supports correct-by
 * Imandra defines a subset of OCaml with a full formal logic and a theorem prover.
 
 
-#### **Current limitations of formal methods on modern hardware**
+### **Current limitations of formal methods on modern hardware**
 
 
 
@@ -152,7 +152,7 @@ Here is a summary of some of the ways in which the ecosystem supports correct-by
 * Unfortunately, tools for compiling formally verified programs to run on FPGAs, GPUs, or ASICs are more or less nonexistent as far as we know.
 
 
-### **The State of Current Progress**
+## **The State of Current Progress**
 
 
 
@@ -199,7 +199,7 @@ Here is a summary of some of the ways in which the ecosystem supports correct-by
 * Lucas Clemente Vella and Leonardo Alt are working on [SMT solver](https://github.com/lvella/polynomial-solver/blob/master/docs/SMT-2022-extended-abstract/full-text.pdf) of polynomial equations over finite fields.
 
 
-### **How to analyze each research effort / development project**
+## **How to analyze each research effort / development project**
 
 If you like the structure we frame in “Leading Problem”, you could analyze each research effort / development project in terms of
 
@@ -218,7 +218,7 @@ Other interesting attributes of project concerning formal verification for circu
 * what is the _trusted core_, i.e., what software in the stack is not formally verified, and what are the possible consequences if it has bugs.   
 
 
-### **Future Research & Development Directions**
+## **Future Research & Development Directions**
 
 A lot of work needs to be done. There is not enough emphasis placed on formal verification in the security industry.
 
