@@ -7,6 +7,13 @@ excerpt: "In the blockchain world, identity could manifest in multiple ways. A r
 
 _Many thanks to Yupeng Zhang, Daniel Lubarov, Carol Xie, Gautam Botrel, Ventali Tan, Albert Vučinović, and Miroslav Jerković  for feedback._
 
+### Table of Content
+
+* [First Example](#first-example)
+* [Second Example](#second-example)
+* [Thinking outside the box](#thinking-outside-the-box)
+
+
 In the blockchain world, identity could manifest in multiple ways. A real-world identity like a person or an organization can take different forms on one or more blockchains, and an identity on the blockchain can represent several real-world entities. Such identities could be established through the possession of private keys, ownership of special types of NFTs, participation of a certain type in DeFi, etc., or even a combination of these.
 
 <img src="https://github.com/iyusufali/delendum-xyz-posts-assets/blob/main/2022-07-26-zk-identity-systems/figure1.png?raw=true" style="display: block;margin-left: auto;margin-right: auto;width:60%">

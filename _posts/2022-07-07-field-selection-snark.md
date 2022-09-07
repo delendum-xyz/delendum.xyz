@@ -4,6 +4,9 @@ author: Gautam Botrel
 title: Field Selection for Recursive SNARKs
 --- 
 
+*Many thanks to Carol Xie, Daniel Lubarov, Shashank Agrawal, Ventali Tan, Youssef El Housni & Ariel Gabizon for feedback.*
+
+
 Proof systems like Groth16, PlonK, Halo, Spartan or Marlin “encode” a computation as a set of polynomial equations, defined over a finite field Fr. Fr denotes a finite field of order r, which is generally a prime number. Encoding programs that were not designed to operate on Fr can result in gigantic (thus impractical) circuits, yet, it is key to SNARK programmability and composability.
 
 In this article, we will explore field selection and encoding of “non native” arithmetic operations. Intuitively, it encompasses two problems. The first is that programmers are used to manipulate 32/64bit integers, floats, and booleans. The second is that at the protocol level, it is common to verify cryptographic constructs (hashes, signatures, proofs) that may be defined over an arbitrary field (GF2, Fq, …) inside our SNARK field F_r. 
