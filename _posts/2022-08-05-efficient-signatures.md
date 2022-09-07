@@ -6,6 +6,15 @@ title: Efficient Signatures for ZKPs
 
 Verifying digital signatures is a problem that arises in a variety of ZK related projects, from Zcash to zkEVMs. Here we will discuss some different options for signature schemes, and strategies for efficient implementations.
 
+### Table of Content
+
+* [Specialized ZK signatures](#specialized-zk-signatures)
+* [Native curves](#native-curves)
+* [Non-native arithmetic: fundamentals](#non-native-arithmetic:-fundamentals)
+* [Bignum techniques](#bignum-techniques)
+* [Conventional optimizations](#conventional-optimizations)
+* [Conclusion](#conclusion)
+
 ## Specialized ZK signatures
 
 Given a ZKP system, a simple signature scheme can be constructed as follows. The signer generates a random secret key sk, and hashes it to get the associated public key pk. They then prove, in zero knowledge, that they know some sk such that hash(sk) = pk. [Picnic](https://microsoft.github.io/Picnic/) is a variant of this idea, using a block cipher rather than a hash function.
