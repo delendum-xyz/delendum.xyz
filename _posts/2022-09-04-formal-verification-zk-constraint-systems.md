@@ -64,6 +64,7 @@ Zero knowledge proof systems often use a mathematical constraint system such as 
     2. Use an automatic proof search algorithm, which takes as input statements to be proven and outputs proofs of those statements if those statements are true and the proof search algorithm finds proofs.
     3. Use a static analyzer, which takes as input a program and automatically checks for various kinds of issues using predetermined algorithms.
 
+
 * All of these approaches have limitations:
     1. A verified compiler is limited in what statements it can prove about the resulting program: typically, just that the resulting program has the same meaning or behavior as the source program.
     2. An automatic proof search algorithm is limited in what statements it can prove by the sophistication of the algorithm and the computational power applied to it. Also, due to the undecidability of first-order logic[^5], there cannot exist a proof search algorithm which would find a proof of any given true statement.
