@@ -8,15 +8,14 @@ excerpt: "How do we formally verify that an arithmetic circuit, as used by a zer
 
 *Thanks to Eric McCarthy from Kestrel Institute for helping with some sections of this document, and to Grigore Rosu (UIUC), Shashank Agrawal (Delendum), Daniel Lubarov (Delendum), Tim Carstens (Risc Zero), Bolton Bailey (UIUC) and Alessandro Coglio (Kestrel) for many helpful suggestions.*
 
-## Table of Content
-=================
+### Table of Content
 
 * [Leading Problem](#leading-problem)
 * [Techniques](#techniques)
 * [Formal Verification for ZK Circuits](#formal-verification-for-ZK-circuits)
 * [Synthesizing Formally Verified Programs](#synthesizing-formally-verified-programs)
 * [The State of Current Progress](#the-state-of-current-progress)
-* [Future Research & Development Directions](#future-research-&-development-directions)
+* [Future Research and Development Directions](#future-research-and-development-directions)
 
 ## **Leading Problem**
 
@@ -230,7 +229,7 @@ Other interesting attributes of project concerning formal verification for circu
 * what is the _trusted core_, i.e., what software in the stack is not formally verified, and what are the possible consequences if it has bugs.   
 
 
-## **Future Research & Development Directions**
+## **Future Research and Development Directions**
 
 A lot of work needs to be done. There is not enough emphasis placed on formal verification in the security industry.
 
