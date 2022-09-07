@@ -63,6 +63,7 @@ Zero knowledge proof systems often use a mathematical constraint system such as 
         * Verified compilers do not detect or fix bugs in the input source code; however, they also do not introduce any new bugs during compilation.
     * Use an automatic proof search algorithm, which takes as input statements to be proven and outputs proofs of those statements if those statements are true and the proof search algorithm finds proofs.
     * Use a static analyzer, which takes as input a program and automatically checks for various kinds of issues using predetermined algorithms.
+
 * All of these approaches have limitations:
     * A verified compiler is limited in what statements it can prove about the resulting program: typically, just that the resulting program has the same meaning or behavior as the source program.
     * An automatic proof search algorithm is limited in what statements it can prove by the sophistication of the algorithm and the computational power applied to it. Also, due to the undecidability of first-order logic[^5], there cannot exist a proof search algorithm which would find a proof of any given true statement.
@@ -89,8 +90,8 @@ Operational semantics is particularly useful for proving things about programs. 
 
 
 
-* Denotational design provides a helpful way of thinking about both problem spaces (general and application-specific). 
-* Denotational design provides a methodology for defining the requirements of a system, such as a zero-knowledge proving system, in such a way that the requirements can be expressed and proven in a formal system.
+Denotational design provides a helpful way of thinking about both problem spaces (general and application-specific). Denotational design also provides a methodology for defining the requirements of a system, such as a zero-knowledge proving system, in such a way that the requirements can be expressed and proven in a formal system.
+
 * A circuit denotes a set: namely, the set of public inputs (i.e., statements) for which the circuit is satisfiable (i.e., the statement is true)
     1. For example, consider a hash verification circuit
         * A public input is a pair (x, h) where x is some data and h is a hash
