@@ -20,9 +20,9 @@ description: "We support inventions in blockchain infrastructure, private comput
         <img alt="Ventali" src="/assets/team/ventali.jpg"/>
     </a>
 
-    <a class="team-member" target="_blank" href="https://www.linkedin.com/in/carolx20">
-        <div class="member-name">Carol Xie</div>
-        <img alt="Carol" src="/assets/team/carol.jpg"/>
+    <a class="team-member" target="_blank" href="https://www.linkedin.com/in/ibrahim-yusufali/">
+        <div class="member-name">Ibrahim Yusufali</div>
+        <img alt="Ibrahim" src="/assets/team/ibrahim.jpg"/>
     </a>
 
     <a class="team-member" target="_blank" href="https://www.linkedin.com/in/gautam-botrel">
