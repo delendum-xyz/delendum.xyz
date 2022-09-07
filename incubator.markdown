@@ -1,10 +1,10 @@
 ---
 layout: plain
-title: "Delendum Ventures - Incubation"
+title: "Delendum - Incubation"
 description: "We support inventions in blockchain infrastructure, private computing, and zero-knowledge proof applications"
 ---
 <div class="text-center text-large text-white">
-    Redirecting to Delendum Ventures Incubator Application....
+    Redirecting to Delendum Incubator Application....
 </div>
 <script>
     setTimeout(function(){

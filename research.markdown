@@ -1,6 +1,6 @@
 ---
 layout: research
-title: "Delendum Ventures - Team"
+title: "Delendum - Research"
 description: "We support inventions in blockchain infrastructure, private computing, and zero-knowledge proof applications"
 ---
 
