@@ -32,11 +32,11 @@ Zero knowledge proof systems often use a mathematical constraint system such as 
 
 
 
-* To prove a general statement with certainty, it must be a purely mathematical statement which can be known to be true by reasoning alone, without needing to perform any tests. The reasoning must start from consistent assumptions (axioms) and proceed by truth-preserving inferences
+* To prove a general statement with certainty, it must be a purely mathematical statement which can be known to be true by reasoning alone, without needing to perform any tests. The reasoning must start from consistent assumptions (axioms) and proceed by truth-preserving inferences.
     * Example: given that a bachelor is defined as an unmarried man, and a married man by definition has a spouse, it can be proven with certainty that no bachelor has a spouse.
-* A proof theory (sometimes also called a logic or metalogic) codifies a consistent set of rules for performing truth-preserving inference. Proof theories can be used to construct proofs manually, with pencil and paper
+* A proof theory (sometimes also called a logic or metalogic) codifies a consistent set of rules for performing truth-preserving inference. Proof theories can be used to construct proofs manually, with pencil and paper.
     * Example: [sequent calculus for classical logic](http://logitext.mit.edu/logitext.fcgi/tutorial)
-* Computer programs called proof assistants reduce labor and mitigate the risk of human error by helping the user to construct machine-checkable proofs
+* Computer programs called proof assistants reduce labor and mitigate the risk of human error by helping the user to construct machine-checkable proofs.
     * Examples: [Coq](https://coq.inria.fr/), [Agda](https://agda.readthedocs.io/en/v2.6.0.1/getting-started/what-is-agda.html), [Isabelle](https://isabelle.in.tum.de/), [ACL2](https://www.cs.utexas.edu/users/moore/acl2/manuals/latest/?topic=ACL2____TOP), [PVS](https://pvs.csl.sri.com/), [Imandra](https://docs.imandra.ai/imandra-docs/), and [Lean](https://leanprover.github.io/)
 
 
@@ -49,7 +49,7 @@ Zero knowledge proof systems often use a mathematical constraint system such as 
     2. Use a transpiler[^3] to turn a program written in another language into an object which the proof assistant can reason about. This is called post hoc verification.
 
 
-* Of these approaches, (1) seems preferable for the greater confidence provided by the proof being about exactly the (source) program being executed, as opposed to output of a transpiler which is assumed to have the same meaning as the source program
+* Of these approaches, (1) seems preferable for the greater confidence provided by the proof being about exactly the (source) program being executed, as opposed to output of a transpiler which is assumed to have the same meaning as the source program.
 * What motivates approach (2) is when (for whatever reason) the proof assistant language is not suitable as a language for developing the application in[^4].
 
 #### **Without using a proof assistant**
@@ -96,7 +96,7 @@ Operational semantics is particularly useful for proving things about programs. 
         * A public input is a pair (x, h) where x is some data and h is a hash
         * A public input (x, h) expresses the statement that h is the hash of x
         * The circuit is (or should be) satisfiable exactly when h is the hash of x
-* The goal of circuit verification is to prove that the circuit denotes the intended relation
+* The goal of circuit verification is to prove that the circuit denotes the intended relation.
 * The goal of general purpose proving system verification is to prove that it has the intended properties with respect to the denotational semantics of circuits:
     2. Soundness means that if the verifier accepts a proof, then with high probability, the public input used to generate the proof (i.e., the statement being proven) is in the set denoted by the circuit (i.e., the statement is true)
     3. Completeness means that if a public input (i.e., a statement) is in the set denoted by the circuit (i.e., the statement is true), then the proving algorithm successfully outputs a proof which the verifier accepts
@@ -116,13 +116,13 @@ Operational semantics is particularly useful for proving things about programs. 
 
 
 
-* If you know that your circuit denotes the relation you intend, and you know that your general purpose proof system is sound and complete in the above senses, then you know that your application-specific proving system (i.e., the circuit plus the general proof system) has the intended soundness and completeness properties for that application
-* This suggests that, given a formally verified general-purpose proving system, and a verified compiler from statements to circuits, one can solve the problem of proving correctness of application-specific proving systems without application-specific correctness proofs
+* If you know that your circuit denotes the relation you intend, and you know that your general purpose proof system is sound and complete in the above senses, then you know that your application-specific proving system (i.e., the circuit plus the general proof system) has the intended soundness and completeness properties for that application.
+* This suggests that, given a formally verified general-purpose proving system, and a verified compiler from statements to circuits, one can solve the problem of proving correctness of application-specific proving systems without application-specific correctness proofs.
 * Suppose that 
     11. one can write the statement to be expressed by a circuit in a machine-readable and human-readable notation, where it is self-evident that the statement being written has the intended meaning or denotation
     12. one has a verified compiler which turns that statement into a circuit which provably has the same denotation as the source statement
     13. circuit can be executed on a formally verified general-purpose probabilistic proving system
-* Then one can generate formally verified application-specific probabilistic proving systems without any additional proof writing for an additional application. This seems like a promising way forward towards a sustainable and cost effective approach to formal verification for ZK circuits
+* Then one can generate formally verified application-specific probabilistic proving systems without any additional proof writing for an additional application. This seems like a promising way forward towards a sustainable and cost effective approach to formal verification for ZK circuits.
 
 
 ### **Synthesizing formally verified programs**
@@ -133,10 +133,10 @@ Here is a summary of some of the ways in which the ecosystem supports correct-by
 
 
 
-* The proof assistants [Coq](https://coq.inria.fr/) and [Agda](https://github.com/agda/agda/) provide for extraction to other languages to be compiled to machine code; this may leave something to be desired in terms of the efficiency of the resulting machine code
-* The language [ATS](http://www.ats-lang.org/) provides proof facilities and purports to allow for programming with the efficiency of C and C++
-* There are various means for transpiling code written in a mainstream language such as C or Haskell into a proof assistant, which allows for theorems to be proven about the extracted model of the source program
-* You can synthesize an efficient binary program using Coq (e.g., using [Fiat](https://github.com/mit-plv/fiat-crypto) or [CertiCoq](https://certicoq.org/))
+* The proof assistants [Coq](https://coq.inria.fr/) and [Agda](https://github.com/agda/agda/) provide for extraction to other languages to be compiled to machine code; this may leave something to be desired in terms of the efficiency of the resulting machine code.
+* The language [ATS](http://www.ats-lang.org/) provides proof facilities and purports to allow for programming with the efficiency of C and C++.
+* There are various means for transpiling code written in a mainstream language such as C or Haskell into a proof assistant, which allows for theorems to be proven about the extracted model of the source program.
+* You can synthesize an efficient binary program using Coq (e.g., using [Fiat](https://github.com/mit-plv/fiat-crypto) or [CertiCoq](https://certicoq.org/)).
 * The proof assistant ACL2 defines a subset of Common Lisp with a full formal logic[^6].  When a definition is executable, it can be compiled into efficient code, and because the language is a formal logic, you can define and prove theorems about the code.
 * There is a verifying compiler project, [ATC](https://kestrel.edu/research/atc), from ACL2 to C. 
 * Imandra defines a subset of OCaml with a full formal logic and a theorem prover.
@@ -156,28 +156,28 @@ Here is a summary of some of the ways in which the ecosystem supports correct-by
 
 
 
-* Decades of research exists on formal verification strategies for arithmetic circuits in the context of hardware verification
+* Decades of research exists on formal verification strategies for arithmetic circuits in the context of hardware verification.
     * See, e.g., [Drechsler et al (2022)](https://link.springer.com/chapter/10.1007/978-981-16-7182-1_36) and [Yu et al (2016)](https://ieeexplore.ieee.org/document/7442835)
-    * This work has limited industrial applications, e.g., the AAMP5 (see [Kern and Greenstreet (1997), page 43](https://cse.usf.edu/%7Ehaozheng/lib/verification/general/survey-FV.pdf))
-    * This line of research is not directly applicable to formal verification of arithmetic circuits for zk-SNARKs, because arithmetic circuits in hardware and arithmetic circuits in zk-SNARKs are not quite the same things
-* Decades of research exists on proving soundness, completeness, and zero knowledge for probabilistic proof systems
-    * This work has generally been carried out informally, but provides a starting point for work on proving the same factors formally
+    * This work has limited industrial applications, e.g., the AAMP5 (see [Kern and Greenstreet (1997), page 43](https://cse.usf.edu/%7Ehaozheng/lib/verification/general/survey-FV.pdf)).
+    * This line of research is not directly applicable to formal verification of arithmetic circuits for zk-SNARKs, because arithmetic circuits in hardware and arithmetic circuits in zk-SNARKs are not quite the same things.
+* Decades of research exists on proving soundness, completeness, and zero knowledge for probabilistic proof systems.
+    * This work has generally been carried out informally, but provides a starting point for work on proving the same factors formally.
     * Examples:
-        * Groth16 [https://eprint.iacr.org/2016/260.pdf](https://eprint.iacr.org/2016/260.pdf) 
-        * Bulletproofs [https://eprint.iacr.org/2017/1066.pdf](https://eprint.iacr.org/2017/1066.pdf) 
-        * PLONK [https://eprint.iacr.org/2019/953.pdf](https://eprint.iacr.org/2019/953.pdf) 
+        * [Groth16](https://eprint.iacr.org/2016/260.pdf) 
+        * [Bulletproofs](https://eprint.iacr.org/2017/1066.pdf) 
+        * [PLONK](https://eprint.iacr.org/2019/953.pdf) 
 * Orbis Labs is working on:
-    * A [verifying Halo 2 circuit compiler](https://github.com/Orbis-Tertius/coq-arithmetization) for [Σ¹₁ formulas](https://eprint.iacr.org/2022/777)
-    * [Orbis Specification Language (OSL)](https://eprint.iacr.org/2022/1003/), which provides a high level spec language which we can compile to Σ¹₁ formulas
-    * A toolchain (Miya) for developing formally verified, hardware accelerated probabilistic proof systems
-        * A theory of interaction combinator arithmetization, towards compiling formally verified code into circuits
-        * Definitions of basic concepts such as probabilistic proof system, soundness of probabilistic proof system, and the zero knowledge property
-            * Goal is to find definitions which are maximally parsimonious and amenable to formal proving
+    * A [verifying Halo 2 circuit compiler](https://github.com/Orbis-Tertius/coq-arithmetization) for [Σ¹₁ formulas](https://eprint.iacr.org/2022/777).
+    * [Orbis Specification Language (OSL)](https://eprint.iacr.org/2022/1003/), which provides a high level spec language which we can compile to Σ¹₁ formulas.
+    * A toolchain (Miya) for developing formally verified, hardware accelerated probabilistic proof systems.
+        * A theory of interaction combinator arithmetization, towards compiling formally verified code into circuits.
+        * Definitions of basic concepts such as probabilistic proof system, soundness of probabilistic proof system, and the zero knowledge property.
+            * Goal is to find definitions which are maximally parsimonious and amenable to formal proving.
 * [Kestrel Institute](https://www.kestrel.edu) is a research lab that has proved functional correctness of a number of R1CS gadgets using the ACL2 theorem prover.  (Kestrel also does a lot of other FV work, including on Yul, Solidity, Ethereum, and Bitcoin.  Kestrel Institute has tools for both correct-by-construction synthesis of code from a formal specification using the APT toolkit  as well as post-hoc verification using the Axe toolkit to lift binaries, bytecode, and R1CS into logic for verification against a formal specification.)
     * They [formalized and proved](https://www.cs.utexas.edu/users/moore/acl2/manuals/latest/index.html?topic=ZKSEMAPHORE____SEMAPHORE) the functional correctness of parts of the Ethereum Semaphore R1CS.
     * They [formalized and proved](https://www.cs.utexas.edu/users/moore/acl2/manuals/latest/index.html?topic=ZCASH____ZCASH) the functional correctness of parts of the Zcash Sapling protocol.  An overview of the process:
-        * Used the [ACL2](https://www.cs.utexas.edu/users/moore/acl2/) proof assistant to formalize specs of parts of the Zcash Sapling protocol
-        * Formalized rank 1 constraint systems [(R1CS) in ACL2](https://www.cs.utexas.edu/users/moore/acl2/manuals/latest/index.html?topic=R1CS____R1CS)
+        * Used the [ACL2](https://www.cs.utexas.edu/users/moore/acl2/) proof assistant to formalize specs of parts of the Zcash Sapling protocol.
+        * Formalized rank 1 constraint systems [(R1CS) in ACL2](https://www.cs.utexas.edu/users/moore/acl2/manuals/latest/index.html?topic=R1CS____R1CS).
         * Used an extraction tool to fetch the R1CS gadgets from the Bellman implementation, and then used the [Axe](https://www.kestrel.edu/research/axe/) toolkit to lift the R1CS into logic.
         * Proved in ACL2 that those R1CS gadgets are semantically equivalent to their specs, implying soundness and completeness.
 * [Aleo](https://www.aleo.org/) is developing programming languages such as [Leo](https://leo-lang.org/)<span style="text-decoration:underline;"> </span>that compile to constraint systems such as R1CS.
@@ -185,15 +185,15 @@ Here is a summary of some of the ways in which the ecosystem supports correct-by
     * Aleo has also done post-hoc verification of R1CS gadgets using Kestrel Institute's [Axe](https://www.kestrel.edu/research/axe/) toolkit.
 * [Nomadic Labs](https://www.nomadic-labs.com/) is a consulting firm that does a lot of work on Tezos and they built the Zcash Sapling protocol for shielded transactions into the Tezos blockchain as of the Edo upgrade.   Kestrel Institute formally verified some of the R1CSes used in that protocol. (Nomadic Labs also does a lot of other FV work.)<span style="text-decoration:underline;"> </span>
 * Andrew Miller and Bolton Bailey are working on a [formal verification of a variety of SNARK](https://github.com/BoltonBailey/formal-snarks-project) proof systems, using the Lean Theorem Prover, in the Algebraic Group Model.
-* Anoma team is working on the [Juvix language](https://github.com/anoma/juvix) as a first step toward creating more robust and reliable alternatives for formally verified smart contracts than existing languages
+* Anoma team is working on the [Juvix language](https://github.com/anoma/juvix) as a first step toward creating more robust and reliable alternatives for formally verified smart contracts than existing languages.
 * Veridise is working on:
-    * [Medjai](https://github.com/Veridise/Medjai), a symbolic evaluator for Cairo, intended for use in automatic proof search
-    * [Picus](https://github.com/Veridise/Picus), a symbolic VM for R1CS, intended for use in automatic proof search
-    * [V](https://github.com/Veridise/V), a specification language intended for use in expressing statements to be proven by automatic proof search
+    * [Medjai](https://github.com/Veridise/Medjai), a symbolic evaluator for Cairo, intended for use in automatic proof search.
+    * [Picus](https://github.com/Veridise/Picus), a symbolic VM for R1CS, intended for use in automatic proof search.
+    * [V](https://github.com/Veridise/V), a specification language intended for use in expressing statements to be proven by automatic proof search.
     * [Coda](https://github.com/Veridise/Coda), a framework for certifying ZK circuits using the Coq proof assistant. It uses a high-level, functional ZK DSL to summarize circuit behavior and simplify manual proving.
-* [Ecne](https://0xparc.org/blog/ecne) is a special-purpose automatic proof search tool which can prove that an R1CS constraint system defines a function (total or partial)
-    * In other words, it proves that for any input values on which the system is satisfiable, there is a unique combination of output values on which the system is satisfied
-    * This approach has been proven to be useful in flushing out bugs in circuits
+* [Ecne](https://0xparc.org/blog/ecne) is a special-purpose automatic proof search tool which can prove that an R1CS constraint system defines a function (total or partial).
+    * In other words, it proves that for any input values on which the system is satisfiable, there is a unique combination of output values on which the system is satisfied.
+    * This approach has been proven to be useful in flushing out bugs in circuits.
 * [Starkware](https://starkware.co/) is writing [Lean](https://leanprover.github.io/) [proofs](https://github.com/starkware-libs/formal-proofs) to check that circuits expressed as Cairo programs conform to their specs. 
 * [Alex Ozdemir](https://cs.stanford.edu/~aozdemir/research/) from Stanford is working on adding a finite field solver to the [cvc5](https://github.com/alex-ozdemir/CVC4/tree/ff) SMT Solver.
 * Lucas Clemente Vella and Leonardo Alt are working on [SMT solver](https://github.com/lvella/polynomial-solver/blob/master/docs/SMT-2022-extended-abstract/full-text.pdf) of polynomial equations over finite fields.
@@ -229,7 +229,7 @@ Based on the observations and arguments presented in this blog post, we think th
 * Build foundations for formally verifying zero knowledge proof systems:
     * Generalizable proof techniques for proving the desired properties formally
     * Reusable verified abstractions for proof systems, e.g., a polynomial commitment scheme library
-* Improved specification languages and verified translators between specification languages
+* Improve specification languages and verified translators between specification languages
 * Understand how to create formally verified programs to run on vectorized hardware, e.g., FPGAs, GPUs, and/or ASICs.
 * Can we formally verify systems that are designed to automatically make ZK circuits more efficient? For example: systems that choose a different circuit so that the setup MPC is more parallelizable or that allow a prover who learns part of the witness in advance to partially evaluate a circuit and use this information to compute proofs faster. 
 * Use K to prove statements about ZK constraint system
