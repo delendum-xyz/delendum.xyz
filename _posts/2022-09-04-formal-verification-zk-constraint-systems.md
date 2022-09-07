@@ -66,8 +66,6 @@ Zero knowledge proof systems often use a mathematical constraint system such as 
 * All of these approaches have limitations:
     * A verified compiler is limited in what statements it can prove about the resulting program: typically, just that the resulting program has the same meaning or behavior as the source program.
     * An automatic proof search algorithm is limited in what statements it can prove by the sophistication of the algorithm and the computational power applied to it. Also, due to the undecidability of first-order logic[^5], there cannot exist a proof search algorithm which would find a proof of any given true statement.
-
-
     * A static analyzer is generally not capable of reasoning about the meaning of a program to see if it’s correct; it is only able to recognize patterns which always or often indicate some kind of issue.
 
 
@@ -198,7 +196,7 @@ Here is a summary of some of the ways in which the ecosystem supports correct-by
 * [Ecne](https://0xparc.org/blog/ecne) is a special-purpose automatic proof search tool which can prove that an R1CS constraint system defines a function (total or partial)
     * In other words, it proves that for any input values on which the system is satisfiable, there is a unique combination of output values on which the system is satisfied
     * This approach has been proven to be useful in flushing out bugs in circuits
-* [Starkware](https://starkware.co/) is writing [Lean](https://leanprover.github.io/) [proofs](https://github.com/starkware-libs/formal-proofs) to check that circuits expressed as Cairo programs conform to their specs
+* [Starkware](https://starkware.co/) is writing [Lean](https://leanprover.github.io/) [proofs](https://github.com/starkware-libs/formal-proofs) to check that circuits expressed as Cairo programs conform to their specs. 
 * [Alex Ozdemir](https://cs.stanford.edu/~aozdemir/research/) from Stanford is working on adding a finite field solver to the [cvc5](https://github.com/alex-ozdemir/CVC4/tree/ff) SMT Solver.
 * Lucas Clemente Vella and Leonardo Alt are working on [SMT solver](https://github.com/lvella/polynomial-solver/blob/master/docs/SMT-2022-extended-abstract/full-text.pdf) of polynomial equations over finite fields.
 
