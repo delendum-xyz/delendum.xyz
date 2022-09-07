@@ -57,17 +57,17 @@ Zero knowledge proof systems often use a mathematical constraint system such as 
 
 
 * There are also ways to prove a statement about a program without (directly) using a proof assistant:
-    * Use a verified compiler (e.g. [CompCert](https://compcert.org/)), which turns a source program into an object program which provably has certain properties by virtue of (proven) facts about the verified compiler.
+    1. Use a verified compiler (e.g. [CompCert](https://compcert.org/)), which turns a source program into an object program which provably has certain properties by virtue of (proven) facts about the verified compiler.
         * Note that there is a distinction between a **verified** compiler and a verifying compiler.  CompCert itself is proved to generate binary that will always be semantically equivalent to the C input.  A **verifying** compiler generates a binary along with a proof of correctness that the binary is semantically equivalent to the source.
         * When a program is compiled by a verifying or verified compiler, we say that the compiler output is correct by construction (provided that the input is correct).
         * Verified compilers do not detect or fix bugs in the input source code; however, they also do not introduce any new bugs during compilation.
-    * Use an automatic proof search algorithm, which takes as input statements to be proven and outputs proofs of those statements if those statements are true and the proof search algorithm finds proofs.
-    * Use a static analyzer, which takes as input a program and automatically checks for various kinds of issues using predetermined algorithms.
+    2. Use an automatic proof search algorithm, which takes as input statements to be proven and outputs proofs of those statements if those statements are true and the proof search algorithm finds proofs.
+    3. Use a static analyzer, which takes as input a program and automatically checks for various kinds of issues using predetermined algorithms.
 
 * All of these approaches have limitations:
-    * A verified compiler is limited in what statements it can prove about the resulting program: typically, just that the resulting program has the same meaning or behavior as the source program.
-    * An automatic proof search algorithm is limited in what statements it can prove by the sophistication of the algorithm and the computational power applied to it. Also, due to the undecidability of first-order logic[^5], there cannot exist a proof search algorithm which would find a proof of any given true statement.
-    * A static analyzer is generally not capable of reasoning about the meaning of a program to see if it’s correct; it is only able to recognize patterns which always or often indicate some kind of issue.
+    1. A verified compiler is limited in what statements it can prove about the resulting program: typically, just that the resulting program has the same meaning or behavior as the source program.
+    2. An automatic proof search algorithm is limited in what statements it can prove by the sophistication of the algorithm and the computational power applied to it. Also, due to the undecidability of first-order logic[^5], there cannot exist a proof search algorithm which would find a proof of any given true statement.
+    3. A static analyzer is generally not capable of reasoning about the meaning of a program to see if it’s correct; it is only able to recognize patterns which always or often indicate some kind of issue.
 
 
 ## **Formal Verification for ZK Circuits**
