@@ -22,7 +22,7 @@ description: "We support inventions in blockchain infrastructure, private comput
 
     <a class="team-member" target="_blank" href="https://www.linkedin.com/in/ibrahim-yusufali/">
         <div class="member-name">Ibrahim Yusufali</div>
-        <img alt="Ibrahim" src="/assets/team/ibrahim.png"/>
+        <img alt="Ibrahim" src="/assets/team/ibrahim.jpg"/>
     </a>
 
     <a class="team-member" target="_blank" href="https://www.linkedin.com/in/gautam-botrel">
