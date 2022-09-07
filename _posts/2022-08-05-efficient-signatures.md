@@ -10,7 +10,7 @@ Verifying digital signatures is a problem that arises in a variety of ZK related
 
 * [Specialized ZK signatures](#specialized-zk-signatures)
 * [Native curves](#native-curves)
-* [Non-native arithmetic: fundamentals](#non-native-arithmetic:-fundamentals)
+* [Non-native arithmetic: fundamentals](#non-native-arithmetic--fundamentals)
 * [Bignum techniques](#bignum-techniques)
 * [Conventional optimizations](#conventional-optimizations)
 * [Conclusion](#conclusion)
