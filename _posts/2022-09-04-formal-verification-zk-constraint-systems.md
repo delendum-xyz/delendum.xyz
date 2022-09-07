@@ -12,7 +12,7 @@ excerpt: "How do we formally verify that an arithmetic circuit, as used by a zer
 
 * [Leading Problem](#leading-problem)
 * [Techniques](#techniques)
-* [Formal Verification for ZK Circuits](#formal-verification-for-ZK-circuits)
+* [Formal Verification for ZK Circuits](#formal-verification-for-zk-circuits)
 * [Synthesizing Formally Verified Programs](#synthesizing-formally-verified-programs)
 * [The State of Current Progress](#the-state-of-current-progress)
 * [Future Research and Development Directions](#future-research-and-development-directions)
