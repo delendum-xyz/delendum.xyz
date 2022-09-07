@@ -8,6 +8,16 @@ excerpt: "How do we formally verify that an arithmetic circuit, as used by a zer
 
 *Thanks to Eric McCarthy from Kestrel Institute for helping with some sections of this document, and to Grigore Rosu (UIUC), Shashank Agrawal (Delendum), Daniel Lubarov (Delendum), Tim Carstens (Risc Zero), Bolton Bailey (UIUC) and Alessandro Coglio (Kestrel) for many helpful suggestions.*
 
+## Table of Content
+=================
+
+* [Leading Problem](#leading-problem)
+* [Techniques](#techniques)
+* [Formal Verification for ZK Circuits](#formal-verification-for-ZK-circuits)
+* [Synthesizing Formally Verified Programs](#synthesizing-formally-verified-programs)
+* [The State of Current Progress](#the-state-of-current-progress)
+* [Future Research & Development Directions](#future-research-&-development-directions)
+
 ## **Leading Problem**
 
 
@@ -91,7 +101,7 @@ Operational semantics is particularly useful for proving things about programs. 
 
 
 
-Denotational design provides a helpful way of thinking about both problem spaces (general and application-specific). Denotational design also provides a methodology for defining the requirements of a system, such as a zero-knowledge proving system, in such a way that the requirements can be expressed and proven in a formal system.
+Denotational design provides a helpful way of thinking about both problem spaces (general and application-specific). \ \ Denotational design also provides a methodology for defining the requirements of a system, such as a zero-knowledge proving system, in such a way that the requirements can be expressed and proven in a formal system.
 
 * A circuit denotes a set: namely, the set of public inputs (i.e., statements) for which the circuit is satisfiable (i.e., the statement is true)
     1. For example, consider a hash verification circuit
