@@ -61,6 +61,10 @@ New proof systems have been introduced by researchers and developers at a rapid 
 
 Bridges and cross-chain applications between L1 and L2 can involve different arithmetic fields for the proof systems. The ability to implement cryptographic constructs with different fields will be crucial for the evolution of proof systems. This is an interesting and useful ongoing research domain, and we are looking forward to progress in field interoperability and practical implementations in different ecosystems. 
 
+__________________________________
+
+_If you are a zero-knowledge proof or cryptography expert interested in further discussions or working together on this subject, please reach out to me at gautam@delendum.xyz._
+
 
 <!-- Footnotes themselves at the bottom. -->
 **Footnotes**

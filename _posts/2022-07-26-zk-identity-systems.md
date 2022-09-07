@@ -71,7 +71,9 @@ Please see the table below for a high-level comparison of different proof system
 
 To conclude, identities in the world don’t have to be either blockchain-based or non-blockchain-based. Going forward, they can certainly be a combination of the two — and that would make privacy-preserving identity assertions even more interesting!
 
-_If you are a zero-knowledge proof or cryptography expert interested in further discussions or working together on this subject, please reach out to me at shashank@delendum.xyz. _
+__________________________________
+
+_If you are a zero-knowledge proof or cryptography expert interested in further discussions or working together on this subject, please reach out to me at shashank@delendum.xyz._
 
 
 <!-- Footnotes themselves at the bottom. -->
