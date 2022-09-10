@@ -1,39 +1,21 @@
 <!DOCTYPE html>
 <html lang='{{ site.lang | default: "en-US" }}'>
-  <head>
-    <meta charset="UTF-8">
-
-{% seo %}
-    <link rel="shortcut icon" type="image/png" href="{{ '/assets/favicon.png'}}">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="preload" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" as="style" type="text/css" crossorigin>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+<head>
+    {% include common.html %}
+    {% seo %}
     {% include head-custom.html %}
-  </head>
-  <body>
-    <div class="header-menu">
-        <a href="/research">Research</a>
-        <div class="menu-divider">|</div>
-        <a href="/team">Team</a>
-        <div class="menu-divider">|</div>
-        <a href="https://kb.delendum.xyz">ZKPedia</a>
-    </div>
-
-    <header class="page-header" role="banner">
-      <h1 class="project-name"><img src="{{ '/assets/dv-logo-text.svg'}}"></h1>
-      <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
-      <h2 class="project-tagline">{{ site.contact }}</h2>
-    </header>
-    <div class="footer-menu">
-        <a href="https://twitter.com/DelendumV" target="_blank"><img alt="youtube" src="{{ '/assets/twitter.png'}}"></a>
-        <a href="https://www.youtube.com/channel/UCM7Dc3y3BVTTpprDidVV7iw" target="_blank"><img alt="youtube" src="{{ '/assets/youtube.png'}}"></a>
-        <a href="https://github.com/delendum-xyz" target="_blank"><img alt="youtube" src="{{ '/assets/github.png'}}"></a>
-    </div>
-
-    <main id="content" class="main-content" role="main">
-      {{ content }}
-    </main>
-  </body>
+</head>
+<body>
+{% include menu.html logoless=true %}
+<header class="page-header" role="banner">
+    <h1 class="project-name"><img src="{{ '/assets/dv-logo-text.svg'}}"></h1>
+    <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline
+        }}</h2>
+    <h2 class="project-tagline">{{ site.contact }}</h2>
+</header>
+{% include footer.html fixed=true %}
+<main id="content" class="main-content" role="main">
+    {{ content }}
+</main>
+</body>
 </html>

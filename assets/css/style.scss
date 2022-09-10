@@ -61,7 +61,6 @@ body {
 }
 
 .footer-menu {
-  position: fixed;
   width: 100%;
   height: 64px;
   bottom: 16px;
@@ -77,6 +76,10 @@ body {
       object-fit: contain;
     }
   }
+}
+
+.fixed {
+  position: fixed;
 }
 
 a {
