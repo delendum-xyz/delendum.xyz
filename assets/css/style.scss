@@ -63,7 +63,7 @@ body {
 .footer-menu {
   width: 100%;
   height: 64px;
-  bottom: 16px;
+  bottom: 0;
   background: black;
   display: flex;
   gap: 32px;
@@ -238,3 +238,57 @@ a {
   margin-top: 8px;
 }
 
+.container {
+  padding: 65px 0 250px 0;
+}
+.main-content-incubator {
+  width: 100%;
+  max-width: 800px;
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  background: #000;
+  margin: 0 auto;
+  margin-top: 64px;
+  margin-bottom: 50px;
+
+  @media (max-width: 664px) {
+    margin-top: 16px;
+  }
+  h2 {
+    text-align: center;
+    color: #fff;
+  }
+  img {
+    max-width: 100%;
+    object-fit: contain;
+  }
+  form {
+    max-width: 350px;
+    margin: auto;
+  }
+  .form-group {
+    text-align: center;
+    margin-top: 10px;
+  }
+  input[type="text"], input[type="email"], input[type="file"] {
+    border-radius: 20px;
+    padding: 3px 15px;
+  }
+  label {
+    color: #fff;
+    font-size: 15px;
+  }
+  .form-radio {
+    text-align: left;
+    input {
+      margin-top: 0.3em;
+    }
+  }
+  button {
+    font-size: 15px;
+    border-radius: 20px;
+    padding: 5px 40px;
+  }
+
+}
