@@ -5,3 +5,6 @@ description: "We support inventions in blockchain infrastructure, private comput
 contact: "hello@delendum.xyz"
 
 #host: 0.0.0.0
+
+plugins:
+  - jekyll-redirect-from

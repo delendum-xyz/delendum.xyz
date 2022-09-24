@@ -39,11 +39,16 @@ body {
   height: 64px;
   background: black;
   display: flex;
+  flex-wrap: wrap;
   gap: 16px;
   align-items: center;
 
-  .menu-divider,
-  a {
+  .menu-divider{
+    &::before {
+      content: '|';
+    }
+  }
+  .menu-divider, a {
     font-size: 21px;
     color: #fff;
     opacity: 0.8;
@@ -56,6 +61,19 @@ body {
     img {
       width: 80px;
       object-fit: contain;
+    }
+  }
+  @media (max-width: 664px) {
+    .menu-divider{
+      &::before {
+        content: '';
+      }
+    }
+    gap: 8px;
+    padding: 8px 16px;
+    height: 48px;
+    a {
+      font-size: 12px;
     }
   }
 }
@@ -238,3 +256,47 @@ a {
   margin-top: 8px;
 }
 
+
+.main-content-fellow {
+  //overflow: scroll;
+  color: #ccc;
+
+  width: 100%;
+  max-width: 1024px;
+
+  padding: 32px;
+  min-height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  background: black;
+
+  margin: 0 auto;
+  margin-top: 64px;
+
+  @media (max-width: 664px) {
+    font-size: 12px;
+    padding: 16px;
+    margin-top: 64px;
+  }
+  img {
+    max-width: 100%;
+    object-fit: contain;
+  }
+  table{
+    //overflow: scroll;
+    margin: 32px auto;
+    tr{
+      td {
+        p{
+          margin: 0;
+        }
+        vertical-align: top;
+        border: 1px solid #ccc;
+        padding: 8px;
+      }
+
+    }
+  }
+
+}

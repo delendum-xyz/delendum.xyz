@@ -1,13 +1,13 @@
 ---
 layout: plain
-title: "Delendum - Incubation"
+title: "Delendum - Development Fellowship"
 description: "We support inventions in blockchain infrastructure, private computing, and zero-knowledge proof applications"
 ---
 <div class="text-center text-large text-white">
-    Redirecting to Delendum Incubator Application....
+    Redirecting to Delendum Development Fellowship....
 </div>
 <script>
     setTimeout(function(){
-        location.href='https://forms.gle/MEUVwjTRa6rnj2dEA';
+        location.href='https://forms.gle/vhbYb7k6sCGLXL7g8';
     }, 1500);
 </script>
