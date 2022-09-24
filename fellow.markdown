@@ -78,7 +78,7 @@ If you are interested in applying to the research fellowship, please fill out [t
     <td>the final version of research paper</td>
     <td>n/a</td>
 </tr>
-<tr><td colspan="4"><p class="text-center">*we can host a technical seminar on your topic and invite the top researchers and builders to give talks and share their perspectives (see - youtube link)</p></td> </tr>
+<tr><td colspan="4"><p class="text-center">*we can host a technical seminar on your topic and invite the top researchers and builders to give talks and share their perspectives (see - [youtube link](https://www.youtube.com/channel/UCM7Dc3y3BVTTpprDidVV7iw))</p></td> </tr>
 </tbody>
 </table>
 
@@ -106,7 +106,7 @@ If you are interested in applying to the development fellowship, please fill out
     <td>2-page proposal, and technical litepaper</td>
     <td>please follow the outline here</td>
 </tr>
-<tr><td colspan="4">you will hear back from us within 1 week</td></tr>
+<tr><td colspan="4"><p class="text-center">you will hear back from us within 1 week</p></td></tr>
 <tr>
     <td>Development Fellowship (1 month)</td>
     <td>build the development project with us </td>
@@ -125,7 +125,7 @@ If you are interested in applying to the development fellowship, please fill out
     </td>
     <td>n/a</td>
 </tr>
-<tr><td colspan="4">improve and make changes to the paper / codebase based on our comments</td> </tr>
+<tr><td colspan="4"><p class="text-center">improve and make changes to the paper / codebase based on our comments</p></td> </tr>
 <tr>
     <td>External Review (1 week)</td>
     <td>externally review the second version of your project</td>
@@ -135,14 +135,14 @@ If you are interested in applying to the development fellowship, please fill out
     </td>
     <td>n/a</td>
 </tr>
-<tr><td colspan="4">*if you want delendum to incubate your project, you can schedule a presentation and we will make a decision that day</td> </tr>
+<tr><td colspan="4"><p class="text-center">*if you want delendum to incubate your project, you can schedule a presentation and we will make a decision that day</p></td> </tr>
 <tr>
     <td>Publication</td>
     <td>open-source code and technical documentation</td>
     <td>the final version of your demo, codebase, technical whitepaper</td>
     <td>n/a</td>
 </tr>
-<tr><td colspan="4">*we can host a technical seminar on your topic and invite the top researchers and builders to give talks and share their perspectives (see - youtube link)</td> </tr>
+<tr><td colspan="4"><p class="text-center">*we can host a technical seminar on your topic and invite the top researchers and builders to give talks and share their perspectives (see - [youtube link](https://www.youtube.com/channel/UCM7Dc3y3BVTTpprDidVV7iw))</p></td> </tr>
 </tbody>
 </table>
 
