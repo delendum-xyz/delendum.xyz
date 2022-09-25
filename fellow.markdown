@@ -57,7 +57,7 @@ If you are interested in applying to the research fellowship, please fill out [t
     <td>internally review the first draft</td>
     <td>
         <p>candidate: 10-15 page first draft, presentation of your research outcome </p>
-        <p>us: through internal review of your research draft</p>
+        <p>us: thorough internal review of your research draft</p>
     </td>
     <td>n/a</td>
 </tr>
