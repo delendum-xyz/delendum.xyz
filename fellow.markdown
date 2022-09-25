@@ -78,7 +78,7 @@ If you are interested in applying to the research fellowship, please fill out [t
     <td>the final version of research paper</td>
     <td>n/a</td>
 </tr>
-<tr><td colspan="4"><p class="text-center">*we can host a technical seminar on your topic and invite the top researchers and builders to give talks and share their perspectives (see - [youtube link](https://www.youtube.com/channel/UCM7Dc3y3BVTTpprDidVV7iw))</p></td> </tr>
+<tr><td colspan="4"><p class="text-center">*we can host a technical seminar on your topic and invite the top researchers and builders to give talks and share their perspectives (see - <a href="https://www.youtube.com/channel/UCM7Dc3y3BVTTpprDidVV7iw" target="_blank">youtube link</a>)</p></td> </tr>
 </tbody>
 </table>
 
@@ -142,7 +142,7 @@ If you are interested in applying to the development fellowship, please fill out
     <td>the final version of your demo, codebase, technical whitepaper</td>
     <td>n/a</td>
 </tr>
-<tr><td colspan="4"><p class="text-center">*we can host a technical seminar on your topic and invite the top researchers and builders to give talks and share their perspectives (see - [youtube link](https://www.youtube.com/channel/UCM7Dc3y3BVTTpprDidVV7iw))</p></td> </tr>
+<tr><td colspan="4"><p class="text-center">*we can host a technical seminar on your topic and invite the top researchers and builders to give talks and share their perspectives (see - <a href="https://www.youtube.com/channel/UCM7Dc3y3BVTTpprDidVV7iw" target="_blank">youtube link</a>)</p></td> </tr>
 </tbody>
 </table>
 
