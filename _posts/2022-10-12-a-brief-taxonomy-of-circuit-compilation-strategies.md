@@ -141,5 +141,5 @@ For zero-knowledge related standards effort, [zkInterface](https://github.com/QE
 
 __________________________________
 
-_If you’re interested in further discussions on this topic or working together on this subject, please consider joining our [group chat](https://t.me/+9WAAmCpPRadjOTNh) or reach out to us at research@delendum.xyz._
+_If you are interested in working together on this subject, please consider applying to our [fellowship program](https://delendum.xyz/fellow). If you’re interested in further discussions on this topic, please consider joining our [group chat](https://t.me/+9WAAmCpPRadjOTNh) or reach out to us at research@delendum.xyz._
 
