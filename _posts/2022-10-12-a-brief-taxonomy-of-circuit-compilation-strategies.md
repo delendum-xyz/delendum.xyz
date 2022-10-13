@@ -2,7 +2,7 @@
 layout: post
 author: Christopher Goes
 title: A Brief Taxonomy of Circuit Compilation Strategies
-image: "/assets/2022-10-12-a-brief-taxonomy-of-circuit-compilation-strategies/full.jpg"
+image: "/assets/posts/2022-10-12-a-brief-taxonomy-of-circuit-compilation-strategies/full.jpg"
 excerpt: "If most general-purpose applications of ZKPs will require general-purpose programmable privacy, what compiler stack can allow developers to safely write programs and also produce efficient outputs?"
 ---
 
