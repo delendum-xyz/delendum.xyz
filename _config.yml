@@ -3,7 +3,8 @@ layout: default
 title: "Delendum"
 description: "We support inventions in blockchain infrastructure, private computing, and zero-knowledge proof applications"
 contact: "hello@delendum.xyz"
-
+base: "https://delendum.xyz"
+baseHttp: "http://delendum.xyz"
 #host: 0.0.0.0
 
 plugins:
