@@ -62,7 +62,7 @@ The first approach and the approach that quite logically the ecosystem started w
 * [Juvix Circuits](https://github.com/anoma/juvix-circuits)
 * probably many others (delendum has a more detailed table [here](https://kb.delendum.xyz/zk-knowledge#programming-languages))
 
-Note that Noir is backend-agnostic. It compiles down to an abstract IR which can then be compiled down to R1CS or Plonkish languages. Leo does compile to an IR, called Aleo Instructions, which is an assembly-language-like language that you can use directly for fine-grained control of the constraints. 
+Note that Noir is backend-agnostic. It compiles down to an abstract IR which can then be compiled down to R1CS or Plonkish languages. Likewise, Leo does compile to an IR, called Aleo Instructions, which is an assembly-language-like language that you can use directly for fine-grained control of the constraints. 
 
 While these languages are quite different, written with different syntaxes and targeting different proof systems, they are all following the same kind of general approach of starting with a low-level constraint system and iteratively adding abstractions on top. 
 
