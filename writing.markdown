@@ -5,18 +5,18 @@ description: "We support inventions in blockchain infrastructure, private comput
 ---
 
 <div>
-    <p class="text-white text-research-para">
+    <p class="text-black text-research-para">
         We curated a list of resources below, aiming to provide a knowledge base and to cover developer needs. We will add more sections soon, such as project evaluations. We are also open to advise projects, provide reviews, and co-author research publications. 
     </p>
     <ul class="no-list-style">
     {% for post in site.posts %}
         <li class="no-list-style post-container">
-            <div class="text-white text-large">
-                <a class="text-white" href="{{ post.url }}">
+            <div class="text-black text-large">
+                <a class="text-black" href="{{ post.url }}">
                     {{ post.title }}
                 </a>
             </div>
-            <div class="text-white">
+            <div class="text-black">
                 {{post.author}} 
             </div> 
             {{ post.excerpt | strip_html | strip_newlines | truncate: 200 }}  
