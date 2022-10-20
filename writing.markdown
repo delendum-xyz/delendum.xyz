@@ -2,6 +2,8 @@
 layout: writing
 title: "Delendum - Writing"
 description: "We support inventions in blockchain infrastructure, private computing, and zero-knowledge proof applications"
+redirect_from:
+    - /research
 ---
 
 <div class="page-link-container">
