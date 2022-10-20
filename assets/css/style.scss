@@ -15,20 +15,38 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   background: white;
+}
+
+.menu-link {
+  font-size: 24px;
+  color: black;
+  margin-bottom: 20px;
+  text-decoration: underline;
+}
+
+.footer {
+  text-align: center;
+
+  .footer-png {
+    margin-top: 60px;
+  }
 }
 
 .project-name {
   img {
-    width: 480px;
+    width: 360px;
     max-width: 100%;
     object-fit: contain;
-    background: black;
+    filter: invert(100%);
   }
 }
 
 .project-tagline {
   color: black;
+  max-width: 680px;
+  margin-bottom: 80px;
 }
 
 .main-content {
@@ -39,47 +57,17 @@ body {
 .header-menu {
   width: 100%;
   z-index: 1;
-  padding: 16px 32px;
+  padding: 40px 0px;
   position: fixed;
-  height: 64px;
   background: white;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 16px;
-  align-items: center;
-
-  .menu-divider{
-    &::before {
-      content: '|';
-    }
-  }
-  .menu-divider, a {
-    font-size: 21px;
-    color: #000;
-    opacity: 0.8;
-  }
+  text-align: center;
+  gap: 16px;  
 
   a {
-    display: flex;
-    align-items: center;
-
     img {
-      width: 120px;
+      width: 180px;
       object-fit: contain;
-      background: black;
-    }
-  }
-  @media (max-width: 664px) {
-    .menu-divider{
-      &::before {
-        content: '';
-      }
-    }
-    gap: 8px;
-    padding: 8px 8px;
-    height: 48px;
-    a {
-      font-size: 12px;
+      filter: invert(100%);
     }
   }
 }
@@ -100,11 +88,13 @@ body {
       object-fit: contain;
       filter: invert(100%);
     }
-  }
+  }   
 }
 
 .fixed {
   position: fixed;
+  width: 100%;
+  bottom: 0;
 }
 
 a {
@@ -137,21 +127,25 @@ a {
   max-width: 100%;
   min-height: 100vh;
   display: flex;
+  padding: 32px;
   justify-content: center;
   flex-direction: column;
   background: white;
+
+  margin-top: 120px;
 
   .team {
     margin: auto;
     @media (max-width: 664px) {
       margin-top: 96px;
     }
-    max-width: 1024px;
+    max-width: 720px;
 
     .team-member {
-      flex-basis: 30%;
+      flex-basis: 50%;
       margin-top: 32px;
       margin-bottom: 32px;
+
       @media (max-width: 664px) {
         flex-basis: 100%;
       }
@@ -175,13 +169,18 @@ a {
       .member-name {
         width: 100%;
         font-size: 21px;
-        text-align: center;
         color: #000;
         opacity: 0.8;
       }
 
+      .member-role {
+        text-decoration: none;
+        color: #333;
+        font-size: 15px;
+      }
+
       display: flex;
-      flex-direction: column-reverse;
+      justify-content: flex-start;
       gap: 16px;
       align-items: center;
       @media (max-width: 420px) {
@@ -190,7 +189,6 @@ a {
     }
 
     flex-wrap: wrap;
-    gap: 32px;
     display: flex;
     justify-content: center;
   }
@@ -212,7 +210,7 @@ a {
 }
 
 .text-large {
-  font-size: 24px;
+  font-size: 20px;
 }
 
 .no-list-style {
@@ -237,7 +235,7 @@ a {
   flex-direction: column;
   background: white;
   margin: 0 auto;
-  margin-top: 64px;
+  margin-top: 96px;
   @media (max-width: 664px) {
     margin-top: 16px;
   }
@@ -245,7 +243,6 @@ a {
     max-width: 100%;
     object-fit: contain;
   }
-
 }
 
 .text-research-para {
@@ -262,13 +259,19 @@ a {
   margin-top: 8px;
 }
 
+.page-link-container {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
 
 .main-content-fellow {
   //overflow: scroll;
   color: #333;
 
   width: 100%;
-  max-width: 1024px;
+  max-width: 720px;
 
   padding: 32px;
   min-height: 100vh;
@@ -278,7 +281,7 @@ a {
   background: white;
 
   margin: 0 auto;
-  margin-top: 64px;
+  margin-top: 96px;
 
   @media (max-width: 664px) {
     font-size: 12px;
@@ -304,5 +307,4 @@ a {
 
     }
   }
-
 }

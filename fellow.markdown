@@ -8,14 +8,14 @@ redirect_from:
   - /incubator
 ---
 
-## Delendum Fellowship
+<div class="page-link-container">
+    <a class="menu-link" href="/fellow">fellowship</a>
+</div>
 
 ### Goal
-
 A two-month program to support research and development advancing the frontiers of zero-knowledge
 
 ### Benefit
-
 **Research**: collaborating with researchers on original, exploratory topics that leads to the creation of new methods and constructions
 
 **Development**: working with the pioneers and builders in this field to create new products and systems, with support from our team members regarding evaluation and implementation

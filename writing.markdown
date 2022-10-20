@@ -5,6 +5,9 @@ description: "We support inventions in blockchain infrastructure, private comput
 ---
 
 <div>
+    <div class="page-link-container">
+        <a class="menu-link" href="/writing">writing</a>
+    </div>
     <p class="text-black text-research-para">
         We curated a list of resources below, aiming to provide a knowledge base and to cover developer needs. We will add more sections soon, such as project evaluations. We are also open to advise projects, provide reviews, and co-author research publications. 
     </p>
