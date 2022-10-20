@@ -12,7 +12,7 @@ redirect_from:
 
 ### Goal
 
-A one-month program to support research and development advancing the frontiers of zero-knowledge
+A two-month program to support research and development advancing the frontiers of zero-knowledge
 
 ### Benefit
 
