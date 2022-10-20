@@ -4,6 +4,10 @@ title: "Delendum - Team"
 description: "We support inventions in blockchain infrastructure, private computing, and zero-knowledge proof applications"
 ---
 
+<div class="page-link-container">
+    <a class="menu-link" href="/team">team</a>
+</div>
+
 <div class="team">
     <a class="team-member" target="_blank" href="https://www.linkedin.com/in/dlubarov">
         <div class="member-name">Daniel Lubarov</div>
@@ -29,6 +33,10 @@ description: "We support inventions in blockchain infrastructure, private comput
         <div class="member-name">Gautam Botrel</div>
         <img alt="Gautam" src="/assets/team/gautam.jpg"/>
     </a>
-    
+
+    <a class="team-member" target="_blank" href="https://www.linkedin.com/in/gautam-botrel">
+        <div class="member-name">James Stearn</div>
+        <img alt="Gautam" src="/assets/team/james.jpg"/>
+    </a>
 
 </div>

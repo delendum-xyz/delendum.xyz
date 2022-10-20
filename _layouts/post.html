@@ -1,11 +1,16 @@
 ---
-layout: research
+layout: writing
 ---
 
 <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
-<h1 class="text-white"> {{ page.title }}</h1>
-<div class="text-white">{{ page.date | date_to_string: "ordinal", "US" }}</div>
-<div class="text-white post-author">{{ page.author }}</div>
-<div class="text-white post-body">
+
+<div class="page-link-container">
+    <a class="menu-link" href="/writing">writing</a>
+</div>
+
+<h2 class="text-black"> {{ page.title }}</h2>
+<div class="text-black">{{ page.date | date_to_string: "ordinal", "US" }}</div>
+<div class="text-black post-author">{{ page.author }}</div>
+<div class="text-black post-body">
 {{ content }}
 </div>
