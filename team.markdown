@@ -34,7 +34,7 @@ description: "We support inventions in blockchain infrastructure, private comput
         <img alt="Gautam" src="/assets/team/gautam.jpg"/>
     </a>
 
-    <a class="team-member" target="_blank" href="https://www.linkedin.com/in/gautam-botrel">
+    <a class="team-member" target="_blank" href="https://www.linkedin.com/in/james-stearn-9b67a3230">
         <div class="member-name">James Stearn</div>
         <img alt="Gautam" src="/assets/team/james.jpg"/>
     </a>
