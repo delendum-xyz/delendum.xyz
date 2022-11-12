@@ -241,131 +241,19 @@ If you are interested in working together with top experts to explore practical 
 
 Delendum fellowship is a two-month program to support research and development advancing the frontiers of zero-knowledge. We have daily office hours with our team members and external experts to cover the cryptography, engineering, product development sides of your project; weekly paper discussion session, joint brainstorming session, external collaboration session, cross-review process to review your work in progress; engineering and research resources from our team and network; co-publishing opportunities.
 
-Fellow A’s schedule
-<table>
-  <tr>
-   <td>
-   </td>
-   <td><strong>Monday</strong>
-   </td>
-   <td><strong>Tuesday</strong>
-   </td>
-   <td><strong>Wednesday</strong>
-   </td>
-   <td><strong>Thursday</strong>
-   </td>
-   <td><strong>Friday</strong>
-   </td>
-  </tr>
-  <tr>
-   <td>9:00-10:00
-   </td>
-   <td>mentor 1's office hour
-   </td>
-   <td>mentor 2's office hour
-   </td>
-   <td>mentor 3's office hour
-   </td>
-   <td>mentor 4's office hour
-   </td>
-   <td>mentor 5's office hour
-   </td>
-  </tr>
-  <tr>
-   <td>10:00-11:00
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-   <td>paper discussion: hash functions with Alan
-   </td>
-   <td>
-   </td>
-   <td>weekly presentations
-   </td>
-  </tr>
-  <tr>
-   <td>11:00-12:00
-   </td>
-   <td>
-   </td>
-   <td>zkIBC brainstorming session w IBC core developers
-   </td>
-   <td>
-   </td>
-   <td>ZKP benchmarking: group call with Risc0, Miden founders
-   </td>
-   <td>weekly project meetings
-   </td>
-  </tr>
-  <tr>
-   <td colspan="6" >
-   </td>
-  </tr>
-  <tr>
-   <td>2:00-3:00
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-   <td>review teammate B‘s work
-   </td>
-   <td>
-   </td>
-   <td>team reflection: technical challenges, solutions, TODOs
-   </td>
-  </tr>
-  <tr>
-   <td>3:00-4:00
-   </td>
-   <td>brainstorming w Chris (Anoma)
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-   <td>"Hyperplonk + FRI" research sync-up
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td>5:00-6:00
-   </td>
-   <td>
-   </td>
-   <td>one-on-one sync up with lead mentor
-   </td>
-   <td>
-   </td>
-   <td>Meeting w Kevin (co-founder candidate)
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td colspan="6" >
-   </td>
-  </tr>
-  <tr>
-   <td>7:00-8:00
-   </td>
-   <td>send first draft to the team
-   </td>
-   <td>
-   </td>
-   <td>brainstorming: what’s possible with on-chain gaming now that we have ZK
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-  </tr>
-</table>
+> Fellow A’s schedule
 
-
+|             | Monday                        | Tuesday                                           | Wednesday                                                               | Thursday                                                | Friday                                                  |
+|-------------|-------------------------------|---------------------------------------------------|-------------------------------------------------------------------------|---------------------------------------------------------|---------------------------------------------------------|
+| 9:00-10:00  | mentor 1's office hour        | mentor 2's office hour                            | mentor 3's office hour                                                  | mentor 4's office hour                                  | mentor 5's office hour                                  |
+| 10:00-11:00 |                               |                                                   | paper discussion: hash functions with Alan                              |                                                         | weekly presentations                                    |
+| 11:00-12:00 |                               | zkIBC brainstorming session w IBC core developers |                                                                         | ZKP benchmarking: group call with risc0, miden founders | weekly project meetings                                 |
+|             |                               |                                                   |                                                                         |                                                         |                                                         |
+| 2:00-3:00   |                               |                                                   | review teammate B‘s work                                                |                                                         | team reflection: technical challenges, solutions, TODOs |
+| 3:00-4:00   | brainstorming w Chris (Anoma) |                                                   |                                                                         | "Hyperplonk + FRI" research sync-up                     |                                                         |
+| 5:00-6:00   |                               | one-on-one sync with lead mentor                  |                                                                         | Meeting w Kevin (co-founder candidate)                  |                                                         |
+|             |                               |                                                   |                                                                         |                                                         |                                                         |
+| 7:00-8:00   | send first draft to the team  |                                                   | brainstorming: what’s possible with on-chain gaming now that we have ZK |                                                         |                                                         |
 
 For a research fellow, you will be collaborating with researchers on original, exploratory topics that lead to the creation of new use cases in practice. For a developer fellow, you will be working with other builders to create new products, with feedback from on product feasibility and implementation.
 
