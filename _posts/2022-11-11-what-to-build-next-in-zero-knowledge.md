@@ -19,7 +19,6 @@ By Daniel Lubarov, Aaron Li, Andrei Nagornyi, James Stearn, Ole Spjeldnæs, Guil
   * [Universal layer for proof aggregation and composition](#universal-layer-for-proof-aggregation-and-composition)
   * [Verifiable computation, gaming and open world](#verifiable-computation--gaming-and-open-world)
   * [Formal verification of the zero-knowledge tech stack](#formal-verification-of-the-zero-knowledge-tech-stack)
-  * [MEV](#mev)
 - [Non-blockchain Setting](#non-blockchain-setting)
   * [Platform for academic innovation](#platform-for-pseudonymous-collaboration-and-academic-innovation)
   * [Collaborative dataset curation](#collaborative-dataset-curation)
@@ -185,46 +184,6 @@ We wrote a research blog on formal verification of ZK constraint systems previou
 	* Define the semantics of circom/cairo in K
 	* Use Rust semantics defined in K to prove properties of arkworks-rs programs
 
-
-### MEV
-
-On stateful blockchains, MEV extraction generates a range of miner/validator actions that harm users and threaten chain integrity. Users pay directly via increased gas fees due to arbitrage/liquidation bot gas wars, whilst consensus instability is incentivized through chain re-orgs (e.g. time bandit and uncle bandit attacks). The majority of currently employed MEV strategies consist of exploitation of arbitrage opportunities that are discoverable due to the public nature of pending transactions in the mempool. Extraction of these opportunities is enabled by the centralized role of the block proposer, which can exploit this privilege in a number of ways, such as by reordering or frontrunning transactions.
-
-Development and deployment of successful MEV strategies is a highly specialized activity. As more and more assets are bridged across multiple domains, sophisticated multi-domain and multi-block MEV opportunities will increasingly be exploited, leading both to greater specialization in extraction strategies, and incentivization of cross-domain sequencer collusion. MEV is therefore a centralizing force on the network, which undermines the principle of decentralization.    
-
-Current approaches to mitigate the negative effects of MEV can be broadly divided into two main categories: 
-
-
-**Democratization** MEVA - Flashbots, PBS [MEV-Boost + in-protocol]
-* These approaches attempt to mitigate effects such as network congestion and gas wars by outsourcing the task of block building and auctioning the right to order transactions to specialist block builders. PBS enshrines this separation and protects the block builder from having their MEV strategy appropriated by the proposer using a commit-reveal mechanism. At present, this is implemented via middleware through Flashbots’ MEV-Boost, with research ongoing for implementation at the consensus layer.
-* Such approaches do not protect the user from being e.g. frontrun, but aim to distribute MEV across the network and disincentivize validator centralisation.   
-
-     
-**Elimination** Encrypted Mempools - Ferveo, Shutter Network, VeeDo
-* The second category aims to reduce MEV extraction, as far as possible, by concealing transactions until transaction order has been finalized within a block. A range of methods of encrypting transactions for mempool privacy have been proposed:
-
-	
-
-
-<table>
-  <tr>
-   <td>❖ Threshold Encryption
-   </td>
-   <td>❖ Timelock (Delay) Encryption
-   </td>
-  </tr>
-  <tr>
-   <td>❖ TEEs (SGX)
-   </td>
-   <td>❖ Witness Encryption
-   </td>
-  </tr>
-</table>
-
-
-These methods are either inefficient in terms of blockspace, latency, or introduce added trust assumptions. Conversely, a ZK based solution could provide strong guarantees of MEV security to the end user. The current challenges to this approach are the difficulty of designing an implementation in terms of latency, blockspace, gas efficiency, and incentivisation of verification. As the efficiency of proof systems continues to improve, a ZK based approach [e.g. Aleo, Penumbra] could eliminate the majority of current MEV extraction with limited tradeoffs for users.
-
-
 ## Non-blockchain Setting
 
 Provable computation in any language has huge implications because it means this has use cases unrelated to blockchain. For example, firmware for hardware such as router, fingerprint authenticators, smart homes; medical or military equipment; software for large scale infrastructure such as data centers; It is traditionally hard to debug and test these systems because bugs usually only appear in extreme corner cases with very low probability of occurrence, but may become very problematic (causing huge damage) under large scale high usage patterns. Here we briefly discuss a few problems that appear to be more important than others.
@@ -282,131 +241,19 @@ If you are interested in working together with top experts to explore practical 
 
 Delendum fellowship is a two-month program to support research and development advancing the frontiers of zero-knowledge. We have daily office hours with our team members and external experts to cover the cryptography, engineering, product development sides of your project; weekly paper discussion session, joint brainstorming session, external collaboration session, cross-review process to review your work in progress; engineering and research resources from our team and network; co-publishing opportunities.
 
-Fellow A’s schedule
-<table>
-  <tr>
-   <td>
-   </td>
-   <td><strong>Monday</strong>
-   </td>
-   <td><strong>Tuesday</strong>
-   </td>
-   <td><strong>Wednesday</strong>
-   </td>
-   <td><strong>Thursday</strong>
-   </td>
-   <td><strong>Friday</strong>
-   </td>
-  </tr>
-  <tr>
-   <td>9:00-10:00
-   </td>
-   <td>mentor 1's office hour
-   </td>
-   <td>mentor 2's office hour
-   </td>
-   <td>mentor 3's office hour
-   </td>
-   <td>mentor 4's office hour
-   </td>
-   <td>mentor 5's office hour
-   </td>
-  </tr>
-  <tr>
-   <td>10:00-11:00
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-   <td>paper discussion: hash functions with Alan
-   </td>
-   <td>
-   </td>
-   <td>weekly presentations
-   </td>
-  </tr>
-  <tr>
-   <td>11:00-12:00
-   </td>
-   <td>
-   </td>
-   <td>zkIBC brainstorming session w IBC core developers
-   </td>
-   <td>
-   </td>
-   <td>ZKP benchmarking: group call with Risc0, Miden founders
-   </td>
-   <td>weekly project meetings
-   </td>
-  </tr>
-  <tr>
-   <td colspan="6" >
-   </td>
-  </tr>
-  <tr>
-   <td>2:00-3:00
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-   <td>review teammate B‘s work
-   </td>
-   <td>
-   </td>
-   <td>team reflection: technical challenges, solutions, TODOs
-   </td>
-  </tr>
-  <tr>
-   <td>3:00-4:00
-   </td>
-   <td>brainstorming w Chris (Anoma)
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-   <td>"Hyperplonk + FRI" research sync-up
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td>5:00-6:00
-   </td>
-   <td>
-   </td>
-   <td>one-on-one sync up with lead mentor
-   </td>
-   <td>
-   </td>
-   <td>Meeting w Kevin (co-founder candidate)
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td colspan="6" >
-   </td>
-  </tr>
-  <tr>
-   <td>7:00-8:00
-   </td>
-   <td>send first draft to the team
-   </td>
-   <td>
-   </td>
-   <td>brainstorming: what’s possible with on-chain gaming now that we have ZK
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-  </tr>
-</table>
+> Fellow A’s schedule
 
-
+|             | Monday                        | Tuesday                                           | Wednesday                                                               | Thursday                                                | Friday                                                  |
+|-------------|-------------------------------|---------------------------------------------------|-------------------------------------------------------------------------|---------------------------------------------------------|---------------------------------------------------------|
+| 9:00-10:00  | mentor 1's office hour        | mentor 2's office hour                            | mentor 3's office hour                                                  | mentor 4's office hour                                  | mentor 5's office hour                                  |
+| 10:00-11:00 |                               |                                                   | paper discussion: hash functions with Alan                              |                                                         | weekly presentations                                    |
+| 11:00-12:00 |                               | zkIBC brainstorming session w IBC core developers |                                                                         | ZKP benchmarking: group call with risc0, miden founders | weekly project meetings                                 |
+|             |                               |                                                   |                                                                         |                                                         |                                                         |
+| 2:00-3:00   |                               |                                                   | review teammate B‘s work                                                |                                                         | team reflection: technical challenges, solutions, TODOs |
+| 3:00-4:00   | brainstorming w Chris (Anoma) |                                                   |                                                                         | "Hyperplonk + FRI" research sync-up                     |                                                         |
+| 5:00-6:00   |                               | one-on-one sync with lead mentor                  |                                                                         | Meeting w Kevin (co-founder candidate)                  |                                                         |
+|             |                               |                                                   |                                                                         |                                                         |                                                         |
+| 7:00-8:00   | send first draft to the team  |                                                   | brainstorming: what’s possible with on-chain gaming now that we have ZK |                                                         |                                                         |
 
 For a research fellow, you will be collaborating with researchers on original, exploratory topics that lead to the creation of new use cases in practice. For a developer fellow, you will be working with other builders to create new products, with feedback from on product feasibility and implementation.
 
