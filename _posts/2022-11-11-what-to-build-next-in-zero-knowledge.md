@@ -19,7 +19,6 @@ By Daniel Lubarov, Aaron Li, Andrei Nagornyi, James Stearn, Ole Spjeldnæs, Guil
   * [Universal layer for proof aggregation and composition](#universal-layer-for-proof-aggregation-and-composition)
   * [Verifiable computation, gaming and open world](#verifiable-computation--gaming-and-open-world)
   * [Formal verification of the zero-knowledge tech stack](#formal-verification-of-the-zero-knowledge-tech-stack)
-  * [MEV](#mev)
 - [Non-blockchain Setting](#non-blockchain-setting)
   * [Platform for academic innovation](#platform-for-pseudonymous-collaboration-and-academic-innovation)
   * [Collaborative dataset curation](#collaborative-dataset-curation)
@@ -184,46 +183,6 @@ We wrote a research blog on formal verification of ZK constraint systems previou
 * Use K to prove statements about ZK constraint system
 	* Define the semantics of circom/cairo in K
 	* Use Rust semantics defined in K to prove properties of arkworks-rs programs
-
-
-### MEV
-
-On stateful blockchains, MEV extraction generates a range of miner/validator actions that harm users and threaten chain integrity. Users pay directly via increased gas fees due to arbitrage/liquidation bot gas wars, whilst consensus instability is incentivized through chain re-orgs (e.g. time bandit and uncle bandit attacks). The majority of currently employed MEV strategies consist of exploitation of arbitrage opportunities that are discoverable due to the public nature of pending transactions in the mempool. Extraction of these opportunities is enabled by the centralized role of the block proposer, which can exploit this privilege in a number of ways, such as by reordering or frontrunning transactions.
-
-Development and deployment of successful MEV strategies is a highly specialized activity. As more and more assets are bridged across multiple domains, sophisticated multi-domain and multi-block MEV opportunities will increasingly be exploited, leading both to greater specialization in extraction strategies, and incentivization of cross-domain sequencer collusion. MEV is therefore a centralizing force on the network, which undermines the principle of decentralization.    
-
-Current approaches to mitigate the negative effects of MEV can be broadly divided into two main categories: 
-
-
-**Democratization** MEVA - Flashbots, PBS [MEV-Boost + in-protocol]
-* These approaches attempt to mitigate effects such as network congestion and gas wars by outsourcing the task of block building and auctioning the right to order transactions to specialist block builders. PBS enshrines this separation and protects the block builder from having their MEV strategy appropriated by the proposer using a commit-reveal mechanism. At present, this is implemented via middleware through Flashbots’ MEV-Boost, with research ongoing for implementation at the consensus layer.
-* Such approaches do not protect the user from being e.g. frontrun, but aim to distribute MEV across the network and disincentivize validator centralisation.   
-
-     
-**Elimination** Encrypted Mempools - Ferveo, Shutter Network, VeeDo
-* The second category aims to reduce MEV extraction, as far as possible, by concealing transactions until transaction order has been finalized within a block. A range of methods of encrypting transactions for mempool privacy have been proposed:
-
-	
-
-
-<table>
-  <tr>
-   <td>❖ Threshold Encryption
-   </td>
-   <td>❖ Timelock (Delay) Encryption
-   </td>
-  </tr>
-  <tr>
-   <td>❖ TEEs (SGX)
-   </td>
-   <td>❖ Witness Encryption
-   </td>
-  </tr>
-</table>
-
-
-These methods are either inefficient in terms of blockspace, latency, or introduce added trust assumptions. Conversely, a ZK based solution could provide strong guarantees of MEV security to the end user. The current challenges to this approach are the difficulty of designing an implementation in terms of latency, blockspace, gas efficiency, and incentivisation of verification. As the efficiency of proof systems continues to improve, a ZK based approach [e.g. Aleo, Penumbra] could eliminate the majority of current MEV extraction with limited tradeoffs for users.
-
 
 ## Non-blockchain Setting
 
