@@ -12,7 +12,7 @@ If you are interested in working together with top experts to explore practical 
 
 Delendum fellowship is a two-month program to support research and development advancing the frontiers of zero-knowledge. We have daily office hours with our team members and external experts to cover the cryptography, engineering, product development sides of your project; weekly paper discussion session, joint brainstorming session, external collaboration session, cross-review process to review your work in progress; engineering and research resources from our team and network; co-publishing opportunities.
 
-										Fellow A’s schedule
+Fellow A’s schedule
 
 <table border="1">
   <tr>
