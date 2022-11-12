@@ -3,12 +3,11 @@ layout: post
 author: Delendum Research
 title: Part I: What to build next in Zero Knowledge?
 excerpt: "What are the problems that haven’t been solved in blockchain and how can we leverage zero-knowledge proof as a tool to solve these problems?"
-
 --- 
 
 By Daniel Lubarov, Aaron Li, Andrei Nagornyi, James Stearn, Ole Spjeldnæs, Guiltygyoza, Ventali Tan
 
-Thanks to Dmitry Khovratovich, Alan Szepieniec, Bobbin Threadbare for helpful suggestions.
+*Thanks to Dmitry Khovratovich, Alan Szepieniec, Bobbin Threadbare and Tim Cartens for helpful suggestions.*
 
 ### Table of Content
 
