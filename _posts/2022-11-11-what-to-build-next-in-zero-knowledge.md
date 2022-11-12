@@ -2,6 +2,8 @@
 layout: post
 author: Delendum Research
 title: Part I: What to build next in Zero Knowledge?
+excerpt: "What are the problems that haven’t been solved in blockchain and how can we leverage zero-knowledge proof as a tool to solve these problems?"
+
 --- 
 
 By Daniel Lubarov, Aaron Li, Andrei Nagornyi, James Stearn, Ole Spjeldnæs, Guiltygyoza, Ventali Tan
@@ -31,7 +33,7 @@ Thanks to Dmitry Khovratovich, Alan Szepieniec, Bobbin Threadbare for helpful su
 
 What are the problems that haven’t been solved in blockchain and how can we leverage zero-knowledge proof as a tool to solve these problems? We welcome everyone to contribute to this list, improve on and build upon the existing ideas, and propose potential solutions to some of the open problems.
 
-This will be an on-going list of development and research ideas. 
+This is an on-going list of development and research ideas. 
 
 <!--1. Blockchain setting
     1. Scalable zk-rollup
