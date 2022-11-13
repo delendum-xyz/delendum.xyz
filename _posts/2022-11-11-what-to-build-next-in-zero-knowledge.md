@@ -57,22 +57,23 @@ This is an on-going list of development and research ideas.
 
 Generating ZKPs can take considerable time, particularly when we’re dealing with conventional execution environments like Ethereum’s. Among ZK-rollup (ZKR) projects, there is currently a lot of focus on the efficiency of generating proofs. Some projects, like StarkNet, have even introduced new SNARK-friendly languages in the interest of prover efficiency.
 
-However, we would argue that prover efficiency isn’t really important. There are two potential concerns here: latency and compute costs.
+However, we would argue that prover efficiency isn’t essential. There are two potential concerns here: latency and compute costs.
 
-Latency isn’t much of an issue because proving is highly parallelizable. The main bottlenecks in most proof systems, such as building Merkle trees (in FRI based systems), scale naturally to many CPUs or GPUs. Moreover, nowadays we have a variety of practical proof aggregation schemes: Plonky2, Halo, SnarkPack, and so forth. This lets us generate each transaction proof on a separate machine in parallel, then aggregate them later.
+Latency isn’t much of an issue because proving is highly parallelizable. The main bottlenecks in most proof systems, such as building Merkle trees (in FRI-based systems), scale naturally to many CPUs or GPUs. Nowadays, we have a variety of practical proof aggregation schemes: Plonky2, Halo, SnarkPack, and so forth. This lets us generate each transaction proof on a separate machine in parallel, then aggregate them later.
 
 What about compute costs? Suppose we have a very inefficient CPU-based prover, which takes a whole CPU-hour to create a typical transaction proof. I can rent a VM from CoreWeave for as little as $0.0125 per vCPU-hour. This is simply negligible compared to typical transaction fees, which are driven by native execution bottlenecks.
 
 So, if proving is easy to scale, does that mean ZKRs have solved the scalability problem? Not so much! Existing ZKR designs make no attempt to scale sequencing, i.e. native execution. Unlike proving, sequencing is not trivially parallelizable.
 
-One partial solution would be to JIT compile contract code. While JIT compilers are of limited use with EVM bytecode, they work well with other bytecode formats such as wasm. Another partial solution would be to parallelize transaction execution based on the dependency graph, as Solana does, or optimistically, as in Block-STM.
+There are several approaches to enabling parallelism. One is to have transactions declare what state they will interact with, so that nodes can easily parallelize based on the transactions’ dependency graph. Solana is an example of this model. If we want to support more dynamic transactions, with interactions that won’t be known until they’re executed, we can use an optimistic parallelism, as in the Block-STM model.
 
-A more promising long-term solution might be a ZKR with execution sharding (schemes where each validator is assigned one of several shards, and executes transactions on that shard only). Sharding normally creates a weakest-link problem, where attacking a single shard compromises the security of the entire system, but ZKPs solve this.
+With those techniques, we’re still limited to the power of one machine, and storage remains a bottleneck. To scale further, we must turn to sharding. Ideally, a sharded system would still allow transactions to atomically interact with state on multiple shards. To support this we must lock state before touching it, as transactional databases do.
 
+As an alternative to locking, Vitalik suggested the idea of “[yanking](https://ethresear.ch/t/cross-shard-contract-yanking/1450).” In a way this makes atomicity the application developer’s responsibility, which isn’t ideal. Another interesting alternative is to use sharding within a node, as in the [Ostraka paper](https://arxiv.org/abs/1907.03331). This makes sharding simpler but makes it harder to run a node, which doesn’t seem like a major issue since light clients enjoy the same security in a succinct blockchain.
 
 ### Faster hash function
 
-For recursive FRI-based proofs, we need hashes which are efficient both on CPUs and in arithmetic circuits. Some recent algebraic hashes were designed with arithmetic circuits in mind, but they are more expensive than we'd like. Particularly on CPUs, they are expensive compared to conventional hashes like blake3.
+For recursive FRI-based proofs, we need hashes which are efficient both on CPUs and in arithmetic circuits. Some recent algebraic hashes were designed with arithmetic circuits in mind, but they are more expensive than we'd like. Particularly on CPUs, they are expensive compared to conventional hashes like BLAKE3. (For example, algebraic hashes are frequently 100x - 1000x more efficient to verify inside a proving system, but on the CPUs they are 10x - 100x less efficient than something like BLAKE3.)
 
 It seems that any algebraic hash can be attacked by applying a root-finding algorithm to a low-degree CICO problem. See, for example, Algebraic Attacks against Some Arithmetization-Oriented Primitives. While we can mitigate such attacks with many rounds of arithmetic, making our overall permutation very high-degree, this results in rather expensive hashes.
 
@@ -81,9 +82,13 @@ It seems that any algebraic hash can be attacked by applying a root-finding algo
 
 To solve this problem, Ethereum foundation has been working on a Reinforced Concrete version for this field (Goldilocks here is referred to as 2^64-2^31+1). You may see it at the end of this [talk](https://youtu.be/SXnb7T9YATs).
 
-One feature that stands out to us in Reinforced Concrete is that there is only one round with the lookup table; all the other rounds are arithmetization-friendly. There are a bunch of attack techniques that allow you to skip one round at the beginning or at the end[^10]. To our knowledge, none of them have been extended to skipping rounds in the middle, but it wouldn't be surprising if it were developed. It would be much more reassuring with a hash function that uses a lookup table in every round.
+One feature that stands out to us in Reinforced Concrete is that there is only one round with the lookup table; all the other rounds are arithmetization-friendly. There are a bunch of attack techniques that allow you to skip one round at the beginning or at the end. To our knowledge, none of them have been extended to skipping rounds in the middle, but it wouldn't be surprising if it were developed. It would be much more reassuring if a hash function used a lookup table in many rounds (i.e., every round or every other round). 
 
-Lookup tables are kind of expensive, because you need to a) decompose your field element and b) recompose the looked up elements, such that the entire procedure is a permutation over the field. Not counting the lookup table itself, that correct decomposition and recomposition is arithmetically expensive.
+Lookup tables are kind of expensive because you need to 
+
+- decompose your field element and 
+- recompose the looked up elements, such that the entire procedure is a permutation over the field, not counting the lookup table itself. The correct decomposition and recomposition is arithmetically expensive.
+
 
 You can use the structure of the prime 2^64 - 2^32 + 1 to decompose a field element into two u32s with provable correctness (and recompose it afterwards), but then a u32 is still too large for a lookup table – and even that only works if you find a u32 lookup table that sends pairs of u32's that represent valid field elements to pairs of u32's that represent valid field elements. Can we come up with something that is on par with [Rescue-Prime](https://eprint.iacr.org/2020/1143.pdf) in terms of arithmetic complexity? For generic primes, we think it's completely hopeless.
 
@@ -126,7 +131,6 @@ Proof composition is a powerful technique that allows generating proofs of proof
 Some use cases for proof composition in the blockchain context include:
 
 
-
 * Succinct blockchains
 * Proof compression before publishing a proof to an L1 blockchain. This is a common technique for L2 rollups to save on L1 gas costs
 * Enabling users to make transactions with private data, as done in Aztec's [zk-rollup](https://medium.com/aztec-protocol/proof-compression-a318f478d575)
@@ -135,7 +139,6 @@ Some use cases for proof composition in the blockchain context include:
 While current proof composition deployments are usually part of the same project, over time we will see composed proofs combining proofs that originate from different projects.
 
 Open problems:
-
 
 
 * We need developer tooling for seamless proof composition and conversion across different proving systems. Today, this is usually a manual process
@@ -158,20 +161,20 @@ Following this train of logic, we can briefly derive some areas of opportunities
 
 
 
-1. **Creator-friendly interfaces**: This includes both high level editors and high level programming languages. As an example for editors, Chris Hecker proposed the idea of [Photoshop of AI](https://www.chrishecker.com/Structure_vs_Style) more than a decade ago. As for programming languages, even the most modern programming languages such as Rust are considered low level in the sense that they require intimate understanding of low level systems (memory, thread etc) to be approachable. It will be immensely useful to converge toward a multi-level compiling scheme, exposing expressive creator-centric programming interfaces at the highest level, sparing creators the trouble of “learning how to code” and thinking in machine terms.
+- Creator-friendly interfaces: This includes both high level editors and high level programming languages. As an example for editors, Chris Hecker proposed the idea of [Photoshop of AI](https://www.chrishecker.com/Structure_vs_Style) more than a decade ago. As for programming languages, even the most modern programming languages such as Rust are considered low level in the sense that they require intimate understanding of low level systems (memory, thread etc) to be approachable. It will be immensely useful to converge toward a multi-level compiling scheme, exposing expressive creator-centric programming interfaces at the highest level, sparing creators the trouble of “learning how to code” and thinking in machine terms.
 
-2. **Native implementation of core engine systems**: as zkVMs and rollup architectures continue to evolve, it is important for core game engine systems to be built natively with best patterns invented on the fly. This means we need native smart contract patterns for describing physics systems, AI systems, and resource/entity management systems in ways that are modular, extensible, and sufficiently robust and powerful to become standards eventually - only with robust standards will these game 2.0 worlds be interoperable.
+- Native implementation of core engine systems: as zkVMs and rollup architectures continue to evolve, it is important for core game engine systems to be built natively with best patterns invented on the fly. This means we need native smart contract patterns for describing physics systems, AI systems, and resource/entity management systems in ways that are modular, extensible, and sufficiently robust and powerful to become standards eventually - only with robust standards will these game 2.0 worlds be interoperable.
 
 We can also learn from the intertwining relationship between computing and gaming in history: gaming is an unintended application of computer graphics in the 1990’s. GPU was first created with the intent to capture a niche market in industrial 3D rendering (aerospace, mechanical engineering, architectural design etc.) But people loved games and market size grew exponentially. Game developers recognized the opportunities and developed new games under the limitation of GPU and computer graphics algorithms at the time, pushing their boundaries. 
 
 GPU makers then recognized the opportunity, heavily invested in R&D of new GPUs and worked with game developers to deliver 2-5x better GPU every 1-2 years; OS makers recognized the opportunity and defined new standards for gaming and 3D interactions (e.g. DirectX). Resources from industry and academics were poured into computer graphics technologies (computer vision, 3D rendering, physics, simulation, etc.) to meet the new demand. GPU and computer graphics technologies were substantially advanced in 2010’s, and people found many more applications of both: machine learning (preference learning, parameter optimization, order routing), autonomous driving, robotics, virtual reality… 
 
-In light of this, we think that verifiable gaming has the potential to drive the advancement of proof systems, proof recursion and aggregation, rollup layer architecture, and hardware acceleration. We believe that this will ultimately lead to the development of many more applications of these technologies than could be foreseen today.
+In light of this, we think that verifiable gaming has the potential to drive the advancement of proof systems, proof recursion and aggregation, hardware acceleration and etc. We believe that this will ultimately lead to the development of many more applications of these technologies than could be foreseen today.
 
 
 ### Formal verification of the zero-knowledge tech stack
 
-We wrote a research blog on formal verification of ZK constraint systems previously. In general, a lot of work needs to be done. There is not enough emphasis placed on formal verification in the security industry. Based on the observations and arguments presented in the [previous article](https://delendum.xyz/2022/09/04/formal-verification-zk-constraint-systems.html), we think the following will be some interesting directions for future research and development:
+We wrote an article on formal verification of ZK constraint systems previously. In general, a lot of work needs to be done. There is not enough emphasis placed on formal verification in the security industry. Based on the observations and arguments presented in the [previous article](https://delendum.xyz/2022/09/04/formal-verification-zk-constraint-systems.html), we think the following will be some interesting directions for future research and development:
 
 
 * Build foundations for formally verifying zero knowledge proof systems:
@@ -296,4 +299,3 @@ _If you’re interested in further discussions on this topic or working together
 
 [^15]:
      This is a more involved use case, and overlaps heavily with formal verification. Recursive or aggregated proofs of integrity for formally verified programs is a longer run possibility
-
