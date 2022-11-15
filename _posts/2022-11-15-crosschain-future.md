@@ -40,7 +40,7 @@ In other words, the ideal bridge should be "trustless":
 
 ## The role of ZKP
 
-In a separate article ["What to build next in ZKP"](https://github.com/isolab-gg/isomorph/blob/main/docs/blog/what-to-build-next.md), we showed a few ways ZKP could fix the "bridge problems"<sup>[5](#f5)</sup> without getting into too many technical details. We will discuss our solutions to specific problems (with a lot of math and empirical data) in separate documents. Without repeating what we said in other articles, here we want to explain on a high level why we believe ZKP would play a critical role going beyond solving immediate problems. 
+In a separate article ["What to build next in ZKP"](https://delendum.xyz/2022/11/14/what-to-build-next-in-zero-knowledge.html?3#cross-chain-trust-data-and-privacy), we showed a few ways ZKP could fix the "bridge problems"<sup>[5](#f5)</sup> without getting into too many technical details. We will discuss our solutions to specific problems (with a lot of math and empirical data) in separate documents. Without repeating what we said in other articles, here we want to explain on a high level why we believe ZKP would play a critical role going beyond solving immediate problems. 
 
 Regardless of what assets or messages are sent across a blockchain, the destination chain must verify events and messages claimed to have been committed in other chains<sup>[6](#f6)</sup>. However, the verification is typically not feasible to fully compute on-chain because the computation requires using functions too complex by the chains' virtual machines (such as EVM) and processing a large amount of input data. To work around this, we have to partition the computation and move some parts off-chain while proving the off-chain computation is done correctly using some known parameters stored on-chain and some off-chain data the on-chain verifier doesn't care about (except for relevant parts)<sup>[7](#f7)</sup>. ZKP is the ideal tool for this because<sup>[8](#f8)</sup>:
 
@@ -130,7 +130,7 @@ The framework could also help solve some immediate problems in asset transfer:
 
 In the long term, cross-chain interoperability projects today<sup>[27](#f27)</sup> could also benefit from these building blocks. For example, as of today, apps based on LayerZero may extend their base layer "LzApp"<sup>[28](#f28)</sup> and pass cross-chain messages using smart contract calls defined in the base class, where the message is wrapped inside a byte array. However, defining, processing, parsing, and verifying the messages are left to the developers with little guidance. It is unclear whether there is any length requirement, when the message will arrive, in what order, whether there will be duplicate messages, and how the receiving app could respond to each message. We need far more than just "passing a byte array" to build an effective cross-chain app in production.
 
-<a name="f27">[27]</a>: Such as LayerZero and Axelar - though neither is trustless. Their approach is discussed in our other article ["What to build next in ZKP"](https://github.com/isolab-gg/isomorph/blob/main/docs/blog/what-to-build-next.md)
+<a name="f27">[27]</a>: Such as LayerZero and Axelar - though neither is trustless. Their approach is discussed in our other article ["What to build next in ZKP"](https://delendum.xyz/2022/11/14/what-to-build-next-in-zero-knowledge.html?3#cross-chain-trust-data-and-privacy)
 
 <a name="f28">[28]</a>: See [LzApp implementation](https://github.com/LayerZero-Labs/solidity-examples/blob/main/contracts/lzApp/LzApp.sol) 
 
