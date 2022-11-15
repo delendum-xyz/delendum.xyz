@@ -27,9 +27,6 @@ By Daniel Lubarov, Aaron Li, Andrei Nagornyi, James Stearn, Ole Spjeldnæs, Guil
     * [Software supply chain security](#software-supply-chain-security)
 - [Introducing our fellowship program](#introducing-our-fellowship-program)
 
-<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
-
-
 ## Introduction
 
 What are the problems that haven’t been solved in blockchain and how can we leverage zero-knowledge proof as a tool to solve these problems? We welcome everyone to contribute to this list, improve on and build upon the existing ideas, and propose potential solutions to some of the open problems.
