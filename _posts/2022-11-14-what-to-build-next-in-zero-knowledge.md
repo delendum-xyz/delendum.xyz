@@ -16,7 +16,7 @@ By Daniel Lubarov, Aaron Li, Andrei Nagornyi, James Stearn, Ole Spjeldnæs, Guil
 - [Blockchain Setting](#blockchain-setting)
   * [Scalable zk-rollup](#scalable-zk-rollup)
   * [Faster hash function](#faster-hash-function)
-  * [Cross chain: trust, data and privacy](#cross-chain--trust--data-formats-and-privacy)
+  * [Cross chain: trust, data and privacy](#cross-chain--trust--data-and-privacy)
   * [Universal layer for proof aggregation](#universal-layer-for-proof-aggregation-and-composition)
   * [Verifiable gaming and open world](#verifiable-computation--gaming-and-open-world)
   * [Formal verification of the ZK system](#formal-verification-of-the-zero-knowledge-tech-stack)
@@ -36,7 +36,7 @@ This is an on-going list of development and research ideas.
 
 <!--1. Blockchain setting
     1. Scalable zk-rollup
-    2. Cross chain: trust, data formats and privacy
+    2. Cross chain: trust, data and privacy
     3. Universal layer for proof aggregation
     4. Verifiable gaming and open worlds
     5. Formal verification
