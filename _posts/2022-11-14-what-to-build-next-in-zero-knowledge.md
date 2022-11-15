@@ -14,18 +14,20 @@ By Daniel Lubarov, Aaron Li, Andrei Nagornyi, James Stearn, Ole Spjeldnæs, Guil
 
 - [Introduction](#introduction)
 - [Blockchain Setting](#blockchain-setting)
-  * [Scalable zk-rollup](#scalable-zk-rollup)
-  * [Faster hash function](#faster-hash-function)
-  * [Cross chain: trust, data and privacy](#cross-chain--trust--data-and-privacy)
-  * [Universal layer for proof aggregation](#universal-layer-for-proof-aggregation-and-composition)
-  * [Verifiable gaming and open world](#verifiable-computation--gaming-and-open-world)
-  * [Formal verification of the ZK system](#formal-verification-of-the-zero-knowledge-tech-stack)
+    * [Scalable zk-rollup](#scalable-zk-rollup)
+    * [Faster hash function](#faster-hash-function)
+    * [Cross chain: trust, data and privacy](#cross-chain--trust--data-and-privacy)
+    * [Universal layer for proof aggregation](#universal-layer-for-proof-aggregation-and-composition)
+    * [Verifiable gaming and open world](#verifiable-computation--gaming-and-open-world)
+    * [Formal verification of the ZK system](#formal-verification-of-the-zero-knowledge-tech-stack)
 - [Non-blockchain Setting](#non-blockchain-setting)
-  * [Platform for academic innovation](#platform-for-pseudonymous-collaboration-and-academic-innovation)
-  * [Collaborative dataset curation](#collaborative-dataset-curation)
-  * [Verifiable ML inference pipeline](#verifiable-ml-inference-pipeline)
-  * [Software supply chain security](#software-supply-chain-security)
+    * [Platform for academic innovation](#platform-for-pseudonymous-collaboration-and-academic-innovation)
+    * [Collaborative dataset curation](#collaborative-dataset-curation)
+    * [Verifiable ML inference pipeline](#verifiable-ml-inference-pipeline)
+    * [Software supply chain security](#software-supply-chain-security)
 - [Introducing our fellowship program](#introducing-our-fellowship-program)
+
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
 
 ## Introduction
@@ -54,7 +56,7 @@ This is an on-going list of development and research ideas.
 ## Blockchain Setting
 
 
-### **Scalable zk-rollup**
+### Scalable zk-rollup
 
 Generating ZKPs can take considerable time, particularly when we’re dealing with conventional execution environments like Ethereum’s. Among ZK-rollup (ZKR) projects, there is currently a lot of focus on the efficiency of generating proofs. Some projects, like StarkNet, have even introduced new SNARK-friendly languages in the interest of prover efficiency.
 
@@ -93,7 +95,7 @@ Lookup tables are kind of expensive because you need to
 
 You can use the structure of the prime 2^64 - 2^32 + 1 to decompose a field element into two u32s with provable correctness (and recompose it afterwards), but then a u32 is still too large for a lookup table – and even that only works if you find a u32 lookup table that sends pairs of u32's that represent valid field elements to pairs of u32's that represent valid field elements. Can we come up with something that is on par with [Rescue-Prime](https://eprint.iacr.org/2020/1143.pdf) in terms of arithmetic complexity? For generic primes, we think it's completely hopeless.
 
-### **Cross chain: trust, data formats and privacy**
+### Cross chain: trust, data and privacy
 
 ZKP could potentially “fix the bridge problem” - i.e. the transfer of assets from one chain to another without going through any centralized exchange[^1], the single use case that suffered [$2 billion](https://blog.chainalysis.com/reports/cross-chain-bridge-hacks-2022/) loss in 2021 and 2022 from [hacks](https://messari.io/report/a-year-of-bridge-exploits). Among these incidents, the top root causes are leaked private keys from negligent operators, and bugs in cross-chain event verification code
 
