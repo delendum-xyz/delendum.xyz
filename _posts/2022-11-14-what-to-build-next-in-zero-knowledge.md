@@ -8,7 +8,7 @@ image: "/assets/posts/2022-11-14-what-to-build-next-in-zero-knowledge/preview.jp
 
 By Daniel Lubarov, Aaron Li, Andrei Nagornyi, James Stearn, Ole Spjeldnæs, Guiltygyoza, Ventali Tan
 
-*Thanks to Dmitry Khovratovich, Alan Szepieniec, Bobbin Threadbare and Tim Cartens for helpful suggestions.*
+*Thanks to Dmitry Khovratovich, Alan Szepieniec, Bobbin Threadbare, Tim Cartens and Thor Kamphefner for helpful suggestions.*
 
 ### Table of Content
 
