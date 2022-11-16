@@ -484,7 +484,7 @@ the binary decomposition of k. The inverse is
 
 $$x_{0}^{i_{0}}...x_{t-1}^{i_{t-1}}\mapsto x^{i_{0}\cdot 2^{0}}...x^{i_{t-1}\cdot2^{t-1}}$$.
 
-**Multilinear to univariate interpolation.** 
+**Multilinear to univariate interpolation** 
 
 This raises one (not directly related to aggregation) question: Is it possible to do O(n)
 univariate interpolation by first doing multilinear interpolation over
@@ -511,7 +511,7 @@ exactly the univariate polynomial we'd want to map f to.
 The problem, then, is to find a closed form of the map $$\varphi$$. If we
 can do this, we have solved the problem. More likely it does not exist.
 
-**Better recursive proofs.** 
+**Better recursive proofs** 
 
 In HyperPlonk, the authors use KZG commitments. For a Plonky-like approach, we would like something hash-based such as FRI. There does in fact exist a FRI analogue for
 multivariate polynomials. The problem occurs where we need to check the consistency of the witness with the final prover message of the sumcheck protocol.
