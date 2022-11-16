@@ -197,7 +197,7 @@ Halo 2 is also used by the zkEVM rollup project Scroll, in order to
 aggregate multiple blocks into one final proof and thereby amortize the
 L1 verification costs between them.
 
-## Plonky2
+### Plonky2
 
 -   Recursive
 
@@ -256,7 +256,7 @@ Plonky2 implements custom gates which ensure that the verifier circuit
 is shallow, as well as some other engineering optimizations, in order to
 make recursive proving as fast as possible. Plonky2 was created by the formerly Mir Protocol, now Polygon Zero team.
 
-## Nova
+### Nova
 
 -   Recursive
 
@@ -289,7 +289,7 @@ IVC is nevertheless interesting: Take some half-baked proofs, which by
 themselves are neither zero-knowledge nor succinct, then aggregate and
 construct a single proof at the end.
 
-## SnarkPack
+### SnarkPack
 
 -   Batching
 
