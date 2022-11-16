@@ -1,6 +1,6 @@
 ---
 layout: post
-author: Iso Lab & Delendum Research
+author: Iso Lab
 title: "Cross-chain Future"
 excerpt: "Beyond making asset transfer cross-chain trustless, fast, and secure, what else should we do to connect the blockchains and help developers build the cross-chain future?"
 image: "/assets/posts/2022-11-15-crosschain-future/preview.jpg"
