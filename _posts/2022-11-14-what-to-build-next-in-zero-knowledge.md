@@ -13,14 +13,14 @@ By Daniel Lubarov, Aaron Li, Andrei Nagornyi, James Stearn, Ole Spjeldnæs, Guil
 ### Table of Content
 
 - [Introduction](#introduction)
-- [Blockchain Setting](#blockchain-setting)
+- [Blockchain setting](#blockchain-setting)
     * [Scalable zk-rollup](#scalable-zk-rollup)
     * [Faster hash function](#faster-hash-function)
     * [Cross chain: trust, data and privacy](#cross-chain-trust-data-and-privacy)
     * [Universal layer for proof aggregation](#universal-layer-for-proof-aggregation-and-composition)
     * [Verifiable gaming and open world](#verifiable-computation--gaming-and-open-world)
     * [Formal verification of the ZK system](#formal-verification-of-the-zero-knowledge-tech-stack)
-- [Non-blockchain Setting](#non-blockchain-setting)
+- [Non-blockchain setting](#non-blockchain-setting)
     * [Platform for academic innovation](#platform-for-pseudonymous-collaboration-and-academic-innovation)
     * [Collaborative dataset curation](#collaborative-dataset-curation)
     * [Verifiable ML inference pipeline](#verifiable-ml-inference-pipeline)
