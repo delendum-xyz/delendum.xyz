@@ -144,3 +144,7 @@ In the long term, cross-chain interoperability projects today<sup>[27](#f27)</su
 ## Closing Remark 
 
 Many technical problems mentioned here warrant a standalone deep-dive article for further discussion (and their relevane to ZKP). We will also write separate articles to discuss the approaches and algorithms we propose to make the trustless bridge work using ZKP and how we solve immediate problems today. If you are interested in working with us, please let us know at [hello@isolab.gg](mailto: hello@isolab.gg)
+
+__________________________________
+
+_If you’re interested in further discussions on this topic or working together on this subject, please consider joining our [group chat](https://t.me/+9WAAmCpPRadjOTNh) or reach out to us at hello@isolab.gg or research@delendum.xyz._

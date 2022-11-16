@@ -543,9 +543,8 @@ This leaves us with a few open questions:
 2.  If not, is there some other recursion-friendly PCS which could be
     used?
 
-As it turns out, we have likely found a solution to 1. (see [this
-video](https://www.youtube.com/watch?v=tv5-gFgQWr0)), and anyone
-interested should feel free send me a message.
+As it turns out, we have likely found a solution to 1 (see [this
+video](https://www.youtube.com/watch?v=tv5-gFgQWr0)).
 
 This seems to be a promising direction, due to the linear proving time
 and the increased flexibility with respect to custom gates. It also
@@ -554,3 +553,7 @@ logarithmic term to the proof, which is more annoying for KZG-based than
 FRI-based proofs, as the latter are already polylogarithmic (bigger than
 the sumcheck part) whereas the former are constant-sized (much smaller)
 by default.
+
+__________________________________
+
+_If you’re interested in further discussions on this topic or working together on this subject, please consider joining our [group chat](https://t.me/+9WAAmCpPRadjOTNh) or reach out to us at ole@delendum.xyz or research@delendum.xyz._
