@@ -6,9 +6,16 @@ excerpt: "Beyond making asset transfer cross-chain trustless, fast, and secure, 
 image: "/assets/posts/2022-11-15-crosschain-future/preview.jpg"
 --- 
 
+### Table of Content
 
+- [Introduction](#introduction)
+- [The role of ZKP](#the-role-of-zkp)
+- [Use cases of the near future](#use-cases-of-the-near-future)
+- [Beyond bridging assets](#beyond-bridging-assets)
+  * [Existing interchain protocols](#existing-interchain-protocols)
+- [Closing Remark](#closing-remark)
 
-# Crosschain Future
+## Introduction
 
 There is no doubt that Ethereum is the most secure blockchain (as of today) with the largest ecosystem. It is foreseeable that Ethereum could become the "Pareto frontier"<sup>[1](#f1)</sup> for running blockchain applications, but it is highly improbable that there will be "a blockchain for everything". When we zoom into specific use cases, not all properties of a blockchain<sup>[2](#f2)</sup> have equal importance. The choices made on algorithms and submodules<sup>[3](#f3)</sup> lead to vastly different user experiences and security guarantees. The tradeoffs are already manifested in layers 1 blockchains and their distinctive ecosystems today, which capture different types of builders and products.
 
