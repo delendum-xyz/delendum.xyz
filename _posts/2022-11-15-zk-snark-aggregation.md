@@ -120,7 +120,7 @@ into categories:
 As so much of cryptography, zero-knowledge and otherwise, Halo is based
 on elliptic curves. Specifically, it uses a polynomial commitment scheme
 (PCS), which was previously used in another well-known zk-SNARK scheme,
-namely *Bulletproofs*: Given an elliptic curve E (where we write
+namely [Bulletproofs](https://eprint.iacr.org/2017/1066.pdf): Given an elliptic curve E (where we write
 $$E(\mathbb{F})$$ for the group defined by the points on E in the field
 $$\mathbb{F}$$ over which we work) and random points
 $$P_{i}\in E(\mathbb{F})$$, one can commit to a polynomial p(x) =
@@ -173,7 +173,7 @@ of each proof before computing an aggregated proof for all together) and
 the verifier (for whom the proof really boils down to the linear-time
 computation she has to perform).
 
-For specifics, we refer to [the original paper](https://eprint.iacr.org/2019/1021). The Halo approach is clearly algebraic in its nature: It depends on the nice homomorphic
+For specifics, we refer to the original [Halo paper](https://eprint.iacr.org/2019/1021). The Halo approach is clearly algebraic in its nature: It depends on the nice homomorphic
 properties of Pedersen commitments, as well as a particular polynomial.
 Moreover, it is sequential: The prover iteratively adds commitments
 $$G_{1}, G_{2},...$$ to his inner proof, before opening a linear
@@ -189,7 +189,7 @@ previous state together with the transactions in the last block.
 Finally, a proof is computed, representing everything that has happened
 up to that state.
 
-The Electric Coin Company, the developers of the scheme, recently
+Electric Coin Company, the developer of the scheme, recently
 incorporated Halo 2 as part of their upgrade to the Orchard shielded
 pools.
 
@@ -254,7 +254,7 @@ more complex expressions than addition and multiplication.
 
 Plonky2 implements custom gates which ensure that the verifier circuit
 is shallow, as well as some other engineering optimizations, in order to
-make recursive proving as fast as possible. Plonky2 was created by the formerly Mir Protocol, now Polygon Zero team.
+make recursive proving as fast as possible. Plonky2 was created by the formerly Mir Protocol, now Polygon Zero team. 
 
 ### Nova
 
@@ -299,7 +299,7 @@ construct a single proof at the end.
 
 The schemes we have seen up to this point have been zk-SNARKs optimized
 for aggregation, i.e. the aggregation techniques are essentially baked
-into the respective protocols. SnarkPack takes a different approach: It is
+into the respective protocols. [SnarkPack](https://eprint.iacr.org/2021/529) takes a different approach: it is
 constructed as an addition to an already existing zk-SNARK, namely
 Groth16. In this sense, SnarkPack is the first (and only) true
 *aggregation scheme* covered here.
@@ -361,7 +361,7 @@ proof size as well as the verifier time are logarithmic in m.
 -   Algebraic
 
 **Since writing this section, We have come across the brand new paper
-aPlonk, which is essentially SnarkPack for PLONK. Nevertheless, the idea here is slightly different, and so it should still be worth exploring.**
+[aPlonk](https://eprint.iacr.org/2022/1352.pdf), which is essentially SnarkPack for PLONK. Nevertheless, the idea here is slightly different, and so it should still be worth exploring.**
 
 SnarkPack is Groth16-based, and therefore not relevant for applications
 relying on universal SNARKs, such as blockchain execution layers. There
@@ -457,7 +457,7 @@ some issues down the road.
 
 We observe that multilinear polynomials will become increasingly
 popular for arithmetization, in particular with the recent release of
-HyperPlonk, which has some exciting properties such as the possibility for high-degree custom gates. The main benefit of multilinear polynomials is the O(n) interpolation, as
+[HyperPlonk](https://eprint.iacr.org/2022/1355), which has some exciting properties such as the possibility for high-degree custom gates. The main benefit of multilinear polynomials is the O(n) interpolation, as
 opposed to O(n$$\log$$n) for univariate polynomials. We interpolate over
 the Boolean hypercube $$\{0,1\}^{t}$$, and for a function
 $$f:\{0,1\}^{t}\rightarrow \mathbb{F}$$, its multilinear extension is
