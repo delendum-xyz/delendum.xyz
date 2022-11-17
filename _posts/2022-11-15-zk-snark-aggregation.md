@@ -5,7 +5,7 @@ title: "zk-SNARK Aggregation"
 excerpt: "Popular zk-SNARK aggregation constructions and some potentially interesting approaches"
 ---
 
-By Delendum Research and ETH Zurich
+Delendum Research and ETH Zürich
 
 ### Table of Content
 
