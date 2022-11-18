@@ -22,7 +22,7 @@ A two-month program to support research and development advancing the frontiers 
 
 ## Research Fellowship
 
-If you are interested in applying to the research fellowship, please fill out [the form here](/fellowship/research). We will evaluate applications on a rolling basis. In the meantime, you can join our discussion [group chat](/telegram)
+If you are interested in applying to the research fellowship, please fill out [the form here](/fellowship/research). We will evaluate applications on a rolling basis. 
 
 <table>
 <thead>
@@ -44,7 +44,7 @@ If you are interested in applying to the research fellowship, please fill out [t
 </tr>
 <tr><td colspan="4"><p class="text-center">you will hear back from us within 1 week</p></td></tr>
 <tr>
-    <td>Research Fellowship (1 month)</td>
+    <td>Research Fellowship (6 weeks)</td>
     <td>complete your research with us</td>
     <td>
         <p> candidate: extensively discuss with our team your idea and validate it </p>
@@ -84,7 +84,7 @@ If you are interested in applying to the research fellowship, please fill out [t
 
 ## Development Fellowship
 
-If you are interested in applying to the development fellowship, please fill out [the form here](/fellowship/development). We will evaluate applications on a rolling basis. In the meantime, you can join our discussion [group chat](/telegram)
+If you are interested in applying to the development fellowship, please fill out [the form here](/fellowship/development). We will evaluate applications on a rolling basis. 
 
 
 
@@ -108,7 +108,7 @@ If you are interested in applying to the development fellowship, please fill out
 </tr>
 <tr><td colspan="4"><p class="text-center">you will hear back from us within 1 week</p></td></tr>
 <tr>
-    <td>Development Fellowship (1 month)</td>
+    <td>Development Fellowship (6 weeks)</td>
     <td>build the development project with us </td>
     <td>
         <p> candidate: extensively discuss with our team your idea and validate it </p>
