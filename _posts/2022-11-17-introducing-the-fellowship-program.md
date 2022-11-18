@@ -18,7 +18,7 @@ We have daily office hours with our team members and external experts to cover t
 Our mentors include: 
 
 - Bobbin Threadbare - Virtual Machines, Zero-Knowledge Proofs
-- Brian Retford - Compiler, Transpiler, Language
+- Brian Retford - Compiler, Transpiler, Language, Applied ZKP, ML
 - Zaki Manian - Tendermint, Protocol Development
 - Alan Szepieniec - Post-Quantum Cryptography, Hash Function
 - Christopher Goes - IBC, Protocol Development
