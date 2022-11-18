@@ -19,13 +19,17 @@ We have daily office hours with our team members and external experts to cover t
 
 Our mentors include: 
 
-* **Bobbin Threadbare** | Virtual Machines, Zero-Knowledge Proofs
-* **Brian Retford** | Compiler, Transpiler, Language
-* **Zaki Manian** | Tendermint, Protocol Development
-* **Alan Szepieniec** | Post-Quantum Cryptography, Hash Function
-* **Christopher Goes** | IBC, Protocol Development
-* **Daniel Lubarov** | Language, Proving System, Arithmetic Optimizations
-* **Shashank Agrawal** | Multi-Party Computation, Zero-Knowledge Proofs
+* **Bobbin Threadbare**  | Virtual Machines, Zero-Knowledge Proofs
+* **Brian Retford**  | Compiler, Transpiler, Language
+* **Zaki Manian**  | Tendermint, Protocol Development
+* **Alan Szepieniec**  | Post-Quantum Cryptography, Hash Function
+* **Christopher Goes**  | IBC, Protocol Development
+* **Daniel Lubarov**  | Language, Proving System, Arithmetic Optimizations
+* **Shashank Agrawal**  | Multi-Party Computation, Zero-Knowledge Proofs
+
+The deadline for 2023 Jan - Feb fellowship application is 2022 Nov 30. We will evaluate applications on a rolling basis. Typically, we will get back to you within a week. Since we have very limited capacity (5 fellows), the early applicants in that month generally get a better chance. 
+
+The fellowship program is remote friendly, but we do prefer working together in our office in San Francisco. If you have any questions, please do not hesitate to contact us at research@delendum.xyz.
 
 Here is the schedule of one of our fellows:
 <style>
@@ -156,8 +160,6 @@ Here is the schedule of one of our fellows:
   </tr>
 </table>
 
-
-We will evaluate applications monthly on a rolling basis. Typically, we will get back to you within a week. Since we have very limited capacity (3 fellows per month), the early applicants in that month generally get a better chance. If you have any questions, please do not hesitate to contact us at research@delendum.xyz.
 
 __________________________________
 
