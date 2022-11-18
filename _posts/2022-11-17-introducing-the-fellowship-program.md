@@ -21,7 +21,7 @@ Our mentors include:
 - Brian Retford - Compiler, Transpiler, Language, Applied ZKP, ML
 - Zaki Manian - Tendermint, Protocol Development
 - Alan Szepieniec - Post-Quantum Cryptography, Hash Function
-- Christopher Goes - IBC, Protocol Development
+- Christopher Goes - Protocol Development, System Designs
 - Daniel Lubarov - Language, Proving System, Arithmetic Optimizations
 - Shashank Agrawal - Multi-Party Computation, Zero-Knowledge Proofs
 
