@@ -6,12 +6,10 @@ excerpt: "A two-month program to support research and development advancing the 
 image: "/assets/posts/2022-11-11-introducing-the-fellowship-program/preview.jpg"
 --- 
 
-## Introducing our fellowship program
-
-If you are interested in working together with top experts to explore practical use cases of new research ideas, or to work on one of the topics we discussed in "What to build next" [blog series](https://delendum.xyz/2022/11/11/what-to-build-next-in-zero-knowledge.html), please consider applying to our [fellowship program](https://delendum.xyz/fellow). We are also open to development proposals for concrete solutions of other significant problems.
-
 
 Delendum fellowship is a two-month program to support research and development tackling hard problems in blockchain and the frontiers of zero-knowledge.
+
+If you are interested in working together with top experts to explore practical use cases of new research ideas, or to work on one of the topics we discussed in "What to build next" [blog series](https://delendum.xyz/2022/11/11/what-to-build-next-in-zero-knowledge.html), please consider applying to our [fellowship program](https://delendum.xyz/fellow). We are also open to development proposals for concrete solutions of other significant problems.
 
 For a research fellow, you will be collaborating with researchers on original, exploratory topics that lead to the creation of new use cases in practice. For a developer fellow, you will be working with other builders to create new products, with feedback on product feasibility and implementation.
 
@@ -19,13 +17,13 @@ We have daily office hours with our team members and external experts to cover t
 
 Our mentors include: 
 
-- Bobbin Threadbare | Virtual Machines, Zero-Knowledge Proofs
-- Brian Retford | Compiler, Transpiler, Language
-- Zaki Manian | Tendermint, Protocol Development
-- Alan Szepieniec | Post-Quantum Cryptography, Hash Function
-- Christopher Goes | IBC, Protocol Development
-- Daniel Lubarov | Language, Proving System, Arithmetic Optimizations
-- Shashank Agrawal | Multi-Party Computation, Zero-Knowledge Proofs
+- Bobbin Threadbare - Virtual Machines, Zero-Knowledge Proofs
+- Brian Retford - Compiler, Transpiler, Language
+- Zaki Manian - Tendermint, Protocol Development
+- Alan Szepieniec - Post-Quantum Cryptography, Hash Function
+- Christopher Goes - IBC, Protocol Development
+- Daniel Lubarov - Language, Proving System, Arithmetic Optimizations
+- Shashank Agrawal - Multi-Party Computation, Zero-Knowledge Proofs
 
 The deadline for 2023 Jan - Feb fellowship application is 2022 Nov 30. We will evaluate applications on a rolling basis. Typically, we will get back to you within a week. Since we have very limited capacity (5 fellows), the early applicants in that month generally get a better chance. 
 
