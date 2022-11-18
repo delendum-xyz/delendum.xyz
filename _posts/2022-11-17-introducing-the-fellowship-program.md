@@ -1,7 +1,7 @@
 ---
 layout: post
 author: Delendum Research
-title: "Introducing our fellowship program"
+title: "[Apply by 11/30] Introducing our fellowship program"
 excerpt: "A two-month program to support research and development advancing the frontiers of zero-knowledge"
 image: "/assets/posts/2022-11-11-introducing-the-fellowship-program/preview.jpg"
 --- 
@@ -157,6 +157,7 @@ Here is the schedule of one of our fellows:
    </td>
   </tr>
 </table>
+
 
 
 __________________________________
