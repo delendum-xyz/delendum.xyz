@@ -13,9 +13,14 @@ If you are interested in working together with top experts to explore practical 
 
 For a research fellow, you will be collaborating with researchers on original, exploratory topics that lead to the creation of new use cases in practice. For a developer fellow, you will be working with other builders to create new products, with feedback on product feasibility and implementation.
 
-We have daily office hours with our team members and external experts to cover the cryptography, engineering, product development aspects of your project; weekly research discussion session, joint brainstorming session, external collaboration session, cross-review process to review your work in progress; engineering and research resources from our team and network; co-publishing opportunities.
+This program provides access to
 
-Our mentors include (alphabetically ordered): 
+- daily office hours with our team members and external mentors to cover the cryptography, engineering, product development aspects of your project
+- weekly research discussion session, joint brainstorming session, external collaboration session, cross-review process to review your work in progress 
+- engineering and research resources from our team and network 
+- co-publishing opportunities
+
+Our mentors include (alphabetically ordered):
 
 - Alan Szepieniec - Post-Quantum Cryptography, Hash Function
 - Bobbin Threadbare - Virtual Machines, Zero-Knowledge Proofs
@@ -28,7 +33,7 @@ Our mentors include (alphabetically ordered):
 
 The deadline for 2023 Jan - Feb fellowship application is 2022 Nov 30. We will evaluate applications on a rolling basis. Typically, we will get back to you within a week. Since we have very limited capacity (5 fellows), the early applicants in that month generally get a better chance. 
 
-The fellowship program is remote friendly, but we do prefer working together in our office in San Francisco. If you have any questions regarding the program itself, please do not hesitate to contact us at research@delendum.xyz. For donations and sponsorship related matters, please contact us at hello@delendum.xyz.
+The fellowship program is remote friendly, but we do prefer working together in our upcoming office in San Francisco. If you have any questions regarding the program itself, please do not hesitate to contact us at research@delendum.xyz. For donations and sponsorship related matters, please contact us at hello@delendum.xyz.
 
 Here is the schedule of one of our fellows:
 <style>
