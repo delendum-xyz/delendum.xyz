@@ -360,7 +360,7 @@ proof size as well as the verifier time are logarithmic in m.
 
 -   Algebraic
 
-**Since writing this section, We have come across the brand new paper
+**Since writing this section, we have come across the brand new paper
 [aPlonk](https://eprint.iacr.org/2022/1352.pdf), which is essentially SnarkPack for PLONK. Nevertheless, the idea here is slightly different, and so it should still be worth exploring.**
 
 SnarkPack is Groth16-based, and therefore not relevant for applications
