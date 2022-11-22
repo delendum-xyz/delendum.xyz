@@ -20,11 +20,6 @@ By Daniel Lubarov, Aaron Li, Andrei Nagornyi, James Stearn, Ole Spjeldnæs, Guil
     * [Universal layer for proof aggregation](#universal-layer-for-proof-aggregation-and-composition)
     * [Verifiable gaming and open world](#verifiable-computation-gaming-and-open-world)
     * [Formal verification of the ZK system](#formal-verification-of-the-zero-knowledge-tech-stack)
-- [Non-blockchain setting](#non-blockchain-setting)
-    * [Platform for academic innovation](#platform-for-pseudonymous-collaboration-and-academic-innovation)
-    * [Collaborative dataset curation](#collaborative-dataset-curation)
-    * [Verifiable ML inference pipeline](#verifiable-ml-inference-pipeline)
-    * [Software supply chain security](#software-supply-chain-security)
 - [Introducing our fellowship program](#introducing-our-fellowship-program)
 
 ## Introduction
@@ -189,55 +184,6 @@ We wrote an article on formal verification of ZK constraint systems previously. 
 * Use K to prove statements about ZK constraint system
 	* Define the semantics of circom/cairo in K
 	* Use Rust semantics defined in K to prove properties of arkworks-rs programs
-
-## Non-blockchain Setting
-
-Provable computation in any language has huge implications because it means this has use cases unrelated to blockchain. For example, firmware for hardware such as router, fingerprint authenticators, smart homes; medical or military equipment; software for large scale infrastructure such as data centers; It is traditionally hard to debug and test these systems because bugs usually only appear in extreme corner cases with very low probability of occurrence, but may become very problematic (causing huge damage) under large scale high usage patterns. Here we briefly discuss a few problems that appear to be more important than others.
-
-
-### Platform for pseudonymous collaboration and academic innovation
-
-The simplest version of this idea is Github: Share your (unfinished) work with other people, who can bring in their own ideas and build on it in a natural way, with all the contributions being tracked and attributed correctly. 
-
-
-Combine this with a Stack Exchange-like UI for discovering problems and solutions worked on by other people, and an extensive reputation system. People can share their ideas with everyone, or just with people with certain credentials (as per said reputation system).  You can demand that every person looking at  your post/repo be added to a list in order to mitigate idea theft. Potentially, zero knowledge proofs can be used to verify off-chain credentials. And so on.
-
-This idea relies on zero knowledge not so much directly, more so as a necessity for scaling blockchains. The blockchain, on the other hand, is necessary: It’s a unique realm of absolute truth, validity, and permanence. The platform can be provably impartial, censorship-resistant, and without any backdoors. There will be pseudonymous decentralized identity primitives. 
-
-The clearest problem for something like this is the danger of idea theft. There will be ways to fight this, the most important being a necessary shift in the social layer, giving the platform and the work living there authority, ideally on equal footing with the peer-reviewed papers (wrt. Idea theft specifically).
-
-On the topic of peer review, this is not meant to be a replacement for it, but rather a supplement, likely primarily for fields which are either not taken seriously, topics and ideas which are controversial within their field, and people who do not work in academia and would otherwise not easily find collaborators.
-
-
-### Collaborative dataset curation
-
-Constructing high quality datasets both for model training and evaluation is a crucial component of an ML pipeline. Both provenance of the source data, as well as the computational integrity of the different dataset preprocessing steps are important.
-
-Consider for example opted-in mobile or wearable devices uploading health data to a common repository available to researchers and project teams. The uploads can be accompanied with a proof of integrity attesting that the readings came from the appropriate biometric sensors, were taken at the correct time of day, and are the result of human (and not automated) activity. 
-
-Conceptually, the proofs accompanying each of these data records can be thought of as leaf nodes in the proof graph. Different teams may be interested in different portions of the dataset. The first may only be interested in records with a particular characteristic, while the second may be interested in records with another. The first team can aggregate the verification of proofs for only those records it wants, and then proceed to preprocess that subset by applying further transformations (e.g., cleaning the dataset by normalizing values, removing certain features, etc.), generating a proof for these computations as well. In addition to publishing the processed dataset itself, it can publish the proofs of integrity for the aggregated verification of the individual records, as well as its computations run on the data. The second team can do the same for its subset of interest. Others may refine these datasets further, also committing their changes with their corresponding computation proofs.
-
-Individuals or teams looking to build models on the curated datasets would benefit from a single integrity proof attesting to the integrity of the source data, as well as all of the transformations it has gone through. Automatically generating a new aggregated proof when new data records are added will also be necessary. These aggregated proofs can be building blocks to a broader verifiable ML training and inference pipeline[^11].
-
-
-### Verifiable ML inference pipeline
-
-Production ML systems usually involve multiple models to serve a user request. For instance, a question answering service might deploy one NLP model to parse the user input and identify key terms, before passing that output to an ensemble of downstream pre-trained language models that have been fine-tuned for specific tasks[^12].
-
-Currently, model performance on benchmark datasets are based on trust. For very large models, it is often infeasible for individual practitioners to re-run the evaluation against the benchmarks on their own. Proofs of integrity committing a particular model's performance against a benchmark can remove this trust assumption. Since certain model combinations are frequently used together in inference pipelines, having an aggregate proof for verifying the proper performance of all models involved is advantageous.
-
-This is also a building block toward private model marketplaces, where teams that have developed private models that excel on a particular benchmark can provide zero knowledge proofs of the fact. Production pipelines using a combination of public and purchased private models can have assurance of the performance of the constituent pieces[^13].
-
-
-### Software supply chain security
-
-Software supply chain attacks can occur in both open and closed source environments. Consider an open source project that has released stable binaries for its latest release. In theory, for a given version of the code, one can walk the entire dependency graph to get assurance that the release is free of recently discovered vulnerabilities[^14]. This is cumbersome, and furthermore this analysis is instantly incomplete if we consider official binaries, as opposed to just the source, since we'd like an integrity guarantee that the binaries were properly built with the version of the source that's claimed.
-
-Ideally, we'd like to have verifiable build systems for projects. That is, each dependency of a project has an integrity guarantee. For example, consider a “leaf” dependency such as SQLite, an embedded database that is “self-contained” (written in pure C with no external dependencies). An official release of SQLite can come with a proof attesting that it has no external dependencies. Projects developing on top of SQLite can accompany their releases with integrity proofs attesting to all of their dependencies, their downstream dependents can do the same, and so on. For frequently used projects, having a single proof of integrity for the entire parent dependency graph is useful.
-
-Note that with zero knowledge proofs, this pattern can be applied to closed source systems as well. For example, a proprietary software provider can release its product binaries with a proof attesting to its open source dependencies. Other teams using this closed source product have assurance about the open source portion of their software supply chain, even though there is a closed source node in between.
-
-There are also natural extensions to this concept for proofs that attest that a software project has particular behavior, or rather does_ not_ have a particular behavior (for example, the claim that a library and its dependencies do not access any networking interfaces of the operating system[^15]).
 
 
 ## Introducing our fellowship program
