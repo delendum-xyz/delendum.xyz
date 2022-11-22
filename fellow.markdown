@@ -40,7 +40,7 @@ If you are interested in applying to the research fellowship, please fill out [t
     <td>Proposal Submission</td>
     <td>submit your research proposal on this page</td>
     <td>4-page proposal & previous publications</td>
-    <td>please follow the outline here</td>
+    <td>please follow <a href="https://docs.google.com/document/d/1Pz6vg0JzBMKg2Z--2dCwsNogzLShtgW-/edit?usp=share_link&ouid=105337105111275177447&rtpof=true&sd=true" target="_blank">the outline here</a></td>
 </tr>
 <tr><td colspan="4"><p class="text-center">you will hear back from us within 1 week</p></td></tr>
 <tr>
@@ -104,7 +104,7 @@ If you are interested in applying to the development fellowship, please fill out
     <td>Proposal Submission</td>
     <td>submit your project proposal on this page</td>
     <td>2-page proposal, and technical litepaper</td>
-    <td>please follow <a href="https://drive.google.com/file/d/1dCvT-W1XIka8eRl1f3qSPT7q4-coKO5m/view?usp=share_link" target="_blank">the outline here</a></td>
+    <td>please follow <a href="https://docs.google.com/document/d/1ifj_uGrlaXbBMBRLjVeCkQc1MdfZrpEX/edit?usp=share_link&ouid=105337105111275177447&rtpof=true&sd=true" target="_blank">the outline here</a></td>
 </tr>
 <tr><td colspan="4"><p class="text-center">you will hear back from us within 1 week</p></td></tr>
 <tr>
