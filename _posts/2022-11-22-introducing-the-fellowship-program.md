@@ -1,7 +1,7 @@
 ---
 layout: post
 author: Delendum Research
-title: "[Apply by 11/30] Introducing our fellowship program"
+title: "[Apply by 12/08] Introducing our fellowship program"
 excerpt: "A two-month program to support research and development advancing the frontiers of zero-knowledge"
 image: "/assets/posts/2022-11-11-introducing-the-fellowship-program/preview.jpg"
 --- 
@@ -13,7 +13,7 @@ If you are interested in working together with top experts to explore practical 
 
 For a research fellow, you will be collaborating with researchers on original, exploratory topics that lead to the creation of new use cases in practice. For a developer fellow, you will be working with other builders to create new products, with feedback on product feasibility and implementation.
 
-This program provides access to
+This program provides access to:
 
 - daily office hours with our team members and external mentors to cover the cryptography, engineering, product development aspects of your project
 - weekly research discussion session, joint brainstorming session, external collaboration session, cross-review process to review your work in progress 
@@ -26,16 +26,16 @@ Our mentors include (alphabetically ordered):
 - Bobbin Threadbare - Virtual Machines, Zero-Knowledge Proofs
 - Brian Retford - Compiler, Transpiler, Language, Applied ZKP, ML
 - Christopher Goes - Protocol Development, System Designs
-- Daniel Lubarov - Language, Proving System, Arithmetic Optimizations
+- Daniel Lubarov - zkVMs, Proof Systems, Optimizations
 - Eli Ben-Sasson - Theoretical Computer Science, Zero-Knowledge Proofs
 - Shashank Agrawal - Multi-Party Computation, Zero-Knowledge Proofs
 - Zaki Manian - Tendermint, Protocol Development
 
-The deadline for 2023 Jan - Feb fellowship application is 2022 Nov 30. We will evaluate applications on a rolling basis. Typically, we will get back to you within a week. Since we have very limited capacity (5 fellows), the early applicants in that month generally get a better chance. 
+The deadline for 2023 Jan - Feb fellowship application is 2022 Dec 8. We will evaluate applications on a rolling basis. Typically, we will get back to you within a week. Since we have very limited capacity (5 fellows), the early applicants in that month generally get a better chance. 
 
 The fellowship program is remote friendly, but we do prefer working together in our upcoming office in San Francisco. If you have any questions regarding the program itself, please do not hesitate to contact us at research@delendum.xyz. For donations and sponsorship related matters, please contact us at hello@delendum.xyz.
 
-Here is the schedule of one of our fellows:
+Here is an example of the schedule for one of our fellows:
 <style>
 .fellow-table td{
   padding: 8px;
