@@ -44,16 +44,16 @@ If you are interested in applying to the research fellowship, please fill out [t
 <tr>
     <td>Proposal Submission</td>
     <td>submit your research proposal on this page</td>
-    <td>4-page proposal & previous publications</td>
+    <td>proposal & previous publications</td>
     <td>please follow <a href="https://docs.google.com/document/d/1Pz6vg0JzBMKg2Z--2dCwsNogzLShtgW-/edit?usp=share_link&ouid=105337105111275177447&rtpof=true&sd=true" target="_blank">the outline here</a></td>
 </tr>
-<tr><td colspan="4"><p class="text-center">you will hear back from us within 1 week</p></td></tr>
+<tr><td colspan="4"><p class="text-center">we will get back to you within a week</p></td></tr>
 <tr>
     <td>Research Fellowship (6 weeks)</td>
     <td>complete your research with us</td>
     <td>
-        <p> candidate: extensively discuss with our team your idea and validate it </p>
-        <p> us: assign a lead mentor, weekly check-in meeting, research and engineering support</p>
+        <p> fellow: extensively discuss with our team your idea and validate it </p>
+        <p> team: assign a lead mentor, weekly check-in, weekly brainstorming, research and implementation support</p>
     </td>
     <td>n/a</td>
 </tr>
@@ -61,8 +61,8 @@ If you are interested in applying to the research fellowship, please fill out [t
     <td>Internal Review (1 week)</td>
     <td>internally review the first draft</td>
     <td>
-        <p>candidate: 10-15 page first draft, presentation of your research outcome </p>
-        <p>us: thorough internal review of your research draft</p>
+        <p>fellow: 10-15 page first draft, presentation of your research outcome </p>
+        <p>team: thorough internal review of your research draft</p>
     </td>
     <td>n/a</td>
 </tr>
@@ -71,8 +71,8 @@ If you are interested in applying to the research fellowship, please fill out [t
     <td>External Review (1 week)</td>
     <td>externally review the second draft</td>
     <td>
-        <p>candidate: improve based on external comments</p>
-        <p>us: reach out to the researchers in our network</p>
+        <p>fellow: improve based on external comments and feedback</p>
+        <p>team: coordinate office hours with the other mentors</p>
     </td>
     <td>n/a</td>
 </tr>
@@ -109,13 +109,13 @@ If you are interested in applying to the development fellowship, please fill out
     <td>2-page proposal, and technical litepaper</td>
     <td>please follow <a href="https://docs.google.com/document/d/1ifj_uGrlaXbBMBRLjVeCkQc1MdfZrpEX/edit?usp=share_link&ouid=105337105111275177447&rtpof=true&sd=true" target="_blank">the outline here</a></td>
 </tr>
-<tr><td colspan="4"><p class="text-center">you will hear back from us within 1 week</p></td></tr>
+<tr><td colspan="4"><p class="text-center">we will get back to you within a week</p></td></tr>
 <tr>
     <td>Development Fellowship (6 weeks)</td>
     <td>build the development project with us </td>
     <td>
-        <p> candidate: extensively discuss with our team your idea and validate it </p>
-        <p> us: assign a lead mentor, weekly check-in meeting, research and engineering support</p>
+        <p> fellow: extensively discuss with our team your idea and validate it </p>
+        <p> team: assign a lead mentor, weekly check-in, weekly brainstorming, research and engineering support</p>
     </td>
     <td>n/a</td>
 </tr>
@@ -123,8 +123,8 @@ If you are interested in applying to the development fellowship, please fill out
     <td>Internal Review (1 week)</td>
     <td>internally review the codebase</td>
     <td>
-        <p>candidate: demo, presentation of your project </p>
-        <p>us: thorough technical analysis of the project</p>
+        <p> fellow: demo, presentation of your project </p>
+        <p> team: thorough technical analysis of the project</p>
     </td>
     <td>n/a</td>
 </tr>
@@ -133,8 +133,8 @@ If you are interested in applying to the development fellowship, please fill out
     <td>External Review (1 week)</td>
     <td>externally review the second version of your project</td>
     <td>
-        <p>candidate: improve based on external comments</p>
-        <p>us: reach out to the top developers in our network </p>
+        <p>fellow: improve based on external comments</p>
+        <p>team: coordinate office hours with the other mentors </p>
     </td>
     <td>n/a</td>
 </tr>
