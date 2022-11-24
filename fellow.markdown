@@ -27,7 +27,7 @@ The fellowship program is remote friendly, but we do prefer working together in 
 
 ## Research Fellowship
 
-If you are interested in applying to the research fellowship, please fill out [the form here](/fellowship/research). We will evaluate applications on a rolling basis. 
+If you are interested in applying to the research fellowship, please fill out [the form here](/fellowship/research). 
 
 <table>
 <thead>
@@ -89,9 +89,7 @@ If you are interested in applying to the research fellowship, please fill out [t
 
 ## Development Fellowship
 
-If you are interested in applying to the development fellowship, please fill out [the form here](/fellowship/development). We will evaluate applications on a rolling basis. 
-
-
+If you are interested in applying to the development fellowship, please fill out [the form here](/fellowship/development). 
 
 <table>
 <thead>
