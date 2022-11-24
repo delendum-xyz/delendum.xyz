@@ -106,7 +106,7 @@ If you are interested in applying to the development fellowship, please fill out
 <tr>
     <td>Proposal Submission</td>
     <td>submit your project proposal on this page</td>
-    <td>2-page proposal, and technical litepaper</td>
+    <td>proposal and existing code</td>
     <td>please follow <a href="https://docs.google.com/document/d/1ifj_uGrlaXbBMBRLjVeCkQc1MdfZrpEX/edit?usp=share_link&ouid=105337105111275177447&rtpof=true&sd=true" target="_blank">the outline here</a></td>
 </tr>
 <tr><td colspan="4"><p class="text-center">we will get back to you within a week</p></td></tr>
