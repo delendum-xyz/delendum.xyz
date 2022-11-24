@@ -138,7 +138,7 @@ If you are interested in applying to the development fellowship, please fill out
     </td>
     <td>n/a</td>
 </tr>
-<tr><td colspan="4"><p class="text-center">*The desired outcomes include: open-source public good project, novel infrastructure design, disruptive application</p></td> </tr>
+<tr><td colspan="4"><p class="text-center">*the desired outcomes include: open-source public good project, novel infrastructure design, disruptive application</p></td> </tr>
 <tr>
     <td>Publication</td>
     <td>open-source code and technical documentation</td>
