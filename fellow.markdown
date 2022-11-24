@@ -20,6 +20,11 @@ A two-month program to support research and development advancing the frontiers 
 
 **Development**: working with the pioneers and builders in this field to create new products and systems, with support from our team members regarding evaluation and implementation
 
+### Logistics
+The deadline for 2023 Jan - Feb fellowship application is 2022 Dec 8. We will evaluate applications on a rolling basis. Typically, we will get back to you within a week. Since we have very limited capacity, the early applicants in that month generally get a better chance.
+
+The fellowship program is remote friendly, but we do prefer working together in our office in San Francisco. If you have any questions regarding the program itself, please do not hesitate to contact us at research@delendum.xyz. For donations and sponsorship related matters, please contact us at hello@delendum.xyz.
+
 ## Research Fellowship
 
 If you are interested in applying to the research fellowship, please fill out [the form here](/fellowship/research). We will evaluate applications on a rolling basis. 
