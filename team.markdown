@@ -19,9 +19,24 @@ description: "We support inventions in blockchain infrastructure, private comput
         <img alt="Shashank" src="/assets/team/shashank.jpg"/>
     </a>
     
+    <a class="team-member" target="_blank" href="https://www.linkedin.com/in/ole-spjeldn%C3%A6s-34a4a0122/">
+        <div class="member-name">Ole Spjeldnaes</div>
+        <img alt="Gautam" src="/assets/team/ole.jpg"/>
+    </a>
+
     <a class="team-member" target="_blank" href="https://www.linkedin.com/in/ventali">
         <div class="member-name">Ventali Tan</div>
         <img alt="Ventali" src="/assets/team/ventali.jpg"/>
+    </a>
+
+    <a class="team-member" target="_blank" href="https://www.linkedin.com/in/james-stearn-9b67a3230">
+        <div class="member-name">James Stearn</div>
+        <img alt="Gautam" src="/assets/team/james.jpg"/>
+    </a>
+
+    <a class="team-member" target="_blank" href="https://www.linkedin.com/in/andrei-nagornyi-b4236637">
+        <div class="member-name">Andrei Nagornyi</div>
+        <img alt="Gautam" src="/assets/team/andrei.jpg"/>
     </a>
 
     <a class="team-member" target="_blank" href="https://www.linkedin.com/in/ibrahim-yusufali/">
@@ -34,9 +49,5 @@ description: "We support inventions in blockchain infrastructure, private comput
         <img alt="Gautam" src="/assets/team/gautam.jpg"/>
     </a>
 
-    <a class="team-member" target="_blank" href="https://www.linkedin.com/in/james-stearn-9b67a3230">
-        <div class="member-name">James Stearn</div>
-        <img alt="Gautam" src="/assets/team/james.jpg"/>
-    </a>
 
 </div>
