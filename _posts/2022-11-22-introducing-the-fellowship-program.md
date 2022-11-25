@@ -29,7 +29,6 @@ Our mentors include (alphabetically ordered):
 - Daniel Lubarov - zkVMs, Proof Systems, Optimizations
 - Eli Ben-Sasson - Theoretical Computer Science, Zero-Knowledge Proofs
 - Shashank Agrawal - Multi-Party Computation, Zero-Knowledge Proofs
-- Zaki Manian - Tendermint, Protocol Development
 
 The deadline for 2023 Jan - Feb fellowship application is 2022 Dec 8. We will evaluate applications on a rolling basis. Typically, we will get back to you within a week. Since we have very limited capacity (5 fellows), the early applicants in that month generally get a better chance. 
 
