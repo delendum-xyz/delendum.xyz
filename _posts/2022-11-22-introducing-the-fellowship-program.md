@@ -34,6 +34,8 @@ The deadline for 2023 Jan - Feb fellowship application is 2022 Dec 8. We will ev
 
 The fellowship program is remote friendly, but we do prefer working together in our upcoming office in San Francisco. If you have any questions regarding the program itself, please do not hesitate to contact us at research@delendum.xyz. For donations and sponsorship related matters, please contact us at hello@delendum.xyz.
 
+We are also looking for two volunteers who will maintain the associated open learning resources or help administer the program. If you are interested, please reach out to us at hello@delendum.xyz.
+
 Here is an example of the schedule for one of our fellows:
 <style>
 .fellow-table td{
