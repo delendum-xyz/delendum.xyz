@@ -2,7 +2,7 @@
 layout: post
 author: Ibrahim Yusufali
 title: Decentralization of ZK Rollups
-excerpt: "Zero knowledge rollups were used in the past couple of years to solve the scalability constraints in L1 monolithic chains. A lot of new projects have emerged in the space since then, each of them ambitious and hoping to be the “ultimate” solution. However, as it is with every rapidly growing technology there are certain aspects that may be overlooked, in order to facilitate fast execution and entry to the market. We will be doing a deep dive into what we believe is one of those aspects: “decentralization”."
+excerpt: "A lot of new projects have emerged in the space since then, each of them ambitious and hoping to be the “ultimate” solution. However, as it is with every rapidly growing technology there are certain aspects that may be overlooked, in order to facilitate fast execution and entry to the market. We will be doing a deep dive into what we believe is one of those aspects: “decentralization”."
 ---
 
 _Many thanks to Preston Evans, Shashank Agrawal, Ventali Tan, Daniel Lubarov, Gautam Botrel and James Stearn for feedback._
