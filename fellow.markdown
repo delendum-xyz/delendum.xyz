@@ -149,7 +149,7 @@ If you are interested in applying to the development fellowship, please fill out
 </tbody>
 </table>
 
-
+*We offer incubation opportunities. Fellows who wish to be selected need to notify the team prior to their final presentation and we will make a decision on the same day.
 
 
 
