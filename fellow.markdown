@@ -25,6 +25,8 @@ The deadline for 2023 Jan - Feb fellowship application is 2022 Dec 8. We will ev
 
 The fellowship program is remote friendly, but we do prefer working together in our office in San Francisco. If you have any questions regarding the program itself, please do not hesitate to contact us at research@delendum.xyz. For donations and sponsorship related matters, please contact us at hello@delendum.xyz.
 
+We are also looking for two volunteers who will maintain the associated open learning resources or help administer the program. If you are interested, please reach out to us at hello@delendum.xyz.
+
 ## Research Fellowship
 
 If you are interested in applying to the research fellowship, please fill out [the form here](/fellowship/research). 
@@ -76,14 +78,14 @@ If you are interested in applying to the research fellowship, please fill out [t
     </td>
     <td>n/a</td>
 </tr>
-<tr><td colspan="4"><p class="text-center">*if you want to join our research team, you can schedule a presentation and we will make a decision that day</p></td> </tr>
+<tr><td colspan="4"><p class="text-center">*If you want to join our research team, you can schedule a presentation and we will make a decision that day</p></td> </tr>
 <tr>
     <td>Publication</td>
     <td>publish the research paper on multiple platforms</td>
     <td>the final version of research paper</td>
     <td>n/a</td>
 </tr>
-<tr><td colspan="4"><p class="text-center">*we can host a technical seminar on your topic and invite the top researchers and builders to give talks and share their perspectives (see - <a href="https://www.youtube.com/channel/UCM7Dc3y3BVTTpprDidVV7iw" target="_blank">youtube link</a>)</p></td> </tr>
+<tr><td colspan="4"><p class="text-center">Optional: we can host a technical seminar on your topic and invite the top researchers and builders to give talks and share their perspectives (see - <a href="https://www.youtube.com/channel/UCM7Dc3y3BVTTpprDidVV7iw" target="_blank">youtube link</a>)</p></td> </tr>
 </tbody>
 </table>
 
@@ -138,14 +140,14 @@ If you are interested in applying to the development fellowship, please fill out
     </td>
     <td>n/a</td>
 </tr>
-<tr><td colspan="4"><p class="text-center">*the desired outcomes include: open-source public good project, novel infrastructure design, disruptive application</p></td> </tr>
+<tr><td colspan="4"><p class="text-center">*The desired outcomes include: open-source public good project, novel infrastructure design, disruptive application</p></td> </tr>
 <tr>
     <td>Publication</td>
     <td>open-source code and technical documentation</td>
     <td>the final version of your demo, codebase, technical whitepaper</td>
     <td>n/a</td>
 </tr>
-<tr><td colspan="4"><p class="text-center">*we can host a technical seminar on your topic and invite the top researchers and builders to give talks and share their perspectives (see - <a href="https://www.youtube.com/channel/UCM7Dc3y3BVTTpprDidVV7iw" target="_blank">youtube link</a>)</p></td> </tr>
+<tr><td colspan="4"><p class="text-center">Optional: we can host a technical seminar on your topic and invite the top researchers and builders to give talks and share their perspectives (see - <a href="https://www.youtube.com/channel/UCM7Dc3y3BVTTpprDidVV7iw" target="_blank">youtube link</a>)</p></td> </tr>
 </tbody>
 </table>
 
