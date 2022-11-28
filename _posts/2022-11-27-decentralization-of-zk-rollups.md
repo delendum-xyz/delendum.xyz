@@ -3,6 +3,7 @@ layout: post
 author: Ibrahim Yusufali
 title: Decentralization of ZK Rollups
 excerpt: "ZK Rollups face three major challenges: MEV equality, decentralization of block building and incentive alignment for all network participants. We will be analyzing proposed solutions to these challenges and explore potential new proposals."
+image: "/assets/posts/2022-11-27-decentralization-of-zk-rollups/preview.jpg"
 ---
 
 _Many thanks to Preston Evans, Aaron Li, Shashank Agrawal, Ventali Tan, Daniel Lubarov, Gautam Botrel and James Stearn for feedback._
