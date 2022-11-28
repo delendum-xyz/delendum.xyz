@@ -6,7 +6,7 @@ excerpt: "ZK Rollups face three major challenges: MEV equality, decentralization
 image: "/assets/posts/2022-11-27-decentralization-of-zk-rollups/preview.jpg"
 ---
 
-_Many thanks to Preston Evans, Aaron Li, Shashank Agrawal, Ventali Tan, Daniel Lubarov, Gautam Botrel and James Stearn for feedback._
+_Many thanks to Preston Evans, Aaron Li, Shashank Agrawal, Ventali Tan, Daniel Lubarov and James Stearn for feedback._
 
 
 ## Outline
