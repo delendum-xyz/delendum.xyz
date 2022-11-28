@@ -8,7 +8,7 @@ excerpt: "ZK Rollups face three major challenges: MEV equality, decentralization
 _Many thanks to Preston Evans, Shashank Agrawal, Ventali Tan, Daniel Lubarov, Gautam Botrel and James Stearn for feedback._
 
 
-## Outline:
+## Outline
 
 - [Introduction](#introduction)
 - [Why Proof of Stake (PoS) might not work](#why-proof-of-stake--pos--might-not-work)
