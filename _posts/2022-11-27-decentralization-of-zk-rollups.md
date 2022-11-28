@@ -7,21 +7,20 @@ excerpt: "ZK Rollups face three major challenges: MEV equality, decentralization
 
 _Many thanks to Preston Evans, Shashank Agrawal, Ventali Tan, Daniel Lubarov, Gautam Botrel and James Stearn for feedback._
 
-# Decentralization of ZK Rollups
-
 
 ## Outline:
 
-
-
-1. Introduction
-2. Upgrade Keys
-3. Why Proof of Stake (PoS) Might Not Work
-4. Proof of Efficiency
-5. Proof Generation Outsourcing + MEV Auction
-6. Our Proposals
-7. Conclusion
-
+- [Introduction](#introduction)
+- [Why Proof of Stake (PoS) might not work](#why-proof-of-stake--pos--might-not-work)
+- [Proof of Efficiency](#proof-of-efficiency)
+     * [The MEV Inequality Problem](#the-mev-inequality-problem)
+- [Proof Generation Outsourcing + MEV Auction](#proof-generation-outsourcing---mev-auction)
+     * [Proof Generation Outsourcing](#proof-generation-outsourcing)
+     * [MEV Auction](#mev-auction)
+- [Future work](#future-work)
+     * [MEV Auction + Single Block Creator](#mev-auction---single-block-creator)
+     * [Optimistic Pipeline](#optimistic-pipeline)
+- [Conclusion](#conclusion)
 
 ## Introduction
 
@@ -68,7 +67,7 @@ In addition to these DOS attacks, there is also a slashing attack to consider. T
 
 Proof of Efficiency is a new consensus mechanism put forward by a cryptography team on the forum Ethereum Research[^5] to solve the criticisms of PoS on rollups. It involves a two-step model that splits activities between a sequencer and an aggregator. An overview can be seen in Figure 1. 
 
-<img src="https://raw.githubusercontent.com/iyusufali/delendum-xyz-posts-assets/main/2022-10-09-decentralization-of-zk-rollups/poe%20proof%20submission.png" style="display: block;margin-left: auto;margin-right: auto;width:60%;background:white;padding:15px">
+<img src="/assets/posts/2022-11-27-decentralization-of-zk-rollups/poe-proof-submission.png" style="display: block;margin-left: auto;margin-right: auto;width:60%;background:white;padding:15px">
 <p style="text-align:center; font-style: italic;">Figure 1: Demonstration of Proof of Efficiency validity proof submission.</p>
 
 A sequencer is responsible for pre-processing and posting L2 transactions to L1. This is done by submitting a transaction on L1 that has the details of the L2 transactions in the calldata field. The sequencer has to pay the L1 gas fee as well as an additional fee in the network token to discourage bad actors. This usage of calldata has certain storage limitations to be considered as well. Even with the intense amount of optimizations it has been through it can only store a limited number of transactions. The average Ethereum block uses about 80KB of data, and if the new EIP-4844 proposal is approved and deployed, the calldata (blob) field could provide on average 1MB of data.[^6] This means the base layer could theoretically support a 10X in throughput from rollups. This is not including compression techniques that could potentially give space savings of up to 60%[^7]. 
@@ -77,7 +76,7 @@ There is also a misalignment with this reward and cost structure of the sequence
 
 Another point to mention is that any individual can become a sequencer by posting the L1 transaction. This does have benefits in terms of censorship resistance (if another sequencer refuses to process someone’s transaction, they can just submit their own transaction), but it does come with some drawbacks. One is that due to this uncoordinated nature, it may not be obvious as to which sequencer one should submit their transaction to, in order for it to be confirmed quicker, taking into consideration that larger batches are more likely to be confirmed by aggregators quicker, and that some aggregators may wait to pool more L2 transactions before posting to L1 in order to reduce the per-unit gas cost. 
 
-In the original post formalizing Proof of Efficiency[^8], the action of sequencers posting the L2 transaction data on L1s could open up the possibility for an inter-sequencer MEV attack. An observer of the L1 mempool can track L2 transactions as they come in, and if they identify a transaction that is of potential MEV value they can submit another L1 transaction with the same L2 transactions in the call data but now with the desired order / inclusion of transactions and a higher gas tip. This means that the attacker's transaction would be accepted before the honest sequencers’, resulting in the sequencer losing out on the reward of L2 gas, and having to pay for L1 gas without any reimbursement. Researcher’s have been actively working on solving this risk and have since devised some potential solutions[^9].
+In the original post formalizing Proof of Efficiency[^8], the action of sequencers posting the L2 transaction data on L1s could open up the possibility for an inter-sequencer MEV attack. An observer of the L1 mempool can track L2 transactions as they come in, and if they identify a transaction that is of potential MEV value they can submit another L1 transaction with the same L2 transactions in the call data but now with the desired order / inclusion of transactions and a higher gas tip. This means that the attacker's transaction would be accepted before the honest sequencers’, resulting in the sequencer losing out on the reward of L2 gas, and having to pay for L1 gas without any reimbursement. Researchers have been actively working on solving this risk and have since devised some potential solutions[^9].
 
 The post also mentions that once the sequencer has posted the transaction information on L1, it now becomes the new virtual future state. In order for this to be confirmed, a validity proof must be submitted on L1 by an aggregator. This soft-confirmation by the virtual state, allows there to be a higher TPS, and lower block interval time. Without this soft-confirmation block interval time would be lengthened to the time taken to generate a proof, which is around 10 minutes[^10], and coordination between provers would constrain throughput as there is no ordering of transactions that is decided on. This is conducted on a “first come, first accepted” basis, in that the aggregator who submits the proof first will be rewarded by the L2 transaction fees. This race format is concerning in that it encourages centralization around the fastest aggregator, which is the one with the most compute resources. 
 
@@ -93,7 +92,7 @@ The problem is that this high revenue is solely enjoyed by the sequencer, and th
 
 Another approach that has been put forward by another cryptography group, is to combine proof generation outsourcing and MEV auctions into a new, overall consensus mechanism[^11]. The focus of proof generation outsourcing is to decentralize proof generation by outsourcing it to “rollers”. Then, after this is successful, the sequencer (block proposer) is decentralized through MEV Auction. See Figure 2 for a visual representation.
 
-<img src="https://github.com/iyusufali/delendum-xyz-posts-assets/blob/main/2022-10-09-decentralization-of-zk-rollups/MEVA%20contract%20(2).jpg?raw=true" style="display: block;margin-left: auto;margin-right: auto;width:60%">
+<img src="/assets/posts/2022-11-27-decentralization-of-zk-rollups/meva-contract.jpg" style="display: block;margin-left: auto;margin-right: auto;width:60%">
 <p style="text-align:center; font-style: italic;">Figure 2: Transaction flow from executing on L2 to confirming on L1.</p>
 
 ### Proof Generation Outsourcing
@@ -102,7 +101,7 @@ In this new consensus mechanism put forward, in order to participate in this pro
 
 This approach has a benefit in that it adopts a collaborative format rather than a race format. This allows for reduced wasted compute resources but it also helps for decentralization, as it is moving away from a “fastest prover wins” goal, which causes centralization around the fastest prover. The act of parallelizing proof generation across multiple rollers for one block, helps to lower the barriers of entry to being a prover, making it more accessible for someone to run their own node as they might not need to invest as much into equipment. 
 
-This trend towards decentralization is contrasted by the calculation of the reputation score, which is predominated by the deposit amount. If a roller deposits a larger amount, he is more likely to get more proofs to generate. If this lasts over an extended period of time, it would cause resources to be sucked away from smaller rollers (lack of rewards), causing a cycle which may result in the network becoming dependent on a select group of rollers. A potential solution could be to elect rollers with probabilities based on reputation and then send work to the elected rollers at random. This form of selection is currently being implemented by a few cryptography teams[^12] already. 
+This trend towards decentralization is contrasted by the calculation of the reputation score, which is predominated by the deposit amount. If a roller deposits a larger amount, he is more likely to get more proofs to generate. If this lasts over an extended period of time, it would cause resources to be sucked away from smaller rollers (lack of rewards), causing a cycle which may result in the network becoming dependent on a select group of rollers. A potential solution could be to elect rollers with probabilities based on reputation and then send work to the elected rollers at random. This form of selection is not uncommon in other types of protocol implementations[^12]. 
 
 A federated prover network[^13] has similar motives as proof generation outsourcing, by encouraging decentralization. This is where a large block is separated into smaller blocks, which is then broken down into even smaller blocks until you are left with mini 2x2 blocks. The proofs are then generated for this root node (imagine a tree forming, with different layers), and then recursively proven with its neighboring block. This process is repeated until you have a recursive proof for the entire block. In practice, this breaking down process, and building the proof back up from the root takes an immense amount of communication and coordination between the different provers, so much so that it might be more efficient to instead have a few centralized provers. 
 
@@ -113,7 +112,7 @@ The MEV Auction (MEVA) was created to solve the issue that sequencers solely ben
 
 MEVA functions through a smart contract that auctions off the right to reorder transactions within an N block window to the highest bidder. In this process, block proposers submit transactions to the MEVA contract and then this contract designates a single “sequencer” at a time to order the transactions, and publish the block. Block proposers in this model would generally be repurposed L1 miners. See Figure 3 for a graphical representation of this process. 
 
-<img src="https://github.com/iyusufali/delendum-xyz-posts-assets/blob/main/2022-10-09-decentralization-of-zk-rollups/Users%20submit%20txs%20to%20MEVA%20contract.jpg?raw=true" style="display: block;margin-left: auto;margin-right: auto;width:60%">
+<img src="/assets/posts/2022-11-27-decentralization-of-zk-rollups/meva-contract-flow.jpg" style="display: block;margin-left: auto;margin-right: auto;width:60%">
 <p style="text-align:center; font-style: italic;"> Figure 3: Diagram of MEV auction process.</p>
 
 Staying true to its origins, the main benefits from this approach is that the winning bids deposited into the MEVA contract from the auctions can then be used to reward rollers for the blocks they have proven, or to fund public goods on the network - there are a lot of possibilities. 
@@ -127,7 +126,7 @@ Listed below are some potential directions that we could see the space move towa
 
 
 
-1. MEV Auction + Single Block Creator
+### MEV Auction + Single Block Creator
 
 One aspect of the Proof Generation Outsourcing + MEV Auction approach that was overlooked in our analysis is, the coordination between the sequencer that has won the MEV auction and the decentralized network of provers. There is currently no perfect solution for a sequencer to communicate the block being made to provers whilst avoiding malicious front-running and data withholding possibilities. This is why we propose a new direction that keeps the sequencer and prover in the same entity and then combining that with a variation of an MEV Auction. 
 
@@ -137,7 +136,7 @@ But, there are some drawbacks to this proposal too, since malicious sequencers c
 
 
 
-2. Optimistic Pipeline
+### Optimistic Pipeline
 
 An alternate direction to avoid the long block interval time is to post a soft-confirmation before processing the validity proof for the block. However, to avoid the limitations of the calldata storage, instead of including the raw transaction details in the calldata field, the root commitment and state difference are processed. Afterwards, when the validity proof is generated it is uploaded to L1, the block is finalized. The main drawback is that if the block proposer does not follow through with the proof after posting the commitment, this would disrupt proposers from building future blocks, making their work invalid and halting the network as no one else has the perfect information of what the transactions were. We put forward an open question to the community if there are any safe-guards we can add to this approach to mitigate this malicious sequencer risk.
 
