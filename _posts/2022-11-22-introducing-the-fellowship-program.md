@@ -22,7 +22,7 @@ This program provides access to:
 
 Our mentors include (alphabetically ordered):
 
-- Alan Szepieniec - Post-Quantum Cryptography, Hash Function
+- Alan Szepieniec - Post-Quantum Cryptography, Hash Function, Gröbner basis algorithms
 - Bobbin Threadbare - Virtual Machines, Zero-Knowledge Proofs
 - Brian Retford - Compiler, Transpiler, Language, Applied ZKP, ML
 - Christopher Goes - Protocol Development, System Designs
