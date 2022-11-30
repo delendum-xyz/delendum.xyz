@@ -9,7 +9,7 @@ image: "/assets/posts/2022-11-11-introducing-the-fellowship-program/preview.jpg"
 
 Delendum fellowship is a nonprofit two-month program to support research and development tackling hard problems in blockchain and the frontiers of zero-knowledge.
 
-If you are interested in working together with top experts to explore practical use cases of new research ideas, or to work on one of the topics we discussed in "What to build next" [blog series](https://delendum.xyz/2022/11/11/what-to-build-next-in-zero-knowledge.html), please consider applying to our [fellowship program](https://delendum.xyz/fellow). We are also open to development proposals for concrete solutions of other significant problems.
+If you are interested in working together with top experts to explore practical use cases of new research ideas, or to work on one of the topics we discussed in "What to build next" [blog series](https://delendum.xyz/2022/11/22/what-to-build-next-in-zero-knowledge.html), please consider applying to our [fellowship program](https://delendum.xyz/fellow). We are also open to development proposals for concrete solutions of other significant problems.
 
 For a research fellow, you will be collaborating with researchers on original, exploratory topics that lead to the creation of new use cases in practice. For a developer fellow, you will be working with other builders to create new products, with feedback on product feasibility and implementation.
 
