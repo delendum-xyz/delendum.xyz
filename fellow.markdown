@@ -21,7 +21,28 @@ A two-month program to support research and development advancing the frontiers 
 **Development**: working with the pioneers and builders in this field to create new products and systems, with support from our team members regarding evaluation and implementation
 
 ### Logistics
-The deadline for 2023 Jan - Feb fellowship application is 2022 Dec 8. We will evaluate applications on a rolling basis. Typically, we will get back to you within a week. Since we have very limited capacity, the early applicants in that month generally get a better chance.
+
+#### Schedule
+
+|              | Fellowship begins | Cross-review begins | Final presentations |
+|--------------|-------------------|---------------------|---------------------|
+| Fellowship 1 | Jan 15 2023       | Mar 1 2023          | Mar 15 2023         |
+| Fellowship 2 | Apr 15 2023       | Jun 1 2023          | Jun 15 2023         |
+
+#### Application Deadlines
+*Submit your by 11:59 p.m. (in your local timezone) on the applicable deadline.*
+
+|                                         | Deadline    | Decision released by | Reply date  |
+|-----------------------------------------|-------------|----------------------|-------------|
+| Application to research fellowship 1    | Dec 15 2022 | Jan 1 2023           | Jan 07 2023 |
+| Application to development fellowship 1 | Dec 15 2022 | Jan 1 2023           | Jan 07 2023 |
+| Application to research fellowship 2    | Mar 15 2023 | Apr 1 2023           | Apr 07 2023 |
+| Application to development fellowship 2 | Mar 15 2023 | Apr 1 2023           | Apr 07 2023 |
+| Application to volunteer position 1     | Dec 05 2022 | Dec 15 2022          | Dec 22 2022 |
+| Application to volunteer position 2     | Mar 05 2023 | Mar 15 2022          | Mar 22 2023 |
+| Sponsorship & donation                  | Dec 25 2022 | N/A                  | N/A         |
+
+We will evaluate applications on a rolling basis. Typically, we will get back to you within a week. Since we have very limited capacity, the early applicants generally get a better chance.
 
 The fellowship program is remote friendly, but we do prefer working together in our office in San Francisco. If you have any questions regarding the program itself, please do not hesitate to contact us at research@delendum.xyz. For donations and sponsorship related matters, please contact us at hello@delendum.xyz.
 
