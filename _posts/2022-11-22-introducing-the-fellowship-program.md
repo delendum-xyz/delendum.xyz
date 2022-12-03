@@ -1,17 +1,31 @@
 ---
 layout: post
 author: Delendum Research
-title: "[Apply by 12/08] Introducing our fellowship program"
+title: "[Apply by 12/15] Introducing our fellowship program"
 excerpt: "A two-month program to support research and development advancing the frontiers of zero-knowledge"
 image: "/assets/posts/2022-11-11-introducing-the-fellowship-program/preview.jpg"
 --- 
+### Table of Content
 
+- [Introduction](#introduction)
+  - [Mentorship](#mentorship)
+- [Logistics](#logistics)
+  - [Schedule](#schedule)
+  - [Application Deadlines](#application-deadlines)
+  - [Evaluation](#evaluation)
+  - [Location](#location)
+  - [Contact us](#contact-us)
+  - [Frequently Asked Questions](#frequently-asked-questions)
+
+## Introduction
 
 Delendum fellowship is a nonprofit two-month program to support research and development tackling hard problems in blockchain and the frontiers of zero-knowledge.
 
 If you are interested in working together with top experts to explore practical use cases of new research ideas, or to work on one of the topics we discussed in "What to build next" [blog series](https://delendum.xyz/2022/11/22/what-to-build-next-in-zero-knowledge.html), please consider applying to our [fellowship program](https://delendum.xyz/fellow). We are also open to development proposals for concrete solutions of other significant problems.
 
 For a research fellow, you will be collaborating with researchers on original, exploratory topics that lead to the creation of new use cases in practice. For a developer fellow, you will be working with other builders to create new products, with feedback on product feasibility and implementation.
+
+### Mentorship
 
 This program provides access to:
 
@@ -30,13 +44,47 @@ Our mentors include (alphabetically ordered):
 - Eli Ben-Sasson - Theoretical Computer Science, Zero-Knowledge Proofs
 - Shashank Agrawal - Multi-Party Computation, Zero-Knowledge Proofs
 
-The deadline for 2023 Jan - Feb fellowship application is 2022 Dec 8. We will evaluate applications on a rolling basis. Typically, we will get back to you within a week. Since we have very limited capacity (5 fellows), the early applicants in that month generally get a better chance. 
+## Logistics
 
-The fellowship program is remote friendly, but we do prefer working together in our upcoming office in San Francisco. If you have any questions regarding the program itself, please do not hesitate to contact us at research@delendum.xyz. For donations and sponsorship related matters, please contact us at hello@delendum.xyz.
+### Schedule
+
+|              | Fellowship begins | Cross-review begins | Final presentations |
+|--------------|-------------------|---------------------|---------------------|
+| Fellowship 1 | Jan 15 2023       | Mar 1 2023          | Mar 15 2023         |
+| Fellowship 2 | Apr 15 2023       | Jun 1 2023          | Jun 15 2023         |
+
+### Application Deadlines
+*Submit your by 11:59 p.m. (in your local timezone) on the applicable deadline.*
+
+|                                         | Deadline    | Decision released by | Reply date  |
+|-----------------------------------------|-------------|----------------------|-------------|
+| Application to research fellowship 1    | Dec 15 2022 | Jan 1 2023           | Jan 07 2023 |
+| Application to development fellowship 1 | Dec 15 2022 | Jan 1 2023           | Jan 07 2023 |
+| Application to research fellowship 2    | Mar 15 2023 | Apr 1 2023           | Apr 07 2023 |
+| Application to development fellowship 2 | Mar 15 2023 | Apr 1 2023           | Apr 07 2023 |
+| Application to volunteer position 1     | Dec 05 2022 | Dec 15 2022          | Dec 22 2022 |
+| Application to volunteer position 2     | Mar 05 2023 | Mar 15 2022          | Mar 22 2023 |
+| Sponsorship & donation                  | Dec 25 2022 | N/A                  | N/A         |
+
+### Evaluation
+
+We will evaluate applications on a rolling basis. Typically, we will get back to you within a week. Since we have very limited capacity (5 fellows), the early applicants generally get a better chance. 
+
+### Location
+
+The fellowship program is remote friendly, but we do prefer working together in our upcoming office in San Francisco. 
+
+### Contact us
+
+If you have any questions regarding the program itself, please do not hesitate to contact us at research@delendum.xyz. For donations and sponsorship related matters, please contact us at hello@delendum.xyz.
 
 We are also looking for two volunteers who will maintain the associated open learning resources or help administer the program. If you are interested, please reach out to us at hello@delendum.xyz.
 
-Here is an example of the schedule for one of our fellows:
+### Frequently Asked Questions
+
+#### What is a fellow's schedule like during the fellowship?
+
+*Here is an example of the weekly schedule for one of our fellows.*
 <style>
 .fellow-table td{
   padding: 8px;
