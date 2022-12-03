@@ -42,12 +42,10 @@ A two-month program to support research and development advancing the frontiers 
 |-----------------------------------------|-------------|---------------------|-------------|
 |                                         | Deadline    | Decision by | Reply date  |
 |-----------------------------------------|-------------|----------------------|-------------|
-| Application to research fellowship 1    | Dec 15 2022 | Jan 1 2023          | Jan 07 2023 |
-| Application to development fellowship 1 | Dec 15 2022 | Jan 1 2023          | Jan 07 2023 |
-| Application to research fellowship 2    | Mar 15 2023 | Apr 1 2023          | Apr 07 2023 |
-| Application to development fellowship 2 | Mar 15 2023 | Apr 1 2023          | Apr 07 2023 |
-| Application to volunteer position 1     | Dec 05 2022 | Dec 15 2022         | Dec 22 2022 |
-| Application to volunteer position 2     | Mar 05 2023 | Mar 15 2022         | Mar 22 2023 |
+| Application to fellowship 1             | Dec 15 2022 | Jan 1 2023          | Jan 07 2023 |
+| Application to fellowship 2             | Mar 15 2023 | Apr 1 2023          | Apr 07 2023 |
+| Application to volunteer fellowship 1   | Dec 05 2022 | Dec 15 2022         | Dec 22 2022 |
+| Application to volunteer fellowship 2   | Mar 05 2023 | Mar 15 2022         | Mar 22 2023 |
 | Sponsorship & donation                  | Dec 25 2022 | N/A                 | N/A         |
 
 We will evaluate applications on a rolling basis. Typically, we will get back to you within a week. Since we have very limited capacity, the early applicants generally get a better chance.
