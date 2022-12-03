@@ -5,6 +5,7 @@ title: "[Apply by 12/15] Introducing our fellowship program"
 excerpt: "A two-month program to support research and development advancing the frontiers of zero-knowledge"
 image: "/assets/posts/2022-11-11-introducing-the-fellowship-program/preview.jpg"
 --- 
+
 ### Table of Content
 
 - [Introduction](#introduction)
@@ -48,6 +49,8 @@ Our mentors include (alphabetically ordered):
 
 ### Schedule
 
+|              |                   |                     |                     |
+|--------------|-------------------|---------------------|---------------------|
 |              | Fellowship begins | Cross-review begins | Final presentations |
 |--------------|-------------------|---------------------|---------------------|
 | Fellowship 1 | Jan 15 2023       | Mar 1 2023          | Mar 15 2023         |
@@ -56,15 +59,17 @@ Our mentors include (alphabetically ordered):
 ### Application Deadlines
 *Submit your by 11:59 p.m. (in your local timezone) on the applicable deadline.*
 
-|                                         | Deadline    | Decision released by | Reply date  |
+|                                         |             |                     |             |
+|-----------------------------------------|-------------|---------------------|-------------|
+|                                         | Deadline    | Decision by | Reply date  |
 |-----------------------------------------|-------------|----------------------|-------------|
-| Application to research fellowship 1    | Dec 15 2022 | Jan 1 2023           | Jan 07 2023 |
-| Application to development fellowship 1 | Dec 15 2022 | Jan 1 2023           | Jan 07 2023 |
-| Application to research fellowship 2    | Mar 15 2023 | Apr 1 2023           | Apr 07 2023 |
-| Application to development fellowship 2 | Mar 15 2023 | Apr 1 2023           | Apr 07 2023 |
-| Application to volunteer position 1     | Dec 05 2022 | Dec 15 2022          | Dec 22 2022 |
-| Application to volunteer position 2     | Mar 05 2023 | Mar 15 2022          | Mar 22 2023 |
-| Sponsorship & donation                  | Dec 25 2022 | N/A                  | N/A         |
+| Application to research fellowship 1    | Dec 15 2022 | Jan 1 2023          | Jan 07 2023 |
+| Application to development fellowship 1 | Dec 15 2022 | Jan 1 2023          | Jan 07 2023 |
+| Application to research fellowship 2    | Mar 15 2023 | Apr 1 2023          | Apr 07 2023 |
+| Application to development fellowship 2 | Mar 15 2023 | Apr 1 2023          | Apr 07 2023 |
+| Application to volunteer position 1     | Dec 05 2022 | Dec 15 2022         | Dec 22 2022 |
+| Application to volunteer position 2     | Mar 05 2023 | Mar 15 2022         | Mar 22 2023 |
+| Sponsorship & donation                  | Dec 25 2022 | N/A                 | N/A         |
 
 ### Evaluation
 
