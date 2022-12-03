@@ -5,6 +5,20 @@ title: "[Apply by 12/15] Introducing our fellowship program"
 excerpt: "A two-month program to support research and development advancing the frontiers of zero-knowledge"
 image: "/assets/posts/2022-11-11-introducing-the-fellowship-program/preview.jpg"
 --- 
+<style>
+
+.fellow-table{
+  margin: 8px auto;
+}
+table td{
+  padding: 8px;
+  vertical-align: top;
+  border: 1px solid #333;
+}
+.fellow-table td p{
+  margin: 0;
+}
+</style>
 
 ### Table of Content
 
@@ -90,11 +104,7 @@ We are also looking for two volunteers who will maintain the associated open lea
 #### What is a fellow's schedule like during the fellowship?
 
 *Here is an example of the weekly schedule for one of our fellows.*
-<style>
-.fellow-table td{
-  padding: 8px;
-}
-</style>
+
 <table border="1" class="fellow-table">
   <tr>
    <td>
