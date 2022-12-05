@@ -99,6 +99,14 @@ We are also looking for two volunteers who will maintain the associated open lea
 
 ### Frequently Asked Questions
 
+#### What is the maximum length of the proposal?
+
+There is no maximum or minimum length as long as you articulate the problem and its solution. The average length we received so far is 4-6 pages. There are applicants who submitted over 10 pages before and were accepted.
+
+#### I am located outside the US now. Can I join the fellowship program in this case?
+
+You may. However, since most of our mentors and other fellows are based in the United States, you may need to adjust your schedule to fit theirs.
+
 #### What is a fellow's schedule like during the fellowship?
 
 *Here is an example of the weekly schedule for one of our fellows.*
