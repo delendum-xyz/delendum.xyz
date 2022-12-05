@@ -17,12 +17,12 @@ redirect_from:
 Apply [development fellowship here](/fellowship/development) and [research fellowship here](/fellowship/research).
 
 ### Goal
-A two-month program to support research and development advancing the frontiers of zero-knowledge
+A two-month program to support research and development advancing the frontiers of zero-knowledge.
 
 ### Benefit
-**Research**: collaborating with researchers on original, exploratory topics that leads to the creation of new methods and constructions
+**Research**: collaborating with researchers on original, exploratory topics that leads to the creation of new methods and constructions.
 
-**Development**: working with the pioneers and builders in this field to create new products and systems, with support from our team members regarding evaluation and implementation
+**Development**: working with the pioneers and builders in this field to create new products and systems, with support from our team members regarding evaluation and implementation.
 
 ### Logistics
 
