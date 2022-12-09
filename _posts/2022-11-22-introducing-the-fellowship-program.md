@@ -99,6 +99,10 @@ We are also looking for two volunteers who will maintain the associated open lea
 
 ### Frequently Asked Questions
 
+#### I am working under an existing organization. Can I apply?
+
+It is absolutely fine that you are working under an existing organization, but the research or development outcome of this fellowship will need to be general purpose, open-sourced and beneficial to the long-term growth of this industry. 
+
 #### What is the maximum length of the proposal?
 
 There is no maximum or minimum length as long as you articulate the problem and its solution. The average length we received so far is 4-6 pages. There are applicants who submitted over 10 pages before and were accepted.
