@@ -107,9 +107,25 @@ It is absolutely fine that you are working under an existing organization, but t
 
 There is no maximum or minimum length as long as you articulate the problem and its solution. The average length we received so far is 4-6 pages. There are applicants who submitted over 10 pages before and were accepted.
 
+#### What is the time commitment of fellowship?
+
+It is less than most applicants expect; 5-10 hours per week if you participate in all the recommended activities. All parts of the program are optional.
+
+#### Where does the fellowship happen? Do I need to move to San Francisco?
+
+The batch starts with an in-person initial presentation and ends with an in-person final presentation, both in San Francisco. For the weeks in between, you can participate remotely and do not have to be in the Bay Area. Office hours and weekly presentations will be online. However, we encourage teams to work together in our office in person.
+
 #### I am located outside the US now. Can I join the fellowship program in this case?
 
 You may. However, since most of our mentors and other fellows are based in the United States, you may need to adjust your schedule to fit theirs.
+
+#### What are the dates for the next batch?
+
+All the relevant dates are [here](https://delendum.xyz/fellow).
+
+#### This batch isn't a good time for me. Can I apply to the one after?
+
+Yes. We offer early decision for all batches, and you just need to mention it somewhere on the application.
 
 #### What is a fellow's schedule like during the fellowship?
 
