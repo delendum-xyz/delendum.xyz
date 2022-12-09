@@ -56,6 +56,10 @@ The fellowship program is remote friendly, but we do prefer working together in 
 
 We are also looking for two volunteers who will maintain the associated open learning resources or help administer the program. If you are interested, please reach out to us at hello@delendum.xyz.
 
+#### Frequently Asked Questions
+
+All the relevant questions are [here](https://delendum.xyz/2022/11/22/introducing-the-fellowship-program.html#frequently-asked-questions).
+
 ### Research Fellowship
 
 If you are interested in applying to the research fellowship, please fill out [the form here](/fellowship/research). 
