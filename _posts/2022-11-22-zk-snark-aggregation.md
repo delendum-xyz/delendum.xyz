@@ -3,6 +3,7 @@ layout: post
 author: Ole Spjeldnæs
 title: "zk-SNARK Aggregation"
 excerpt: "Popular zk-SNARK aggregation constructions and some potentially interesting approaches"
+image: "/assets/posts/2022-11-22-zk-snark-aggregation/preview.jpg"
 ---
 
 Delendum Research and ETH Zürich
