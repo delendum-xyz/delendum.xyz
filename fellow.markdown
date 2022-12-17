@@ -36,7 +36,7 @@ A two-month program to support research and development advancing the frontiers 
 | Fellowship 2 | Apr 15 2023       | Jun 1 2023          | Jun 15 2023         |
 
 #### Application Deadlines
-*Submit your by 11:59 p.m. (in your local timezone) on the applicable deadline.*
+*Submit your application by 11:59 p.m. (in your local timezone) on the applicable deadline.*
 
 |                                         |             |                     |             |
 |-----------------------------------------|-------------|---------------------|-------------|
