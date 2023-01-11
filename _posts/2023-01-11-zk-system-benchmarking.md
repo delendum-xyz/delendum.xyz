@@ -10,6 +10,8 @@ Delendum Research, Miden, Risc Zero
 
 _Many thanks to Bobbin Threadbare, Dominik Schmid, Brian Retford, Tim Cartens, Daniel Lubarov, Andrei Nagornyi and Ventali Tan for feedback._
 
+Github repository: [delendum-xyz/zk-benchmarking](https://github.com/delendum-xyz/zk-benchmarking)
+
 ### Table of Content
 
 - [Introduction](#introduction)
@@ -18,7 +20,6 @@ _Many thanks to Bobbin Threadbare, Dominik Schmid, Brian Retford, Tim Cartens, D
 - [Roadmap](#roadmap)
 - [Sample results](#sample-results)
 - [Call for collaboration](#call-for-collaboration)
-
 
 ## Introduction
 
