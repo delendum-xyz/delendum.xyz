@@ -114,6 +114,12 @@ The following factors are also very important to consider and we will try to des
 
 For iterated hashing, here are sample results on a 64 core Graviton 3 and an Apple M2 machine:
 
+<style>
+th, td {
+ padding: 4px 8px;
+ border: 1px solid black;
+}
+</style>
 <table>
     <thead>
         <tr>
@@ -203,7 +209,6 @@ For iterated hashing, here are sample results on a 64 core Graviton 3 and an App
 
 * Note that for Miden 100 SHA2 results is 2x longer than what it should be (should actually be closer to 16 seconds). This likely happened because M2 system we use has only 8GB of RAM and it probably started swapping to disk for this benchmark.
 
-___
 
 <table>
     <thead>
@@ -292,7 +297,8 @@ ___
     </tbody>
 </table>
 
-___
+<div style="height: 32px;"></div>
+
 <table>
     <thead>
         <tr>
@@ -343,7 +349,7 @@ ___
             <td> </td>
             <td> </td>
         </tr>
-       
+     </tbody>
 </table>
 
 
