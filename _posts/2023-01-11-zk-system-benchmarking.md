@@ -318,13 +318,13 @@ The table below shows the size of a generated proof in **kilobytes**. Proof size
 
 ## Roadmap
 
-1. Identify key performance metrics for evaluating the efficiency of zero-knowledge proof libraries (completed)
-1. Develop a set of test cases that exercise a range of different functionality in the libraries, including creating and verifying proofs for various types of statements (completed)
-2. Implement automation scripts for running the test cases and collecting performance data (completed)
-3. Set up continuous integration to regularly run the benchmarking suite and track performance over time (ongoing)
-4. Collaborate with other organizations to add more libraries, incorporate their test cases and use cases into the benchmarking suite (TODO)
-5. Publish the results of the benchmarking efforts in a public repository, along with documentation and scripts for reproducing the benchmarks (completed)
-6. Continuously update and improve the benchmarking suite as new features and functionality are added to the libraries (ongoing)
+1. Identify key performance metrics for evaluating the efficiency of zero-knowledge proof libraries (*completed*)
+1. Develop a set of test cases that exercise a range of different functionality in the libraries, including creating and verifying proofs for various types of statements (*completed*)
+2. Implement automation scripts for running the test cases and collecting performance data (*completed*)
+3. Set up continuous integration to regularly run the benchmarking suite and track performance over time (*ongoing*)
+4. Collaborate with other organizations to add more libraries, incorporate their test cases and use cases into the benchmarking suite (*TODO*)
+5. Publish the results of the benchmarking efforts in a public repository, along with documentation and scripts for reproducing the benchmarks (*completed*)
+6. Continuously update and improve the benchmarking suite as new features and functionality are added to the libraries (*ongoing*)
 
 
 ## Call for collaboration
