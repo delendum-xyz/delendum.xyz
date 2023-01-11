@@ -8,7 +8,7 @@ image: "/assets/posts/2023-01-11-zk-system-benchmarking/preview.png"
 
 Delendum Research, Miden, Risc Zero
 
-_Many thanks to Bobbin Threadbare, Dominik Schmid, Brian Retford, Tim Cartens, Daniel Lubarov, Andrei Nagornyi and Ventali Tan for feedback._
+By Bobbin Threadbare, Dominik Schmid, Tim Cartens, Brian Retford, Daniel Lubarov, Andrei Nagornyi and Ventali Tan
 
 Github repository: [delendum-xyz/zk-benchmarking](https://github.com/delendum-xyz/zk-benchmarking)
 
