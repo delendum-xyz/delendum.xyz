@@ -128,86 +128,66 @@ th, td {
  padding: 4px 8px;
  border: 1px solid black;
 }
-</style>
+<style>
 <table>
     <thead>
         <tr>
-            <th rowspan=2 colspan=2>Prover time (sec) </th>
-            <th colspan=3>SHA256</th>
-            <th colspan=3>BLAKE3</th>
-            <th colspan=4>RP64_256</th>
+            <th rowspan=2 colspan=2>Prover time (sec)</th>
+            <th colspan=2>SHA256</th>
+            <th colspan=2>BLAKE3</th>
+            <th colspan=2>RP64_256</th>
         </tr>
         <tr>
-            <th>1</th>
             <th>10</th>
             <th>100</th>
-            <th>1</th>
             <th>10</th>
             <th>100</th>
-            <th>1</th>
-            <th>10</th>
             <th>100</th>
             <th>1000</th>
         </tr>
     </thead>
     <tbody>
         <tr>
-            <td colspan=12>Apple M2 (4P + 4E cores), 8GB RAM </td>
+            <td colspan=8>Apple M2 (4P + 4E cores), 8GB RAM </td>
         </tr>
         <tr>
             <td> </td>
             <td style="text-align:left">Miden VM</td>
-            <td>0.27</td>
             <td>1.91</td>
             <td>40.39</td>
-            <td>0.15</td>
             <td>0.96</td>
             <td>9.87</td>
-            <td>0.04</td>
-            <td>0.03</td>
             <td>0.05</td>
             <td>0.28</td>
         </tr>
         <tr>
             <td> </td>
             <td style="text-align:left">RISC Zero</td>
-            <td>0.63</td>
             <td>1.29</td>
             <td>5.48</td>
             <td> </td>
             <td> </td>
             <td> </td>
             <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
         </tr>
         <tr>
-            <td colspan=12>AWS Graviton 3 (64 cores), 128 GB RAM </td>
+            <td colspan=8>AWS Graviton 3 (64 cores), 128 GB RAM</td>
         </tr>
         <tr>
             <td> </td>
             <td style="text-align:left">Miden VM</td>
-            <td>0.12</td>
             <td>0.49</td>
             <td>3.99</td>
-            <td>0.10</td>
             <td>0.33</td>
             <td>2.06</td>
-            <td>0.04</td>
-            <td>0.04</td>
             <td>0.05</td>
             <td>0.13</td>
         </tr>
         <tr>
             <td> </td>
             <td style="text-align:left">RISC Zero</td>
-            <td>0.18</td>
             <td>0.40</td>
             <td>1.59</td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
             <td> </td>
             <td> </td>
             <td> </td>
@@ -228,82 +208,62 @@ The table below shows the time it takes to verify a proof of correctly computing
 <table>
     <thead>
         <tr>
-            <th rowspan=2 colspan=2>Verifier time (ms) </th>
-            <th colspan=3>SHA256</th>
-            <th colspan=3>BLAKE3</th>
-            <th colspan=4>RP64_256</th>
+            <th rowspan=2 colspan=2>Verifier time (ms)</th>
+            <th colspan=2>SHA256</th>
+            <th colspan=2>BLAKE3</th>
+            <th colspan=2>RP64_256</th>
         </tr>
         <tr>
-            <th>1</th>
             <th>10</th>
             <th>100</th>
-            <th>1</th>
             <th>10</th>
             <th>100</th>
-            <th>1</th>
-            <th>10</th>
             <th>100</th>
             <th>1000</th>
         </tr>
     </thead>
     <tbody>
         <tr>
-            <td colspan=12>Apple M2 (4P + 4E cores), 8GB RAM </td>
+            <td colspan=8>Apple M2 (4P + 4E cores), 8GB RAM </td>
         </tr>
         <tr>
             <td> </td>
             <td style="text-align:left">Miden VM</td>
-            <td>2.26</td>
             <td>2.42</td>
             <td>3.73</td>
-            <td>2.68</td>
             <td>2.56</td>
             <td>2.52</td>
-            <td>2.44</td>
-            <td>2.24</td>
             <td>2.28</td>
             <td>2.42</td>
         </tr>
         <tr>
             <td> </td>
             <td style="text-align:left">RISC Zero</td>
-            <td>1.81</td>
             <td>1.92</td>
             <td>2.44</td>
             <td> </td>
             <td> </td>
             <td> </td>
             <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
         </tr>
         <tr>
-            <td colspan=12>AWS Graviton 3 (64 cores), 128 GB RAM</td>
+            <td colspan=8>AWS Graviton 3 (64 cores), 128 GB RAM</td>
         </tr>
         <tr>
             <td> </td>
             <td style="text-align:left">Miden VM</td>
-            <td>3.05</td>
             <td>3.26</td>
             <td>3.54</td>
-            <td>3.27</td>
             <td>3.24</td>
             <td>3.47</td>
-            <td>2.79</td>
-            <td>2.77</td>
             <td>2.81</td>
             <td>3.04</td>
         </tr>
         <tr>
             <td> </td>
             <td style="text-align:left">RISC Zero</td>
-            <td>2.81</td>
             <td>3.03</td>
             <td>4.05</td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
             <td> </td>
             <td> </td>
             <td> </td>
@@ -319,54 +279,40 @@ The table below shows the size of a generated proof in **kilobytes**. Proof size
 <table>
     <thead>
         <tr>
-            <th rowspan=2 colspan=2>Proof size (KB) </th>
-            <th colspan=3>SHA256</th>
-            <th colspan=3>BLAKE3</th>
-            <th colspan=4>RP64_256</th>
+            <th rowspan=2>Proof size (KB)</th>
+            <th colspan=2>SHA256</th>
+            <th colspan=2>BLAKE3</th>
+            <th colspan=2>RP64_256</th>
         </tr>
         <tr>
-            <th>1</th>
             <th>10</th>
             <th>100</th>
-            <th>1</th>
             <th>10</th>
             <th>100</th>
-            <th>1</th>
-            <th>10</th>
             <th>100</th>
             <th>1000</th>
         </tr>
     </thead>
     <tbody>
         <tr>
-            <td> </td>
-            <td style="text-align:left">Miden</td>
-            <td>72356</td>
-            <td>89776</td>
-            <td>107560</td>
-            <td>67699</td>
-            <td>83300</td>
-            <td>100752</td>
-            <td>53203</td>
-            <td>53284</td>
-            <td>57529</td>
-            <td>72742</td>
+            <td style="text-align:left">Miden VM</td>
+            <td>87.7</td>
+            <td>105.0</td>
+            <td>81.3</td>
+            <td>98.4</td>
+            <td>56.2</td>
+            <td>71.0</td>
         </tr>
         <tr>
-            <td> </td>
             <td style="text-align:left">RISC Zero</td>
-            <td>177684</td>
-            <td>187796</td>
-            <td>210068</td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
+            <td>183.4</td>
+            <td>205.1</td>
             <td> </td>
             <td> </td>
             <td> </td>
             <td> </td>
         </tr>
-     </tbody>
+       
 </table>
 
 
