@@ -75,15 +75,15 @@ Here are the definitions of the three tests mentioned above:
 
 Iterated hashing is an essential building block for Merkle tree structures and whenever one needs to succinctly commit larger amounts of data.
 
-Compute H(H(H(...H(x)))), where H() is a cryptographic hash function, for some input x. As input x we chose a 32-bytes input [0_u8; 32] and job_size defines the number of iterations.
+To benchmark iterative hashing we compute a *hash chain* as `H(H(H(...H(x))))`, where `H()` is a cryptographic hash function, for some input `x`. As input `x` we chose a 32-bytes input `[0_u8; 32]` and the number of invocations of `H()` defines the length of the hash chain.
 
-#### merkle inclusion proof
+#### Merkle inclusion proof
 
 A merkle inclusion proof proves that a certain leaf is part of a merkle tree. The VM is given the leaf and the merkle path and needs to prove inclusion by iterated hashing. We define the benchmark to pick a Merkle path of depth 32 and then the job_size is the number of Merkle paths we verify. 
 
 [Benchmarks will be presented soon]
 
-#### recursion
+#### Recursion
 
 [Benchmarks will be presented soon]
 
@@ -112,7 +112,16 @@ The following factors are also very important to consider and we will try to des
 
 ## Sample results
 
-For iterated hashing, here are sample results on a 64 core Graviton 3 and an Apple M2 machine:
+Currently, the following ZK systems are benchmarked.
+
+ | System        | ZKP System | Default Security Level |
+ | ------------- | ---------- | ---------------- |
+ | [Polygon Miden](https://github.com/0xPolygonMiden/miden-vm) | STARK | [96 bits](https://github.com/maticnetwork/miden/blob/e941cf8dc6397a830d9073c8730389248e82f8e1/air/src/options.rs#L29) |
+ | [RISC Zero](https://github.com/risc0/risc0/) | STARK | [100 bits](https://github.com/risc0/risc0/#security) |
+
+### Prover performance
+
+The table below shows the time it takes to generate a proof for a hash chain of a given length using a given hash function. This time includes the time needed to generate the witness for the computation. Time shown is in **seconds**.
 
 <style>
 th, td {
@@ -123,7 +132,7 @@ th, td {
 <table>
     <thead>
         <tr>
-            <th rowspan=2 colspan=2>Proving time in s</th>
+            <th rowspan=2 colspan=2>Prover time (sec) </th>
             <th colspan=3>SHA256</th>
             <th colspan=3>BLAKE3</th>
             <th colspan=4>RP64_256</th>
@@ -143,11 +152,11 @@ th, td {
     </thead>
     <tbody>
         <tr>
-            <td colspan=12>Apple M2 8GB RAM </td>
+            <td colspan=12>Apple M2 (4P + 4E cores), 8GB RAM </td>
         </tr>
         <tr>
             <td> </td>
-            <td style="text-align:left">Miden</td>
+            <td style="text-align:left">Miden VM</td>
             <td>0.27</td>
             <td>1.91</td>
             <td>40.39</td>
@@ -174,11 +183,11 @@ th, td {
             <td> </td>
         </tr>
         <tr>
-            <td colspan=12>AWS Graviton 3</td>
+            <td colspan=12>AWS Graviton 3 (64 cores), 128 GB RAM </td>
         </tr>
         <tr>
             <td> </td>
-            <td style="text-align:left">Miden</td>
+            <td style="text-align:left">Miden VM</td>
             <td>0.12</td>
             <td>0.49</td>
             <td>3.99</td>
@@ -207,13 +216,19 @@ th, td {
     </tbody>
 </table>
 
-* Note that for Miden 100 SHA2 results is 2x longer than what it should be (should actually be closer to 16 seconds). This likely happened because M2 system we use has only 8GB of RAM and it probably started swapping to disk for this benchmark.
+A few notes:
 
+ * For RISC Zero the native hash function is SHA256, while for Miden VM it is Rescue Prime.
+ * On Apple-based systems, RISC Zero prover can take advantage of GPU resources.
 
+### Verifier performance
+
+The table below shows the time it takes to verify a proof of correctly computing a hash chain of a given length and a given hash function. Time shown is in **milliseconds**.
+ 
 <table>
     <thead>
         <tr>
-            <th rowspan=2 colspan=2>Verification time in ms</th>
+            <th rowspan=2 colspan=2>Verifier time (ms) </th>
             <th colspan=3>SHA256</th>
             <th colspan=3>BLAKE3</th>
             <th colspan=4>RP64_256</th>
@@ -233,11 +248,11 @@ th, td {
     </thead>
     <tbody>
         <tr>
-            <td colspan=12>Apple M2 8GB RAM </td>
+            <td colspan=12>Apple M2 (4P + 4E cores), 8GB RAM </td>
         </tr>
         <tr>
             <td> </td>
-            <td style="text-align:left">Miden</td>
+            <td style="text-align:left">Miden VM</td>
             <td>2.26</td>
             <td>2.42</td>
             <td>3.73</td>
@@ -264,11 +279,11 @@ th, td {
             <td> </td>
         </tr>
         <tr>
-            <td colspan=12>AWS Graviton 3</td>
+            <td colspan=12>AWS Graviton 3 (64 cores), 128 GB RAM</td>
         </tr>
         <tr>
             <td> </td>
-            <td style="text-align:left">Miden</td>
+            <td style="text-align:left">Miden VM</td>
             <td>3.05</td>
             <td>3.26</td>
             <td>3.54</td>
@@ -297,12 +312,14 @@ th, td {
     </tbody>
 </table>
 
-<div style="height: 32px;"></div>
+### Proof size
+
+The table below shows the size of a generated proof in **kilobytes**. Proof sizes do not depend on the platform used to generate proofs.
 
 <table>
     <thead>
         <tr>
-            <th rowspan=2 colspan=2>Proof sizes in bytes</th>
+            <th rowspan=2 colspan=2>Proof size (KB) </th>
             <th colspan=3>SHA256</th>
             <th colspan=3>BLAKE3</th>
             <th colspan=4>RP64_256</th>
