@@ -312,7 +312,7 @@ The table below shows the size of a generated proof in **kilobytes**. Proof size
             <td> </td>
             <td> </td>
         </tr>
-       
+     </tbody>
 </table>
 
 
