@@ -128,7 +128,7 @@ th, td {
  padding: 4px 8px;
  border: 1px solid black;
 }
-<style>
+</style>
 <table>
     <thead>
         <tr>
