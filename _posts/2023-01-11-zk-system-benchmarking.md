@@ -59,7 +59,6 @@ For each benchmark, we measure the performance of these tasks:
 
 * Proof generating
 * Verifying a valid proof
-* Rejecting an invalid proof
 
 We start with smaller computations such as iterated hashing, merkle inclusion proof, and recursion etc and will eventually move on to larger end-to-end scenarios.
 
