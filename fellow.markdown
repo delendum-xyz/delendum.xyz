@@ -184,7 +184,13 @@ If you are interested in applying to the development fellowship, please fill out
 </tbody>
 </table>
 
-*We offer incubation opportunities. Fellows who wish to be selected need to notify the team prior to their final presentation and we will make a decision on the same day.
+Notice to Fellows: 
+
+Please be advised that the fellowship program reserves the right to terminate any fellowship if the fellow is found to not be actively using the resources provided by the program. Fellows are expected to fully utilize the resources and opportunities provided to them during the course of their fellowship.
+
+We also offer incubation opportunities. Fellows who wish to be selected need to notify the team prior to their final presentation and we will make a decision on the same day.
+
+
 
 
 
