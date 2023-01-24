@@ -17,7 +17,8 @@ redirect_from:
 Apply [development fellowship here](/fellowship/development) and [research fellowship here](/fellowship/research).
 
 ### Goal
-A two-month program to support research and development advancing the frontiers of zero-knowledge.
+
+A nonprofit two-month program to support research and development advancing the frontiers of zero-knowledge.
 
 ### Benefit
 **Research**: collaborating with researchers on original, exploratory topics that leads to the creation of new methods and constructions.
@@ -118,7 +119,6 @@ If you are interested in applying to the research fellowship, please fill out [t
     <td>the final version of research paper</td>
     <td>n/a</td>
 </tr>
-<tr><td colspan="4"><p class="text-center">Optional: we can host a technical seminar on your topic and invite the top researchers and builders to give talks and share their perspectives (see - <a href="https://www.youtube.com/channel/UCM7Dc3y3BVTTpprDidVV7iw" target="_blank">youtube link</a>)</p></td> </tr>
 </tbody>
 </table>
 
@@ -180,13 +180,14 @@ If you are interested in applying to the development fellowship, please fill out
     <td>the final version of your demo, codebase, technical whitepaper</td>
     <td>n/a</td>
 </tr>
-<tr><td colspan="4"><p class="text-center">Optional: we can host a technical seminar on your topic and invite the top researchers and builders to give talks and share their perspectives (see - <a href="https://www.youtube.com/channel/UCM7Dc3y3BVTTpprDidVV7iw" target="_blank">youtube link</a>)</p></td> </tr>
 </tbody>
 </table>
 
 Notice to Fellows: 
 
 Please be advised that the fellowship program reserves the right to terminate any fellowship if the fellow is found to not be actively using the resources provided by the program. Fellows are expected to fully utilize the resources and opportunities provided to them during the course of their fellowship.
+
+Any software, invention, work product developed by the fellow during the course of the fellowship shall be made available and licensed in reasonable terms to the general public under the MIT License.
 
 We also offer incubation opportunities. Fellows who wish to be selected need to notify the team prior to their final presentation and we will make a decision on the same day.
 
