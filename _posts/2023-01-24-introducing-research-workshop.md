@@ -1,7 +1,7 @@
 ---
 layout: post
 author: Delendum Research
-title: "[Apply by 02/15] Future Computing Research Workshop
+title: "[Apply by 02/15] Future Computing Research Workshop"
 excerpt: ".."
 image: "/assets/posts/2023-01-24-introducing-research-workshop/preview.png"
 ---
