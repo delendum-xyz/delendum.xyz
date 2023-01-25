@@ -1,3 +1,1 @@
-Delendum
-
-hello@delendum.xyz
+www.delendum.xyz
