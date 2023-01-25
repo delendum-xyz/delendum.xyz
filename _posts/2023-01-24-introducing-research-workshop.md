@@ -2,13 +2,13 @@
 layout: post
 author: Delendum Research
 title: "[Apply by 02/15] Future Computing Research Workshop"
-excerpt: ".."
+excerpt: "advance cooperation at the intersection of cryptography, theoretical computer science, and blockchain"
 image: "/assets/posts/2023-01-24-introducing-research-workshop/preview.png"
 ---
 
-Registration link: [click here] (https://www.eventbrite.com/e/future-computing-research-workshop-tickets-523088871897)
+Registration link: [click here](https://www.eventbrite.com/e/future-computing-research-workshop-tickets-523088871897)
 
-![graph](/assets/posts/2023-01-25-introducing-research-workshop/event.png)
+![graph](/assets/posts/2023-01-24-introducing-research-workshop/event.png)
 
 ### Table of Content
 
@@ -43,21 +43,13 @@ If you are interested in supporting our nonprofit efforts on a long-term basis, 
 
 ## Agenda
 
-(We will update the agenda by Feb 15.)
+*We will update the agenda by Feb 15*.
 
 09:00 – 10:00 am: Introductions & workshop goals
 
 10:00 – 12:00 am: Lightning presentations (10-min each, 12 total)
 
 TBD
-…
-…
-…
-…
-…
-…
-…
-…
 
 12:00 – 01:00 pm: Lunch (workshop group meetings)
 
@@ -68,14 +60,6 @@ TBD
 03:00 – 05:00 pm: Working group presentations (10 groups)
 
 TBD
-…
-…
-…
-…
-…
-…
-…
-…
 
 05:00 – 05:30 pm: Networking
 
@@ -83,11 +67,11 @@ TBD
 
 ### general admission
 
-Registration link: [click here] (https://www.eventbrite.com/e/future-computing-research-workshop-tickets-523088871897)
+Registration link: [click here](https://www.eventbrite.com/e/future-computing-research-workshop-tickets-523088871897)
 
 ### working group prompts for project proposals
 
-Proposal format: [click here] (https://docs.google.com/document/d/1ifj_uGrlaXbBMBRLjVeCkQc1MdfZrpEX/edit?usp=sharing&ouid=105337105111275177447&rtpof=true&sd=true)
+Proposal format: [click here](https://docs.google.com/document/d/1ifj_uGrlaXbBMBRLjVeCkQc1MdfZrpEX/edit?usp=sharing&ouid=105337105111275177447&rtpof=true&sd=true)
 
 ## Apply to speak
 
