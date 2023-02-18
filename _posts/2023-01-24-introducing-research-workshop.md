@@ -45,31 +45,44 @@ If you are interested in supporting our nonprofit efforts on a long-term basis, 
 
 ## Agenda
 
-- 09:00 – 09:30 am: Introductions & Workshop Goals
-- 09:30 – 10:30 am: New Constructions (15 mins each, 4 total)
-  - Andrew Miller, TEE and Credential Network
-  - Jon Stephens, Automated Detection of ZK-Circuit Bugs
-  - Leo Fan, Hardware Accelerating ZKP
-  - Grigore Rosu, SNARKs and Formal Semantics
-- 10:30 - 10:45 am: Break
-- 10:45 - 12:00 pm: New Applications (15 mins each, 5 total)
-  - Brian Retford, Our ZK-Enabled Future
-  - Ryan Cao: Leela vs. the World -- the First zkAI Game
-  - Daniel Kang, Scaling Zero-Knowledge Proofs to ImageNet-Scale Models
-  - Pratyush Ranjan Tiwari, Anonymous Credentials in the Real World
-  - Weikeng Chen, Application-Specific Proof Systems
-- 12:00 – 01:00 pm: lunch (workshop group meetings)
-- 01:00 – 01:45 pm: New Ideas (15 mins each, 3 total)
-  - Christopher Goes, Towards a Cybernetic Cryptoeconomics
-  - Yi Sun, Reflection and Introspection in Blockchains
-  - Henry de Valence, TBD
-- 01:45 - 02:30 pm: New Tools (15 mins each, 3 total)
-  - Wei Dai, Backend-agnostic Witness Generation and Circuit Building Library
-  - Tim Carstens, Practical Benchmarks for ZK Systems
-  - Max Gillett, Optimal zkVM Design
-- 02:40 – 03:00 pm: Break (workshop group meetings)
-- 03:00 – 05:00 pm: Working Group Presentations (15 mins each, 8 groups)
-- 05:00 – 05:30 pm: Networking
+09:00 – 09:30 am: Introductions & Workshop Goals
+
+09:30 – 10:30 am: New Constructions (15 mins each, 4 total)
+
+- Andrew Miller, TEE and Credential Network
+- Jon Stephens, Automated Detection of ZK-Circuit Bugs
+- Leo Fan, Hardware Accelerating ZKP 
+- Grigore Rosu, SNARKs and Formal Semantics
+
+10:30 - 10:45 am: Break
+
+10:45 - 12:00 pm: New Applications (15 mins each, 5 total)
+
+- Brian Retford, Our ZK-Enabled Future
+- Ryan Cao: Leela vs. the World -- the First zkAI Game
+- Daniel Kang, Scaling Zero-Knowledge Proofs to ImageNet-Scale Models
+- Pratyush Ranjan Tiwari, Anonymous Credentials in the Real World
+- Weikeng Chen, Application-Specific Proof Systems
+
+12:00 – 01:00 pm: lunch (workshop group meetings)
+
+01:00 – 01:45 pm: New Ideas (15 mins each, 3 total)
+
+- Christopher Goes, Towards a Cybernetic Cryptoeconomics
+- Yi Sun, Reflection and Introspection in Blockchains
+- Henry de Valence, TBD
+
+01:45 - 02:30 pm: New Tools (15 mins each, 3 total)
+
+- Wei Dai, Backend-agnostic Witness Generation and Circuit Building Library
+- Tim Carstens, Practical Benchmarks for ZK Systems
+- Max Gillett, Optimal zkVM Design
+
+02:40 – 03:00 pm: Break (workshop group meetings)
+
+03:00 – 05:00 pm: Working Group Presentations (15 mins each, 8 groups)
+
+05:00 – 05:30 pm: Networking
 
 ## Apply to attend
 
