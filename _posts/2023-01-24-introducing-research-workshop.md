@@ -31,11 +31,11 @@ Advance cooperation at the intersection of cryptography, theoretical computer sc
 
 ### Format
 
-Short presentations on selected avenues for progress (7 minutes each, 3 mins Q & A)
+Short presentations on selected avenues for progress (10 minutes each, 5 mins Q & A)
 
 Working groups to explore collaborations on avenues for progress (2 hours)
 
-Final presentations on promising avenues for progress (7 minutes each, 3 mins Q & A)
+Final presentations on promising avenues for progress (10 minutes each, 5 mins Q & A)
 
 ### Support our efforts
 
