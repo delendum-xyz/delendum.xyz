@@ -59,7 +59,7 @@ If you are interested in supporting our nonprofit efforts on a long-term basis, 
 10:45 - 12:00 pm: New Applications (15 mins each, 5 total)
 
 - Brian Retford, Our ZK-Enabled Future
-- Ryan Cao: Leela vs. the World -- the First zkAI Game
+- Ryan Cao, Leela vs. the World -- the First zkAI Game
 - Daniel Kang, Scaling Zero-Knowledge Proofs to ImageNet-Scale Models
 - Pratyush Ranjan Tiwari, Anonymous Credentials in the Real World
 - Weikeng Chen, Application-Specific Proof Systems
