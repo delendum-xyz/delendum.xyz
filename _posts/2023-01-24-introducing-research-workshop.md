@@ -68,21 +68,22 @@ If you are interested in supporting our nonprofit efforts on a long-term basis, 
 
 01:00 – 01:45 pm: New Ideas (15 mins each, 3 total)
 
+- Dawn Song, New Techniques for Decentralized Intelligence
 - Christopher Goes, Towards a Cybernetic Cryptoeconomics
 - Yi Sun, Reflection and Introspection in Blockchains
-- Henry de Valence, TBD
 
-01:45 - 02:30 pm: New Tools (15 mins each, 3 total)
+01:45 - 02:00 pm: Break
+
+02:00 - 03:00 pm: New Tools (15 mins each, 4 total)
 
 - Wei Dai, Backend-agnostic Witness Generation and Circuit Building Library
-- Tim Carstens, Practical Benchmarks for ZK Systems
+- Daniel Lubarov, Introducing Plonky3
+- Tim Carstens, Practical Benchmarks for ZK System
 - Max Gillett, Optimal zkVM Design
 
-02:40 – 03:00 pm: Break (workshop group meetings)
+03:00 – 03:30 pm: Workshop Group Meetings
 
-03:00 – 05:00 pm: Working Group Presentations (15 mins each, 8 groups)
-
-05:00 – 05:30 pm: Networking
+03:30 – 05:30 pm: Working Group Presentations (15 mins each, 8 groups)
 
 ## Apply to attend
 
