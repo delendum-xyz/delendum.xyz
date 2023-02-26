@@ -34,20 +34,16 @@ description: "We support inventions in blockchain infrastructure, private comput
         <img alt="Gautam" src="/assets/team/james.jpg"/>
     </a>
 
-    <a class="team-member" target="_blank" href="https://www.linkedin.com/in/andrei-nagornyi-b4236637">
-        <div class="member-name">Andrei Nagornyi</div>
-        <img alt="Gautam" src="/assets/team/andrei.jpg"/>
+    <a class="team-member" target="_blank" href="https://linkedin.com/in/-weidai/">
+        <div class="member-name">Wei Dai</div>
+        <img alt="Gautam" src="/assets/team/wei.jpg"/>
     </a>
 
-    <a class="team-member" target="_blank" href="https://www.linkedin.com/in/ibrahim-yusufali/">
-        <div class="member-name">Ibrahim Yusufali</div>
-        <img alt="Ibrahim" src="/assets/team/ibrahim.jpg"/>
+    <a class="team-member" target="_blank" href="https://maxgillett.com">
+        <div class="member-name">Max Gillett</div>
+        <img alt="Gautam" src="/assets/team/max.jpg"/>
     </a>
 
-    <a class="team-member" target="_blank" href="https://www.linkedin.com/in/gautam-botrel">
-        <div class="member-name">Gautam Botrel</div>
-        <img alt="Gautam" src="/assets/team/gautam.jpg"/>
-    </a>
 
 
 </div>
