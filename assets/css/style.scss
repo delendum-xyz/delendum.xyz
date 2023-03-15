@@ -24,6 +24,10 @@ body {
   color: black;
   margin-bottom: 24px;
   text-decoration: underline;
+
+  &.bold{
+    font-weight: 600;
+  }
 }
 
 .footer {
@@ -75,7 +79,7 @@ body {
   //position: fixed;
   background: white;
   text-align: center;
-  gap: 16px;  
+  gap: 16px;
 
   a {
     cursor: pointer;
@@ -145,7 +149,7 @@ a {
   min-height: 100vh;
   display: flex;
   padding: 32px;
-  justify-content: center;
+  //justify-content: center;
   flex-direction: column;
   background: white;
 
@@ -274,6 +278,9 @@ a {
 
 .page-link-container {
   width: 100%;
+  display: flex;
+  gap: 32px;
+  justify-content: center;
   text-align: center;
   margin-bottom: 32px;
 }

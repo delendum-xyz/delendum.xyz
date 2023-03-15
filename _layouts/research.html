@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang='{{ site.lang | default: "en-US" }}'>
+<head>
+    <meta charset="UTF-8">
+    {% include common.html %}
+    {% seo %}
+    {% include head-custom.html %}
+    {% include preview.html %}
+</head>
+<body>
+{% include menu.html %}
+<main id="content" class="main-content-research" role="main">
+    <div class="page-link-container">
+        <a class="menu-link {% if page.collection == 'announcements' or page.tags contains 'announcement' %} bold {% endif %}" href="/announcement">announcement</a>
+        <a class="menu-link {% if page.collection == 'writings' or page.tags contains 'writing' %} bold {% endif %}" href="/writing">writing</a>
+        <a class="menu-link" href="https://kb.delendum.xyz">knowledge base</a>
+    </div>
+    {{ content }}
+</main>
+{% include footer.html %}
+</body>
+</html>

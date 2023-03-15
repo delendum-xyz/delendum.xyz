@@ -9,3 +9,17 @@ baseHttp: "http://delendum.xyz"
 
 plugins:
   - jekyll-redirect-from
+
+collections:
+  announcements:
+    output: true
+  writings:
+    output: true
+  infrastructure:
+    output: false
+  service:
+    output: false
+  products:
+    output: false
+  careers:
+    output: true

@@ -1,12 +1,9 @@
 ---
-layout: team
+layout: company
 title: "Delendum - Team"
 description: "We support inventions in blockchain infrastructure, private computing, and zero-knowledge proof applications"
+tags: team
 ---
-
-<div class="page-link-container">
-    <a class="menu-link" href="/team">team</a>
-</div>
 
 <div class="team">
     <a class="team-member" target="_blank" href="https://www.linkedin.com/in/dlubarov">
