@@ -4,6 +4,7 @@ location: SF, USA / Remote
 title: Senior Compiler Engineer
 --- 
 
+Job Summary:
 
 We are looking for a Senior Compiler Engineer to join our team to develop a virtual machine optimized for generating succinct proofs of computational soundness. The successful candidate will be responsible for designing and implementing a backend compiler for LLVM or WASM IR to target the new ISA.
 
