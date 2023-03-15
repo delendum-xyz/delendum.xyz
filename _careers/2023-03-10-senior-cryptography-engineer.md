@@ -4,8 +4,6 @@ location: SF, USA / Remote
 title: Senior Cryptography Engineer
 --- 
 
-Job Summary:
-
 We are seeking a highly experienced Senior Cryptography Engineer to join our team and help design and implement a new zero knowledge virtual machine. The ideal candidate will have a strong background in cryptography, experience with designing and implementing complex cryptographic systems, and a passion for developing cutting-edge solutions in the field of blockchain technology.
 
 Responsibilities:
@@ -26,4 +24,4 @@ Requirements:
 - Passion about understanding and designing for use cases is preferred.
 - Excellent problem-solving skills and ability to work independently or as part of a team.
 
-If you're passionate about virtual machine design, compiler development, and algorithm optimization and you're looking for a challenging new opportunity please submit your resume to **hello@delendum.xyz**
+If you're passionate about virtual machine design, compiler development, and algorithm optimization and you're looking for a challenging new opportunity please submit your resume to **hello@delendum.xyz**. We are flexible with compensation for exceptional candidates.
