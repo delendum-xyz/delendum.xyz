@@ -1,0 +1,12 @@
+---
+layout: company
+---
+
+<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+
+<h2 class="text-black"> {{ page.title }}</h2>
+<div class="text-black">{{ page.date | date_to_string: "ordinal", "US" }}</div>
+<div class="text-black post-author">{{ page.author }}</div>
+<div class="text-black post-body">
+{{ content }}
+</div>
