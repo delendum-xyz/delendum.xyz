@@ -144,19 +144,9 @@ a {
 }
 
 .main-content-team {
-  width: 100%;
-  max-width: 100%;
-  min-height: 100vh;
-  display: flex;
-  padding: 32px;
-  //justify-content: center;
-  flex-direction: column;
-  background: white;
-
-  margin-top: 120px;
+  align-items: center;
 
   .team {
-    margin: auto;
     max-width: 720px;
 
     .team-member {
@@ -246,7 +236,7 @@ a {
   color: black;
 }
 
-.main-content-research {
+.main-content-research, .main-content-team {
   width: 100%;
   max-width: 720px;
   padding: 32px;

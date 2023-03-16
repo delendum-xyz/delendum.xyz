@@ -5,7 +5,7 @@ description: "We support inventions in blockchain infrastructure, private comput
 tags: about
 ---
 
-<div class="team">
+<div class="team text-black text-research-para">
 We are a team of dedicated engineers and researchers who are committed to making trustless and private computation pragmatic and useful. Our primary objective is to provide developers with the necessary tools and infrastructure to build secure, reliable, and scalable decentralized applications.
 <br/><br/>
 At the core of our company lies our unwavering commitment to open source development. We firmly believe that transparent and collaborative systems can unlock the full potential of blockchain technology. To this end, we are working on a range of open source infrastructure and services that aim to enhance developer productivity and performance.
