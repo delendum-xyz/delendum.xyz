@@ -11,9 +11,9 @@
 {% include menu.html %}
 <main id="content" class="main-content-team" role="main">
     <div class="page-link-container">
-        <a class="menu-link {% if page.collection == 'about' or page.tags contains 'about' %} bold {% endif %}" href="/about">about</a>
-        <a class="menu-link {% if page.collection == 'team' or page.tags contains 'team' %} bold {% endif %}" href="/team">team</a>
-        <a class="menu-link {% if page.collection == 'careers' or page.tags contains 'careers' %} bold {% endif %}" href="/careers">careers</a>
+        <a class="menu-link {% if page.collection == 'about' or page.tags contains 'about' %} underline {% endif %}" href="/about">about</a>
+        <a class="menu-link {% if page.collection == 'team' or page.tags contains 'team' %} underline {% endif %}" href="/team">team</a>
+        <a class="menu-link {% if page.collection == 'careers' or page.tags contains 'careers' %} underline {% endif %}" href="/careers">careers</a>
     </div>
     {{ content }}
 </main>
