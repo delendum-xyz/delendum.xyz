@@ -1,5 +1,5 @@
 ---
 layout: post
-author: Max Gillett
-title: Optimal zkVM Design
+author: 
+title: Register-based zkVM
 --- 
