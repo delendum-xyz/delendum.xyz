@@ -1,5 +1,5 @@
 ---
 layout: post
-author: Daniel Lubarov
+author: 
 title: Faster STARK Library
 --- 
