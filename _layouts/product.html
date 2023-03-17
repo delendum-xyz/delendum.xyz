@@ -10,11 +10,6 @@
 <body>
 {% include menu.html %}
 <main id="content" class="main-content-research" role="main">
-    <div class="page-link-container">
-        <a class="menu-link {% if page.collection == 'infrastructure' or page.tags contains 'infrastructure' %} bold {% endif %}" href="/infrastructure">infrastructure</a>
-        <a class="menu-link {% if page.collection == 'service' or page.tags contains 'service' %} bold {% endif %}" href="/service">service</a>
-        <a class="menu-link {% if page.collection == 'products' or page.tags contains 'products' %} bold {% endif %}" href="/products">products</a>
-    </div>
     {{ content }}
 </main>
 {% include footer.html %}
