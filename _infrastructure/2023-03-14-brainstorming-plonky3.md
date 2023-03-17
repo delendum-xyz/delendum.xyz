@@ -1,5 +1,5 @@
 ---
 layout: post
 author: Daniel Lubarov
-title: Brainstorming Plonky3
+title: Faster STARK Library
 --- 
