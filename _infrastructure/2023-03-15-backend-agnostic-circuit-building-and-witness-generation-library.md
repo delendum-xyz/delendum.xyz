@@ -1,5 +1,5 @@
 ---
 layout: post
-author: Wei Dai
-title: Backend-agnostic Circuit Building and Witness Generation Library
+author: 
+title: An Universal ZK Circuit Frontend Library in Rust
 --- 
