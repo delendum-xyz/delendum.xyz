@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: job
 location: SF, USA / Remote
 title: Senior Compiler Engineer
 --- 
