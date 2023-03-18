@@ -5,7 +5,7 @@
     {% seo %}
     {% include head-custom.html %}
 </head>
-<body class="body-main-page">
+<body>
 <!-- {% include menu.html logoless=true %} -->
 <header class="page-header" role="banner">
     <h1 class="project-name"><img src="{{ '/assets/dv-logo-text.svg'}}"></h1>
@@ -19,7 +19,7 @@
         <a class="menu-link" href="/fellow">fellowship</a>
     </div>
 </header>
-{% include footer.html %}
+{% include footer.html fixed=true %}
 <main id="content" class="main-content" role="main">
     {{ content }}
 </main>
