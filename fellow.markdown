@@ -18,12 +18,24 @@ Apply [development fellowship here](/fellowship/development) and [research fello
 
 ### Goal
 
-A nonprofit two-month program to support research and development advancing the frontiers of zero-knowledge.
+A nonprofit two-month program to support research and development advancing the frontiers of cryptographic computation.
 
 ### Benefit
+
 **Research**: collaborating with researchers on original, exploratory topics that leads to the creation of new methods and constructions.
 
 **Development**: working with the pioneers and builders in this field to create new products and systems, with support from our team members regarding evaluation and implementation.
+
+#### Mentors
+
+- Alan Szepieniec - Post-Quantum Cryptography, Hash Function
+- Andrew Miller - Computer Security, Decentralized Systems
+- Bobbin Threadbare - Virtual Machines, Zero-Knowledge Proofs
+- Brian Retford - Compiler, Language, Applied ZKP, Machine Learning
+- Christopher Goes - Protocol Development, System Designs
+- Daniel Lubarov - zkVMs, Proof Systems, Optimizations
+- Eli Ben-Sasson - Theoretical Computer Science, Zero-Knowledge Proofs
+- Shashank Agrawal - Multi-Party Computation, Zero-Knowledge Proofs
 
 ### Logistics
 
@@ -35,6 +47,7 @@ A nonprofit two-month program to support research and development advancing the 
 |--------------|-------------------|---------------------|---------------------|
 | Fellowship 1 | Jan 15 2023       | Mar 1 2023          | Mar 15 2023         |
 | Fellowship 2 | Apr 15 2023       | Jun 1 2023          | Jun 15 2023         |
+| Fellowship 3 | Jul 15 2023       | Sep 1 2023          | Sep 15 2023         |
 
 #### Application Deadlines
 *Submit your application by 11:59 p.m. (in your local timezone) on the applicable deadline.*
@@ -43,11 +56,11 @@ A nonprofit two-month program to support research and development advancing the 
 |-----------------------------------------|-------------|---------------------|-------------|
 |                                         | Deadline    | Decision by | Reply date  |
 |-----------------------------------------|-------------|----------------------|-------------|
-| Application to fellowship 1             | Dec 15 2022 | Jan 1 2023          | Jan 07 2023 |
-| Application to fellowship 2             | Mar 15 2023 | Apr 1 2023          | Apr 07 2023 |
-| Application to volunteer fellowship 1   | Dec 05 2022 | Dec 15 2022         | Dec 22 2022 |
-| Application to volunteer fellowship 2   | Mar 05 2023 | Mar 15 2022         | Mar 22 2023 |
-| Sponsorship & donation                  | Dec 25 2022 | N/A                 | N/A         |
+| Application to fellowship 1             | Dec 15 2022 | Jan 01 2023         | Jan 07 2023 |
+| Application to fellowship 2             | Apr 01 2023 | Apr 07 2023         | Apr 07 2023 |
+| Application to fellowship 3             | Jun 15 2023 | Jul 01 2023         | Jul 07 2023 |
+| Application to volunteer                | N/A         | N/A                 | N/A         |
+| Sponsorship & donation                  | N/A         | N/A                 | N/A         |
 
 We will evaluate applications on a rolling basis. Typically, we will get back to you within a week. Since we have very limited capacity, the early applicants generally get a better chance.
 
