@@ -45,9 +45,10 @@ A nonprofit two-month program to support research and development advancing the 
 |--------------|-------------------|---------------------|---------------------|
 |              | Fellowship begins | Cross-review begins | Final presentations |
 |--------------|-------------------|---------------------|---------------------|
-| Fellowship 1 | Jan 15 2023       | Mar 1 2023          | Mar 15 2023         |
-| Fellowship 2 | Apr 15 2023       | Jun 1 2023          | Jun 15 2023         |
-| Fellowship 3 | Jul 15 2023       | Sep 1 2023          | Sep 15 2023         |
+| Fellowship 1 | Jan 15 2023       | Mar 01 2023         | Mar 15 2023         |
+| Fellowship 2 | Jun 01 2023       | Aug 01 2023         | Aug 15 2023         |
+
+*We are hosting a "future of computing" research workshop on Aug 27 in San Francisco. Fellows can apply to present.*
 
 #### Application Deadlines
 *Submit your application by 11:59 p.m. (in your local timezone) on the applicable deadline.*
@@ -57,8 +58,7 @@ A nonprofit two-month program to support research and development advancing the 
 |                                         | Deadline    | Decision by | Reply date  |
 |-----------------------------------------|-------------|----------------------|-------------|
 | Application to fellowship 1             | Dec 15 2022 | Jan 01 2023         | Jan 07 2023 |
-| Application to fellowship 2             | Apr 01 2023 | Apr 07 2023         | Apr 07 2023 |
-| Application to fellowship 3             | Jun 15 2023 | Jul 01 2023         | Jul 07 2023 |
+| Application to fellowship 2             | May 01 2023 | May 15 2023         | May 20 2023 |
 | Application to volunteer                | N/A         | N/A                 | N/A         |
 | Sponsorship & donation                  | N/A         | N/A                 | N/A         |
 
