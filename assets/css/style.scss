@@ -12,6 +12,7 @@ body {
 
 .page-header {
   height: 100vh;
+  min-height: 800px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -35,9 +36,8 @@ body {
 
 .footer {
   text-align: center;
-
+  background: white;
   .footer-image {
-    margin-top: 64px;
     width: 100%;
     max-width: 480px;
     object-fit: contain;
