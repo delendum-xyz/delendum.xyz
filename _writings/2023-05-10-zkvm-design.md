@@ -12,6 +12,55 @@ Github repository: [Valida](https://github.com/delendum-xyz/valida) and [Valida 
 
 *Our vision:* We want to make it practical to compile conventional code to a zkVM with reasonable performance. No zkVM today is optimized for this goal. We desire a VM with neither registers nor a dedicated stack, and one that has a small field size with low-degree constraints. We also want efficient compilation from LLVM IR to the set of VM instructions. 
 
+### Table of Content
+
+- [Architecture](#architecture)
+  * [Instruction format](#instruction-format)
+  * [Program ROM](#program-rom)
+  * [Memory](#memory)
+  * [Immediate Values](#immediate-values)
+  * [Registers](#registers)
+  * [Notation](#notation)
+- [Instruction list](#instruction-list)
+  * [Core](#core)
+  * [Field arithmetic](#field-arithmetic)
+  * [U32 Arithmetic](#u32-arithmetic)
+  * [Bitwise](#bitwise)
+  * [Byte Manipulation](#byte-manipulation)
+- [Heap allocation](#heap-allocation)
+- [Assembly](#assembly)
+  * [Instructions](#instructions)
+  * [Calling convention / stack frame](#calling-convention-stack-frame)
+  * [Pseudo instructions](#pseudo-instructions)
+  * [Implementing MEMCPY/SET/MOVE](#implementing-memcpysetmove)
+  * [Heap allocations](#heap-allocations)
+  * [Example programs](#example-programs)
+- [Trace](#trace)
+  * [Main CPU](#main-cpu)
+  * [Memory](#memory-1)
+  * [U32 Arithmetic](#u32-arithmetic-1)
+  * [Instruction Trace](#instruction-trace)
+  * [Bitwise](#bitwise-1)
+  * [Instruction decoding](#instruction-decoding)
+- [State transition](#state-transition)
+- [Constraints](#constraints)
+  * [Main CPU](#main-cpu-1)
+  * [Memory](#memory-3)
+  * [Communication buses](#communication-buses)
+  * [U32 Arithmetic](#u32-arithmetic-4)
+- [Design notes](#design-notes)
+  * [Frontend target](#frontend-target)
+  * [ZK stack](#zk-stack)
+  * [Field choice](#field-choice)
+  * [Registers](#registers-1)
+  * [Memory](#memory-4)
+  * [Tables](#tables)
+  * [Continuations](#continuations)
+  * [Lookups](#lookups)
+  * [Floating point arithmetic](#floating-point-arithmetic)
+- [Call for collaboration](#call-for-collaboration)
+
+
 ## Architecture
 
 The zkVM consists of a CPU and several coprocessors, which are connected with communication buses:
