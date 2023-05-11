@@ -507,11 +507,11 @@ Trace cells are also allocated for each selector. In each cycle, the opcode is d
 | $$s_\text{bitwise_or}$$         | Bitwise |             |
 | $$s_\text{bitwise_xor}$$         | Bitwise |             |
 
-[| Bits 1-8        | Bit 9 | Bit 10 | Bit 11 | Bit 12 | Bits 17-32    |]:#
+<!--[| Bits 1-8        | Bit 9 | Bit 10 | Bit 11 | Bit 12 | Bits 17-32    |]:#
 [| --------------- | ----- | ------ | ------ | ------ | ------------- |]:#
 [| $$f_\text{opcode}$$ | $$f_d$$ | $$f_{\text{op}_a}$$  | $$f_{\text{op}_b}$$  | $$f_{\text{op}_c}$$]:#
 
-[where the binary flag $$f_{\text{op}_x}$$ for $$x \in \{a,b,c\}$$ determines whether $$\text{op}_x$$ is an address ($$0$$) or immediate value ($$1$$).]:#
+[where the binary flag $$f_{\text{op}_x}$$ for $$x \in \{a,b,c\}$$ determines whether $$\text{op}_x$$ is an address ($$0$$) or immediate value ($$1$$).]:#-->
 
 <!--
 
@@ -799,5 +799,12 @@ _If you’re interested in further discussions on this topic or working together
 th, td {
  padding: 4px 8px;
  border: 1px solid black;
+}
+code, kbd, pre, samp {
+	background-color: #eeeeee;
+	white-space: pre-wrap;
+}
+pre {
+	padding: 16px;
 }
 </style>
