@@ -131,6 +131,7 @@ Note that field arithmetic instructions only operate on the first element in a c
 | **AND**     | `a(fp), b(fp), c(fp)` | Set $$[a]$$ to $$[b]$$ bitwise-and $$[c]$$ |
 | **OR**     | `a(fp), b(fp), c(fp)` | Set $$[a]$$ to $$[b]$$ bitwise-or $$[c]$$ |
 | **XOR**     | `a(fp), b(fp), c(fp)` | Set $$[a]$$ to $$[b]$$ bitwise-xor $$[c]$$ |
+
 <!--| **ANDI**     | $$a$$, $$b$$, $$c$$ | $$\text{OP}_{AND}$$, $$a$$, $$b_1$$, $$c$$, $$1$$, $$b_2$$, $$b_3$$, $$b_4$$| Set $$[a]$$ to $$[b]$$ bitwise-and $$c$$ |
 | **ORI**     | $$a$$, $$b$$, $$c$$ | $$\text{OP}_{OR}$$, $$a$$, $$b$$, $$c_1$$, $$1$$, $$c_2$$, $$c_3$$, $$c_4$$| Set $$[a]$$ to $$[b]$$ bitwise-or $$c$$ |
 | **XORI**     | $$a$$, $$b$$, $$c$$ | $$\text{OP}_{XOR}$$, $$a$$, $$b$$, $$c_1$$, $$1$$, $$c_2$$, $$c_3$$, $$c_4$$| Set $$[a]$$ to $$[b]$$ bitwise-xor $$c$$ |-->
@@ -431,6 +432,7 @@ Each instruction is encoded as 6 field elements
 | **AND**     | `a(fp), b(fp), c(fp)` | $$\text{OP}_{AND}$$, $$a$$, $$b$$, $$c$$, $$0$$, _| Set $$[a]$$ to $$[b]$$ bitwise-and $$[c]$$ |
 | **OR**     | `a(fp), b(fp), c(fp)` | $$\text{OP}_{OR}$$, $$a$$, $$b$$, $$c$$, $$0$$, _| Set $$[a]$$ to $$[b]$$ bitwise-or $$[c]$$ |
 | **XOR**     | `a(fp), b(fp), c(fp)` | $$\text{OP}_{XOR}$$, $$a$$, $$b$$, $$c$$, $$0$$, _| Set $$[a]$$ to $$[b]$$ bitwise-xor $$[c]$$ |
+
 <!--| **ANDI**     | $$a$$, $$b$$, $$c$$ | $$\text{OP}_{AND}$$, $$a$$, $$b_1$$, $$c$$, $$1$$, $$b_2$$, $$b_3$$, $$b_4$$| Set $$[a]$$ to $$[b]$$ bitwise-and $$c$$ |
 | **ORI**     | $$a$$, $$b$$, $$c$$ | $$\text{OP}_{OR}$$, $$a$$, $$b$$, $$c_1$$, $$1$$, $$c_2$$, $$c_3$$, $$c_4$$| Set $$[a]$$ to $$[b]$$ bitwise-or $$c$$ |
 | **XORI**     | $$a$$, $$b$$, $$c$$ | $$\text{OP}_{XOR}$$, $$a$$, $$b$$, $$c_1$$, $$1$$, $$c_2$$, $$c_3$$, $$c_4$$| Set $$[a]$$ to $$[b]$$ bitwise-xor $$c$$ |-->
