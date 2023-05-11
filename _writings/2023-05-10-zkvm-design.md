@@ -756,7 +756,7 @@ No zkVM today is optimized for this goal:
 
 ### Frontend target
 
-We are writing a compiler from LLVM IR to our ISA
+We are writing a [compiler](https://github.com/delendum-xyz/valida-compiler) from LLVM IR to our ISA.
 
 ### ZK stack
 
