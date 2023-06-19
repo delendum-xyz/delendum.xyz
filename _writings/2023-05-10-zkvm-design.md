@@ -6,7 +6,7 @@ excerpt: "Valida: a STARK-based VM focused on code reuse, performance, and modul
 image: ""
 ---
 
-By Delendum
+By Daniel Lubarov, Max Gillett, Wei Dai
 
 Github repository: [Valida](https://github.com/delendum-xyz/valida) and [Valida Compiler](https://github.com/delendum-xyz/valida-compiler)
 
