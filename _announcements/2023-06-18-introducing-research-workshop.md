@@ -1,7 +1,7 @@
 ---
 layout: post
 author: Delendum Research
-title: "[Apply by 02/15] Future Computing Research Workshop"
+title: "[Apply by 07/15] Future Computing Research Workshop"
 excerpt: "advance cooperation at the intersection of cryptography, theoretical computer science, and blockchain"
 image: "/assets/posts/2023-01-24-introducing-research-workshop/preview.png"
 ---
@@ -51,7 +51,7 @@ If you are interested in supporting our nonprofit efforts on a long-term basis, 
 
 - Date: Aug 27, 2023
 - Time: 9AM - 5:30PM PT
-- Location: Berkeley, TBD
+- Location: UC Berkeley, TBD
 - Tickets: Free
 - Talks: 12 lightning talks (15-min each - 10-min talk + 5-min Q&A)
 - Working groups: 10 
