@@ -1,6 +1,6 @@
 ---
 layout: post
-author: 
+author: ""
 title: "Faster STARK Library"
 excerpt: "A toolkit for implementing polynomial IOPs (PIOPs)"
 --- 

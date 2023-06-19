@@ -6,7 +6,7 @@ tags: announcement
 ---
 
 <ul class="no-list-style">
-{% for post in site.announcements %}
+{% for post in site.announcements reversed %}
     <li class="no-list-style post-container">
         <div class="text-black text-large">
             <a class="text-black" href="{{ post.url }}">

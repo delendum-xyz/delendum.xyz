@@ -1,7 +1,7 @@
 ---
 layout: post
 author: Delendum Research
-title: "[Apply by 07/15] Future Computing Research Workshop"
+title: "[Apply by 07/15/2023] Future Computing Research Workshop"
 excerpt: "advance cooperation at the intersection of cryptography, theoretical computer science, and blockchain"
 image: "/assets/posts/2023-06-18-introducing-research-workshop/preview.jpg"
 ---

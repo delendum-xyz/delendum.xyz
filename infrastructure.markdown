@@ -10,7 +10,7 @@ tags: infrastructure
 implementation details.
 </p>
 <ul class="no-list-style">
-{% for post in site.infrastructure %}
+{% for post in site.infrastructure reversed %}
     <li class="no-list-style post-container">
         <div class="text-black text-large">
             <a class="text-black" href="{{ post.url }}">

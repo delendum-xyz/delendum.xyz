@@ -16,7 +16,7 @@ collections:
   writings:
     output: true
   infrastructure:
-    output: false
+    output: true
   service:
     output: false
   products:

@@ -1,5 +1,5 @@
 ---
 layout: post
-author: 
+author: ""
 title: An Universal ZK Circuit Frontend Library in Rust
 --- 
