@@ -13,7 +13,7 @@ Registration link: [click here](https://forms.gle/XMyNABxj2LGeMsbX9)
 ### Table of Content
 
 - [Introduction](#introduction)
-- [Agenda](#agenda)
+- [Logistics](#logistics)
 - [Apply to attend](#apply-to-attend)
 - [Apply to speak](#apply-to-speak)
 
