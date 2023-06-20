@@ -50,7 +50,7 @@ If you are interested in supporting our nonprofit efforts on a long-term basis, 
 ### Information
 
 - Date: Aug 27, 2023
-- Time: 9AM - 5:30PM PT
+- Time: 9AM - 3:30PM PT
 - Location: UC Berkeley, TBD
 - Tickets: Free
 - Talks: 12 lightning talks (15-min each - 10-min talk + 5-min Q&A)
@@ -60,17 +60,6 @@ If you are interested in supporting our nonprofit efforts on a long-term basis, 
 ### Agenda
 
 We will update the agenda soon.
-
-- 09:00 – 09:30 am: Introductions & Workshop Goals
-- 09:30 – 10:30 am: New Constructions (15 mins each, 4 total)
-- 10:30 - 10:45 am: Break
-- 10:45 - 12:00 pm: New Applications (15 mins each, 5 total)
-- 12:00 – 01:00 pm: lunch (workshop group meetings)
-- 01:00 – 01:45 pm: New Ideas (15 mins each, 3 total)
-- 01:45 - 02:00 pm: Break
-- 02:00 - 03:00 pm: New Tools (15 mins each, 4 total)
-- 03:00 – 03:30 pm: Workshop Group Meetings
-- 03:30 – 05:30 pm: Working Group Presentations (15 mins each, 8 groups)
 
 ## Apply to attend
 
