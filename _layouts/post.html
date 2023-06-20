@@ -1,8 +1,16 @@
 ---
 layout: research
 ---
-
-<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+<script>
+  MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']]
+    }
+  };
+</script>
+<script type="text/javascript" id="MathJax-script" async
+        src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
 
 <h2 class="text-black"> {{ page.title }}</h2>
 <div class="text-black">{{ page.date | date_to_string: "ordinal", "US" }}</div>
