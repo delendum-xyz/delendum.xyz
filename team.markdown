@@ -19,10 +19,6 @@ tags: team
         <div class="member-name">Wei Dai</div>
         <img alt="Gautam" src="/assets/team/wei.jpg"/>
     </a>
-    <a class="team-member" target="_blank" href="https://maxgillett.com">
-        <div class="member-name">Max Gillett</div>
-        <img alt="Gautam" src="/assets/team/max.jpg"/>
-    </a>
     <a class="team-member" target="_blank" href="https://www.linkedin.com/in/ole-spjeldn%C3%A6s-34a4a0122/">
         <div class="member-name">Ole Spjeldnaes</div>
         <img alt="Gautam" src="/assets/team/ole.jpg"/>
@@ -35,9 +31,5 @@ tags: team
     <a class="team-member" target="_blank" href="https://www.linkedin.com/in/james-stearn-9b67a3230">
         <div class="member-name">James Stearn</div>
         <img alt="Gautam" src="/assets/team/james.jpg"/>
-    </a>
-    <a class="team-member" target="_blank" href="https://www.linkedin.com/in/andrei-nagornyi-b4236637">
-        <div class="member-name">Andrei Nagornyi</div>
-        <img alt="Gautam" src="/assets/team/andrei.jpg"/>
     </a>
 </div>
