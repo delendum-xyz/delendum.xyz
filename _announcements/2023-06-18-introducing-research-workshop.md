@@ -37,14 +37,6 @@ Working groups to explore collaborations on avenues for progress (2 hours)
 
 Final presentations on promising avenues for progress (10 minutes each, 5 mins Q & A)
 
-### Support our efforts
-
-Donation link: [click here](https://www.eventbrite.com/e/606777867937)
-
-Please note that all proceeds from donations for this workshop will be used solely for covering the expenses of the event and for supporting nonprofit projects in the field of verifiable computing. We do not profit from the sale of tickets and all funds will be used to give back to the community through supporting relevant nonprofit projects. By donating, you are not only supporting the workshop but also supporting these projects.
-
-If you are interested in supporting our nonprofit efforts on a long-term basis, please reach out to us at research@delendum.xyz for more details.
-
 ## Logistics
 
 ### Information
@@ -83,6 +75,13 @@ We are committed to providing our audience with the most engaging and informativ
 
 Additionally, we prioritize proposals that demonstrate maturity in both the research design and execution, as well as a clear understanding of the potential impact of the research. Our goal is to foster meaningful dialogue and discussion, and we believe that selecting speakers based on these criteria will help us achieve that goal.
 
+## Support our efforts
+
+Donation link: [click here](https://www.eventbrite.com/e/606777867937)
+
+Delendum Research supports invention in the field by developing open source infrastructure projects, hosting biannual fellowship and residency programs, and producing and reviewing applied cryptography research publications.
+
+Please note that all proceeds from donations will be used solely to support non-profit initiatives in the field of cryptographic computing. If you are interested in supporting our non-profit efforts on a long-term basis, please contact us at research@delendum.xyz for more details.
 
 __________________________________
 
