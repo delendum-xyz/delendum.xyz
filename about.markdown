@@ -12,5 +12,5 @@ We are committed to making cryptographic computation pragmatic and useful. Our p
 <br/><br/>
 At the core of our company lies our unwavering commitment to open source development. We firmly believe that transparent and collaborative systems can unlock the full potential of blockchain technology. To this end, we are working on a range of open source infrastructure and services that aim to enhance developer productivity and performance.
 <br/><br/>
-Our efforts extend beyond technological advancement. We've established a non-profit division, Delendum Research, to offer mentorship and host non-profit programs like the fellowship and residency program. This initiative provides resources and support to explore and innovate in theoretical computer science, cryptography, and distributed systems.
+Our efforts extend beyond technological advancement. We've established a non-profit division, Delendum Research, to offer mentorship and host non-profit programs like the fellowship and residency program. This initiative provides resources and support to explore and innovate in the field of theoretical computer science, cryptography, and distributed systems.
 </div>
