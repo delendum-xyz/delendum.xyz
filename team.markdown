@@ -23,7 +23,6 @@ tags: team
         <div class="member-name">Ole Spjeldnaes</div>
         <img alt="Gautam" src="/assets/team/ole.jpg"/>
     </a>
-
     <a class="team-member" target="_blank" href="https://www.linkedin.com/in/ventali">
         <div class="member-name">Ventali Tan</div>
         <img alt="Ventali" src="/assets/team/ventali.jpg"/>
@@ -31,5 +30,9 @@ tags: team
     <a class="team-member" target="_blank" href="https://www.linkedin.com/in/james-stearn-9b67a3230">
         <div class="member-name">James Stearn</div>
         <img alt="Gautam" src="/assets/team/james.jpg"/>
+    </a>
+    <a class="team-member" target="_blank" href="http://www.linkedin.com/in/jeroen-zuiddam">
+        <div class="member-name">Jeroen Zuiddam</div>
+        <img alt="Gautam" src="/assets/team/jeroen.jpg"/>
     </a>
 </div>
