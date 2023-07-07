@@ -6,7 +6,7 @@ excerpt: "advance cooperation at the intersection of cryptography, theoretical c
 image: "/assets/posts/2023-06-18-introducing-research-workshop/preview.jpg"
 ---
 
-Registration link: [click here](https://forms.gle/XMyNABxj2LGeMsbX9)
+Registration link: [click here](https://sbc-berkeley-day-future-decentralization-technology-computing.eventbrite.com/)
 
 ![graph](/assets/posts/2023-06-18-introducing-research-workshop/preview.jpg)
 
