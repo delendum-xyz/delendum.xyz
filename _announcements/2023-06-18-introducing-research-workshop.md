@@ -1,7 +1,7 @@
 ---
 layout: post
 author: Delendum Research
-title: "[Apply by 07/15/2023] Future Computing Research Workshop"
+title: "[Apply by 07/15/2023] Future Computing Research Workshop at SBC-Berkeley Day"
 excerpt: "advance cooperation at the intersection of cryptography, theoretical computer science, and blockchain"
 image: "/assets/posts/2023-06-18-introducing-research-workshop/preview.jpg"
 ---
@@ -19,7 +19,7 @@ Registration link: [click here](https://sbc-berkeley-day-future-decentralization
 
 ## Introduction
 
-Future Computing Research Workshop is an event designed to bring together leading experts in the field of computing to discuss the latest advancements in the industry as well as exploring new tools and constructions together. The workshop will focus on a wide range of topics, including verifiable computation, artificial intelligence, machine learning, quantum computing, and more.
+Future Computing Research Workshop at SBC-Berkeley Day is an event designed to bring together leading experts in the field of computing to discuss the latest advancements in the industry as well as exploring new tools and constructions together. The workshop will focus on a wide range of topics, including verifiable computation, artificial intelligence, machine learning, quantum computing, and more.
 
 Throughout the workshop, attendees will have the opportunity to participate in interactive sessions, hear keynote speeches from industry leaders, and network with other researchers and professionals in the field. The event will also feature a poster session where attendees can present their own research and receive feedback from their peers.
 
