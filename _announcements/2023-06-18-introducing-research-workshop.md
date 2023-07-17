@@ -77,7 +77,7 @@ We are committed to providing our audience with the most engaging and informativ
 
 Additionally, we prioritize proposals that demonstrate maturity in both the research design and execution, as well as a clear understanding of the potential impact of the research. Our goal is to foster meaningful dialogue and discussion, and we believe that selecting speakers based on these criteria will help us achieve that goal.
 
-## Delendum-SBC ZK Research Meetup (Aug 28)
+## Delendum-SBC Research Meetup
 
 Registration link: [click here](https://www.eventbrite.com/e/665040452897)
 
@@ -85,7 +85,7 @@ Join us in downtown Palo Alto on August 28th with the industry-leading researche
 
 Delendum-SBC ZK Research Meetup is an event designed to bring together leading experts in the field of computing to discuss the latest advancements in the industry as well as exploring new tools and constructions together.​ Drinks and small bites will be provided.
 
-### Agenda:
+### Agenda
 
 - 7:00-8:00 PM Career fair
 - 8:00-9:00 PM Impromptu debate (with a blindfold :o)
