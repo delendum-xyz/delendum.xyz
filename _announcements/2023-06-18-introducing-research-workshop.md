@@ -57,7 +57,7 @@ We will update the agenda soon.
 
 ### general admission
 
-Registration link: [click here](https://forms.gle/XMyNABxj2LGeMsbX9)
+Registration link: [click here](https://sbc-berkeley-day-future-decentralization-technology-computing.eventbrite.com/)
 
 ### working group prompts for project proposals
 
@@ -75,9 +75,23 @@ We are committed to providing our audience with the most engaging and informativ
 
 Additionally, we prioritize proposals that demonstrate maturity in both the research design and execution, as well as a clear understanding of the potential impact of the research. Our goal is to foster meaningful dialogue and discussion, and we believe that selecting speakers based on these criteria will help us achieve that goal.
 
-## Support our efforts
+## Delendum-SBC ZK Research Meetup (Aug 28)
 
-Donation link: [click here](https://www.eventbrite.com/e/606777867937)
+Registration link: [click here](https://www.eventbrite.com/e/665040452897)
+
+Join us in downtown Palo Alto on August 28th with the industry-leading researchers and developers at SBC.
+
+Delendum-SBC ZK Research Meetup is an event designed to bring together leading experts in the field of computing to discuss the latest advancements in the industry as well as exploring new tools and constructions together.​ Drinks and small bites will be provided.
+
+### Agenda:
+
+- 7:00-8:00 PM Career fair
+- 8:00-9:00 PM Impromptu debate (with a blindfold :o)
+- 9:00-10:00 PM Open source roundtable
+
+For those interested in participating in the impromptu debate, please fill out [this form](https://forms.gle/xfxsLV4skKqh2og26).
+
+## Support our efforts
 
 Delendum Research supports invention in the field by developing open source infrastructure projects, hosting biannual fellowship and residency programs, and producing and reviewing applied cryptography research publications.
 
