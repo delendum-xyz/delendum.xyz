@@ -16,6 +16,8 @@ Registration link: [click here](https://sbc-berkeley-day-future-decentralization
 - [Logistics](#logistics)
 - [Apply to attend](#apply-to-attend)
 - [Apply to speak](#apply-to-speak)
+- [Delendum-SBC Research Meetup](#delendum-sbc-research-meetup)
+- [Support our efforts](#support-our-efforts)
 
 ## Introduction
 
