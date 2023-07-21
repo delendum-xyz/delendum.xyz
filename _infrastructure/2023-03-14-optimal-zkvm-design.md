@@ -1,6 +1,6 @@
 ---
 layout: post
-author: Delendum
+author: Delendum & Lita Foundation
 title: "Valida: a zkVM focused on performance and extensibility"
 excerpt: "A performant virtual machine with an LLVM-based static compiler"
 ---

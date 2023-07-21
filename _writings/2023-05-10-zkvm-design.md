@@ -1,7 +1,7 @@
 ---
 layout: post
-author: Delendum
-title: "zkVM Design"
+author: Delendum & Lita Foundation
+title: "Valida zkVM Design"
 excerpt: "Valida: a STARK-based VM focused on code reuse, performance, and modularity"
 image: ""
 ---
