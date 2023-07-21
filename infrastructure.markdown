@@ -6,7 +6,7 @@ tags: infrastructure
 ---
 
 <p class="text-black text-research-para">
-    These projects are open source MIT-licensed. We are looking forward to your contributions and are ready to provide guidance and support to anyone who wants to get involved. Please visit each project's GitHub page to get started and feel free to reach out to research@delendum.xyz with any questions or ideas. 
+    These projects are open source MIT-licensed. Please visit each project's GitHub page to get started and feel free to reach out to research@delendum.xyz with any questions or ideas. 
 </p>
 <ul class="no-list-style">
 {% for post in site.infrastructure reversed %}
