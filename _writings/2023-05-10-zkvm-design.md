@@ -8,7 +8,7 @@ image: ""
 
 By Daniel Lubarov, Max Gillett, Wei Dai
 
-Github repository: [Valida](https://github.com/delendum-xyz/valida) and [Valida Compiler](https://github.com/delendum-xyz/valida-compiler)
+Github repository: [Valida](https://github.com/delendum-xyz/valida) and [Valida LLVM Compiler](https://github.com/lita-xyz/llvm-valida)
 
 *Our vision:* We want to make it practical to compile conventional code to a zkVM with reasonable performance. No zkVM today is optimized for this goal. We desire a VM with neither registers nor a dedicated stack, and one that has a small field size with low-degree constraints. We also want efficient compilation from LLVM IR to the set of VM instructions. 
 
@@ -756,7 +756,7 @@ No zkVM today is optimized for this goal:
 
 ### Frontend target
 
-We are writing a [compiler](https://github.com/delendum-xyz/valida-compiler) from LLVM IR to our ISA.
+We are writing a [compiler](https://github.com/lita-xyz/llvm-valida) from LLVM IR to our ISA.
 
 ### ZK stack
 
