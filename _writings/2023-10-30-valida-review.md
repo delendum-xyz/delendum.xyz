@@ -3,7 +3,7 @@ layout: post
 author: Lita Foundation
 title: "Plonky3 / Valida Review Notes"
 excerpt: "Review criteria for Plonky3 and Valida MVP focus on functional completeness, computational robustness, algorithmic efficiency, and compatibility across systems"
-image: ""
+image: "/assets/posts/2023-10-30-valida-review/preview.jpg"
 ---
 
 By Morgan Thomas at Lita Foundation
