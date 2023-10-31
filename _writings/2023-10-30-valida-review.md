@@ -14,6 +14,12 @@ The underlying objective of this article is to provide our developer community w
 
 *Currently, based on our development trajectory, we project a combined total of 68 days (36 for Plonky3 and 32 for Valida) to complete the MVP.*
 
+**Early Access Program**
+
+As we continue our journey in refining and expanding the capabilities of Valida and its compiler infrastructure, we are excited to explore the possibility of launching an early access program. Before our broader open-source release – encompassing the Valida compiler, toolchain, and associated utilities – we're considering granting complimentary and early access to a select group of trusted partners. This initiative aims to foster a closer collaboration, enabling us to receive invaluable feedback directly from our most engaged users. Such partnerships will be instrumental in refining our systems, ensuring that when we move to a wider release, we present a product that is robust, reliable, and meets the diverse needs of our community. If the prospect of early engagement and collaboration resonates with you, we would be delighted to discuss the opportunity to welcome you as one of our early access partners. 
+
+Please reach out to v@delendum.xyz for early access program.
+
 ### Table of Content
 
 - [Review criteria](#review-criteria)
