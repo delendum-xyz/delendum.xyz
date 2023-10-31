@@ -12,7 +12,7 @@ By Morgan Thomas at Lita Foundation
 
 The underlying objective of this article is to provide our developer community with a transparent update on our progress regarding Plonky3 and Valida. We understand and appreciate the enthusiasm and eagerness with which many are anticipating the release of these libraries for their projects. As we navigate through the complexities of development, your understanding and patience mean everything to us. In addition to the specifics covered in this review criteria, we will also be separately publishing detailed notes on the LLVM Valida compiler. This separate publication will ensure a focused and comprehensive discussion on that particular aspect. Our commitment remains steadfast in delivering a robust MVP that meets the standards and expectations of our community.
 
-*Currently, based on our development trajectory, we project a combined total of 68 days (36 for Plonky3 and 32 for Valida) to complete the MVP. *
+*Currently, based on our development trajectory, we project a combined total of 68 days (36 for Plonky3 and 32 for Valida) to complete the MVP.*
 
 ### Table of Content
 
