@@ -47,8 +47,9 @@ A nonprofit two-month program to support research and development advancing the 
 |--------------|-------------------|---------------------|---------------------|
 | Fellowship 1 | Jan 15 2023       | Mar 01 2023         | Mar 15 2023         |
 | Fellowship 2 | Jun 01 2023       | Aug 01 2023         | Aug 15 2023         |
+| Fellowship 3 | Jun 01 2024       | Aug 01 2024         | Aug 15 2024         |
 
-We are hosting a "future of computing" research workshop on Aug 27 in San Francisco. Fellows can apply to present.
+We are hosting a "future of computing" research workshop on Feb 28 2024 in Denver. Fellows can apply to present.
 
 #### Application Deadlines
 *Submit your application by 11:59 p.m. (in your local timezone) on the applicable deadline.*
@@ -59,6 +60,7 @@ We are hosting a "future of computing" research workshop on Aug 27 in San Franci
 |-----------------------------------------|-------------|----------------------|-------------|
 | Application to fellowship 1             | Dec 15 2022 | Jan 01 2023         | Jan 07 2023 |
 | Application to fellowship 2             | May 01 2023 | May 15 2023         | May 20 2023 |
+| Application to fellowship 3             | May 01 2024 | May 15 2024         | May 20 2024 |
 | Application to volunteer                | N/A         | N/A                 | N/A         |
 | Sponsorship & donation                  | N/A         | N/A                 | N/A         |
 
