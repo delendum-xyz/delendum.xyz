@@ -1,7 +1,7 @@
 ---
 layout: post
 author: Delendum Research
-title: "[Apply by 01/15/2024] Future Computing Research Workshop"
+title: "[Apply by 02/10/2024] Future Computing Research Workshop"
 excerpt: "advance cooperation at the intersection of cryptography, theoretical computer science, and blockchain"
 image: "/assets/posts/2023-11-20-introducing-research-workshop/preview.png"
 ---
@@ -60,6 +60,8 @@ If you are interested in supporting our nonprofit efforts on a long-term basis, 
 03:00 – 03:30 pm: Workshop Group Meetings
 
 03:30 – 05:30 pm: Working Group Presentations (15 mins each, 8 groups)
+
+Confirmed speakers include Adrian Brink, Yi Sun, Wei Dai, Keone Hon, Aniket Kate, Michael Gao, Ulrich Haböck, Wei Jie Koh.
 
 ## Apply to attend
 
