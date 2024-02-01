@@ -61,7 +61,7 @@ If you are interested in supporting our nonprofit efforts on a long-term basis, 
 
 03:30 – 05:30 pm: Working Group Presentations (15 mins each, 8 groups)
 
-Confirmed speakers include Adrian Brink, Yi Sun, Wei Dai, Keone Hon, Aniket Kate, Michael Gao, Ulrich Haböck, Wei Jie Koh.
+Confirmed speakers include Adrian Brink, Jens Groth, Yi Sun, Wei Dai, Keone Hon, Aniket Kate, Michael Gao, Ulrich Haböck, Wei Jie Koh.
 
 ## Apply to attend
 
