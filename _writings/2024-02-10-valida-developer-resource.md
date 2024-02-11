@@ -4,7 +4,7 @@ author: Lita Foundation
 title: "Developer Learning Materials on Valida zkVM"
 excerpt: "A collection of essential materials, tips, and insights to streamline your learning process on Valida, accompanied by direct links to relevant GitHub issues"
 image: "/assets/posts/2024-02-10-valida-developer-resource/preview.png"
----c
+---
 
 Delendum Research & Lita Foundation
 
